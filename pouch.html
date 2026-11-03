@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>표현 주머니 · Korean Waffle</title>
+<meta name="description" content="연습하며 담아둔 영어 표현을 노트처럼 모아 보고 복습해요.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M12 13c-6 6-8 13-5 18 3 5 23 5 26 0 3-5 1-12-5-18' fill='%23fff0a8' stroke='%232b2a28' stroke-width='2.4'/%3E%3Cpath d='M11 13c3 1.5 15 1.5 18 0M13 9c2 2 12 2 14 0' fill='none' stroke='%232b2a28' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="pouch-page">
+<header>
+  <a class="brand" href="./"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="6" width="30" height="36" rx="3" transform="rotate(-6 25 24)"/><path d="M17 15h16M17 21h16M17 27h11" transform="rotate(-6 25 24)"/><path d="M8 12h5M8 19h5M8 26h5M8 33h5" class="ring"/></svg><span class="brand-copy"><strong>Korean Waffle</strong><small>나의 셰도잉 노트</small></span></a>
+  <a class="tag back-link" href="./">← 연습하러 가기</a>
+</header>
+<main>
+  <section class="page-heading">
+    <div class="hero-copy">
+      <span class="eyebrow">MY EXPRESSION POUCH</span>
+      <h1 class="pouch-title"><span id="titleIcon"></span>표현 주머니</h1>
+      <p>담아둔 표현을 노트처럼 모아 보고, 가려서 떠올리며 복습해요.</p>
+    </div>
+    <div class="session"><span id="pouchTotal">0</span><small>개 담겨 있어요</small></div>
+  </section>
+
+  <div class="notebook">
+    <div class="notebook-tools" role="toolbar" aria-label="복습 도구">
+      <div class="filters" role="group" aria-label="보기">
+        <button type="button" data-filter="all" aria-pressed="true">전체 <span id="cntAll">0</span></button>
+        <button type="button" data-filter="todo" aria-pressed="false">복습할 것 <span id="cntTodo">0</span></button>
+        <button type="button" data-filter="done" aria-pressed="false">외운 것 <span id="cntDone">0</span></button>
+      </div>
+      <div class="tool-right">
+        <button type="button" id="maskToggle" aria-pressed="false">뜻 가리기</button>
+        <button type="button" id="shuffle">섞어서 복습</button>
+      </div>
+    </div>
+    <p id="maskHint" class="mask-hint" hidden>✎ 표현만 보고 뜻과 예문을 먼저 떠올려 보세요. 가려진 줄을 누르면 보여요.</p>
+    <div id="notes" class="notes" aria-live="polite"></div>
+    <div id="empty" class="pouch-empty" hidden>
+      <div id="emptyIcon"></div>
+      <h2>주머니가 아직 비어 있어요</h2>
+      <p>연습 화면 아래 <strong>오늘의 표현</strong>에서 주머니 버튼을 누르면 여기에 차곡차곡 모여요.</p>
+      <a class="primary-link" href="./">연습하러 가기 →</a>
+    </div>
+  </div>
+</main>
+<footer>Korean Waffle <span>담고, 떠올리고, 내 말로 만들기.</span></footer>
+<script src="pouch.js"></script>
+<script src="pouch-page.js"></script>
+</body>
+</html>

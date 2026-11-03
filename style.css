@@ -332,3 +332,113 @@ html{overflow-x:clip}
 .expr p.ex{color:var(--ink);font-size:17px}
 .expr p.ex::before{content:"💼 "}
 .expr p.exk{font-size:15px;color:var(--muted)}
+
+/* ---------- 표현 주머니: shared ---------- */
+.pouch-icon{width:26px;height:26px;flex-shrink:0;fill:none;stroke:var(--ink);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.pouch-icon .bag{fill:var(--sheet)}
+.pouch-icon .heart{fill:var(--pink);stroke-width:1.4}
+.pouch-icon.big{width:44px;height:44px;vertical-align:-6px;margin-right:6px}
+.pouch-icon.huge{width:96px;height:96px}
+
+/* button inside each expression card */
+.pouch-btn{margin-left:auto;display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;font-size:14px;box-shadow:1.5px 1.5px 0 var(--ink);white-space:nowrap}
+.pouch-btn .pouch-icon{width:20px;height:20px}
+.pouch-btn.in{background:var(--highlight)}
+.pouch-btn.in .pouch-icon .bag{fill:var(--highlight)}
+
+/* sidebar entry */
+.pouch-link{display:flex;align-items:center;gap:10px;margin:14px 2px 6px;padding:12px 12px;
+  background:var(--highlight);border:2px solid var(--ink);border-radius:var(--wobble-sm);box-shadow:2px 2px 0 var(--ink);transform:rotate(-.8deg);transition:transform .12s}
+.pouch-link:hover{transform:rotate(0) translate(-1px,-1px)}
+.pouch-link .pouch-icon{width:38px;height:38px}
+.pouch-link .pouch-icon .bag{fill:#fffbe6}
+.pouch-link-text{display:flex;flex-direction:column;line-height:1.25}
+.pouch-link-text strong{font-weight:400;font-size:19px}
+.pouch-link-text small{font-size:14px;color:var(--ink-soft)}
+.pouch-count{margin-left:auto;min-width:30px;height:30px;display:grid;place-items:center;font-size:17px;background:var(--sheet);border:1.8px solid var(--ink);border-radius:50%}
+
+/* ---------- 표현 주머니: review page ---------- */
+.back-link{white-space:nowrap}
+.pouch-title{display:flex;align-items:center}
+.notebook{
+  position:relative;max-width:980px;margin:0 auto;padding:26px 30px 36px 74px;
+  background:
+    linear-gradient(90deg,transparent 58px,#f2b6a8 58px,#f2b6a8 59.5px,transparent 59.5px),
+    repeating-linear-gradient(var(--sheet) 0 35px,var(--rule) 35px 36.5px);
+  background-color:var(--sheet);
+  border:2px solid var(--ink);border-radius:var(--wobble);box-shadow:4px 5px 0 #2b2a2814;
+}
+.notebook::before{ /* spiral rings */
+  content:"";position:absolute;left:14px;top:22px;bottom:22px;width:26px;
+  background:radial-gradient(circle at 13px 13px,var(--paper) 5px,var(--ink) 5.5px 7px,transparent 7.5px) 0 0/26px 44px repeat-y;
+}
+.notebook-tools{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.filters,.tool-right{display:flex;gap:8px;flex-wrap:wrap}
+.notebook-tools button{font-size:15px;padding:6px 12px}
+.notebook-tools button span{font-size:13px;color:var(--ink-soft);margin-left:2px}
+.mask-hint{font-size:15px;color:var(--ink-soft);margin:6px 0 0}
+.notes-empty{font-size:18px;color:var(--ink-soft);padding:20px 0}
+
+.day-group{margin-top:22px}
+.day-title{font-size:25px;font-weight:400;margin:0 0 10px;display:inline-block;padding-bottom:6px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 8'%3E%3Cpath d='M0 4q5-4 10 0t10 0 10 0 10 0' fill='none' stroke='%232b2a28' stroke-width='1.6'/%3E%3C/svg%3E") left bottom/40px 7px repeat-x}
+.day-title small{font-size:15px;color:var(--muted);margin-left:10px}
+
+.note{position:relative;padding:12px 4px 14px;border-bottom:1.6px dashed var(--line)}
+.note:last-child{border-bottom:0}
+.note-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.note-check{border:0;box-shadow:none;background:none;padding:0 2px;font-size:22px;line-height:1}
+.note-check:hover{transform:none;box-shadow:none;background:none}
+.note-phrase{font-weight:400;font-size:24px;margin:0;background:linear-gradient(transparent 58%,var(--highlight) 58%);padding:0 2px}
+.note p{margin:4px 0 4px 34px;line-height:1.65}
+.note-meaning{font-size:19px;color:var(--ink)}
+.note-meaning::before{content:"뜻  ";color:var(--muted);font-size:15px}
+.note-nuance{font-size:16px;color:var(--ink-soft)}
+.note-nuance::before{content:"✎ "}
+.note-ex{font-size:19px;color:var(--ink)}
+.note-ex::before{content:"💼 "}
+.note-exk{font-size:16px;color:var(--muted);padding-left:26px}
+.note .src{font-size:16px;color:var(--ink-soft)}
+.src-label{font-size:13px;color:var(--muted);border:1.2px solid var(--line);border-radius:4px;padding:0 5px;margin-right:4px}
+.note .src u{text-decoration:none;background:linear-gradient(transparent 62%,#ffd9d2 62%)}
+.note-foot{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:8px 0 0 34px;font-size:15px}
+.note-where{color:var(--muted)}
+.note-listen{border-bottom:1.5px solid var(--ink)}
+.note-foot button{font-size:14px;padding:4px 10px;box-shadow:1.5px 1.5px 0 var(--ink)}
+.note-learned{background:var(--green)}
+.note-remove{margin-left:auto;background:transparent;border-style:dashed;box-shadow:none}
+.note.learned .note-phrase{background:linear-gradient(transparent 58%,var(--green) 58%)}
+.note.learned{opacity:.82}
+
+/* masking: pencil-scribble cover, tap to reveal */
+body.masked .maskable:not(.revealed){cursor:pointer;color:transparent!important;border-radius:4px;user-select:none;
+  background:repeating-linear-gradient(-12deg,#e9e2d3 0 3px,#d9d2c3 3px 5px)}
+body.masked .maskable:not(.revealed)::before{color:transparent}
+
+.pouch-empty{text-align:center;padding:30px 10px 10px}
+.pouch-empty h2{font-size:26px;margin:10px 0 4px}
+.pouch-empty p{color:var(--ink-soft);font-size:17px}
+.primary-link{display:inline-block;margin-top:10px;padding:9px 16px;background:var(--ink);color:var(--sheet);border-radius:var(--wobble-sm);box-shadow:2px 2px 0 #2b2a2866}
+
+@media(max-width:650px){
+  .back-link{display:inline-block!important;font-size:14px;margin-left:auto}
+  .notebook{padding:18px 14px 26px 46px;background:
+    linear-gradient(90deg,transparent 36px,#f2b6a8 36px,#f2b6a8 37.5px,transparent 37.5px),
+    repeating-linear-gradient(var(--sheet) 0 33px,var(--rule) 33px 34.5px);background-color:var(--sheet)}
+  .notebook::before{left:6px;width:22px;background-size:22px 40px;
+    background-image:radial-gradient(circle at 11px 11px,var(--paper) 4px,var(--ink) 4.5px 6px,transparent 6.5px)}
+  .note-phrase{font-size:21px}
+  .note p,.note-foot{margin-left:24px}
+  .note-exk{padding-left:0}
+  .note-remove{margin-left:0}
+  .day-title{font-size:22px}
+  .pouch-link{margin:10px 0 4px}
+}
+
+/* pouch: keep checkbox + phrase on one line; sparkle next to title */
+.pouch-title{display:inline-flex}
+.note-head{flex-wrap:nowrap;align-items:flex-start}
+.note-check{flex-shrink:0;margin-top:2px}
+.note-phrase{flex:0 1 auto;min-width:0}
+.note-head .reg{flex-shrink:0;align-self:center}
+@media(max-width:650px){.note-head{flex-wrap:wrap}.note-head .note-phrase{flex:1 1 calc(100% - 40px)}.note-head .reg{margin-left:30px}}

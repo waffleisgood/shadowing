@@ -22,6 +22,14 @@
     const [y, m, d] = upcoming.publish_date.split('-').map(Number);
     note.textContent = '✎ 새 Day는 하루에 하나씩 열려요. 다음 Day ' + upcoming.day + ' · ' + m + '월 ' + d + '일 공개';
   }
+  // deep link from 표현 주머니: index.html#day=3&set=2
+  function openFromHash() {
+    const m = /day=(\d+)(?:&set=(\d+))?/.exec(location.hash || '');
+    if (!m || typeof selectLesson !== 'function') return;
+    const i = window.LESSONS.findIndex(function (l) { return l.day === Number(m[1]); });
+    if (i < 0) return;
+    try { selectLesson(i); if (m[2]) selectSet(Math.max(0, Number(m[2]) - 1)); } catch (e) { console.warn(e); }
+  }
   const today = localISODate();
   fetch('content/index.json', { cache: 'no-cache' })
     .then(function (r) { if (!r.ok) throw new Error('index ' + r.status); return r.json(); })
@@ -38,6 +46,8 @@
       window.LESSONS = res.lessons;
       return loadScript('app.js').then(function () {
         nextReleaseNote(res.upcoming);
+        openFromHash();
+        if (typeof updatePouchCount === 'function') updatePouchCount();
         return loadScript('https://www.youtube.com/iframe_api');
       });
     })
