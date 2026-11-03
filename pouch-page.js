@@ -157,5 +157,7 @@
     render();
   };
   window.addEventListener('storage', function (e) { if (e.key === 'kw-pouch-v1') render(); });
+  window.addEventListener('kw-sync', render);
   render();
+  if (window.KWSync) KWSync.ready().then(render);
 })();

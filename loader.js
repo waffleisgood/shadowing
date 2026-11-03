@@ -44,7 +44,9 @@
     .then(function (res) {
       if (!res.lessons.length) throw new Error('no published days');
       window.LESSONS = res.lessons;
-      return loadScript('app.js').then(function () {
+      const syncReady = (window.KWSync ? KWSync.ready() : Promise.resolve()).catch(function () {});
+      return syncReady.then(function () { return loadScript('app.js'); }).then(function () {
+        window.__kwAppLoaded = true;
         nextReleaseNote(res.upcoming);
         openFromHash();
         if (typeof updatePouchCount === 'function') updatePouchCount();

@@ -14,15 +14,19 @@ const Pouch = (function () {
   function add(item) {
     const items = read().filter(function (x) { return x.key !== item.key; });
     item.savedAt = item.savedAt || new Date().toISOString();
+    item.updatedAt = new Date().toISOString();
     item.learned = !!item.learned;
     items.push(item); write(items);
   }
   function remove(key) { write(read().filter(function (x) { return x.key !== key; })); }
   function toggle(item) { if (has(item.key)) { remove(item.key); return false; } add(item); return true; }
   function update(key, patch) {
-    write(read().map(function (x) { return x.key === key ? Object.assign({}, x, patch) : x; }));
+    const now = new Date().toISOString();
+    write(read().map(function (x) { return x.key === key ? Object.assign({}, x, patch, { updatedAt: now }) : x; }));
   }
   function onChange(fn) { listeners.push(fn); }
+  // used by sync.js to apply server state without echoing it back
+  function replaceAll(items) { try { localStorage.setItem(KEY, JSON.stringify(items)); } catch {} }
   // hand-drawn drawstring pouch
   function icon(cls) {
     return '<svg class="pouch-icon ' + (cls || '') + '" viewBox="0 0 40 40" aria-hidden="true">' +
@@ -34,5 +38,5 @@ const Pouch = (function () {
       '<path d="M17 25c1-2 2-2 3 0 1-2 2-2 3 0-1 2-2 3-3 4-1-1-2-2-3-4z" class="heart"/>' +
       '</svg>';
   }
-  return { all: read, has: has, add: add, remove: remove, toggle: toggle, update: update, keyOf: keyOf, onChange: onChange, icon: icon };
+  return { all: read, has: has, add: add, remove: remove, toggle: toggle, update: update, keyOf: keyOf, onChange: onChange, replaceAll: replaceAll, icon: icon, KEY: KEY };
 })();

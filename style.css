@@ -442,3 +442,35 @@ body.masked .maskable:not(.revealed)::before{color:transparent}
 .note-phrase{flex:0 1 auto;min-width:0}
 .note-head .reg{flex-shrink:0;align-self:center}
 @media(max-width:650px){.note-head{flex-wrap:wrap}.note-head .note-phrase{flex:1 1 calc(100% - 40px)}.note-head .reg{margin-left:30px}}
+
+/* ---------- account / login ---------- */
+.account{display:flex;align-items:center;gap:8px;margin-left:14px}
+.account[hidden]{display:none}
+.account-who{font-size:16px;color:var(--ink-soft);max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.account-btn{font-size:15px;padding:5px 12px;box-shadow:1.5px 1.5px 0 var(--ink)}
+.primary-soft{background:var(--highlight)}
+.login-dialog{border:0;padding:0;background:transparent;max-width:min(420px,calc(100vw - 32px));width:100%}
+.login-dialog::backdrop{background:#2b2a2855}
+.login-card{position:relative;margin:0;padding:26px 24px 20px;font-family:var(--hand);color:var(--ink);
+  background:repeating-linear-gradient(var(--sheet) 0 33px,var(--rule) 33px 34.5px);background-color:var(--sheet);
+  border:2px solid var(--ink);border-radius:var(--wobble);box-shadow:4px 4px 0 var(--ink);transform:rotate(-.6deg)}
+.login-card h2{font-size:28px;margin:0 0 6px}
+.login-card p{font-size:16px;color:var(--ink-soft);margin:4px 0 12px;line-height:1.6}
+.login-card label{display:block;font-size:15px;color:var(--muted);margin-bottom:4px}
+.login-card input{width:100%;font:inherit;font-size:18px;padding:9px 12px;margin-bottom:12px;background:#fff;color:var(--ink);
+  border:1.8px solid var(--ink);border-radius:var(--wobble-sm)}
+.login-card input:focus{outline:2.5px dashed var(--ink);outline-offset:3px}
+.login-card .primary,#loginGoogle{width:100%}
+.login-or{text-align:center;font-size:14px;color:var(--muted);margin:10px 0}
+.login-close{position:absolute;right:12px;top:10px;border:0;box-shadow:none;background:none;font-size:26px;padding:0 6px;line-height:1}
+.login-close:hover{transform:none;box-shadow:none;background:none}
+.login-msg{min-height:22px;font-size:15px!important;color:var(--ink)!important}
+.login-note{font-size:13px!important;color:var(--muted)!important;margin-bottom:0!important}
+.kw-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:50;
+  padding:10px 16px;background:var(--highlight);border:2px solid var(--ink);border-radius:var(--wobble-sm);box-shadow:2px 2px 0 var(--ink);
+  font-size:16px;transition:opacity .2s,transform .2s}
+.kw-toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:650px){.account{margin-left:auto}.account-who{display:none}.pouch-page .back-link{margin-left:auto}}
+.oauth-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px;background:#fff}
+.oauth-btn[data-provider="apple"]{background:var(--ink);color:var(--sheet)}
+.oauth-mark{font-family:Arial,sans-serif;font-weight:700;font-size:17px}
