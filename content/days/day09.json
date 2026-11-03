@@ -1,0 +1,201 @@
+{
+ "id": "pt8jk-01MRg",
+ "day": 9,
+ "title": "Day 09 · 일·루틴",
+ "label": "HANNAH ELISE · a *normal* day in my life, self-employed in my 20s: work, ro",
+ "theme": "Hannah Elise",
+ "theme_full": "일·루틴: 평범한 업무일을 '왜 이렇게 하는지'까지 붙여서 설명하기",
+ "goal": "일하는 장소를 고른 이유(It helps that), 일의 순서를 고민하는 과정(figure out if I want to do X first or after), 다짐과 지금 행동이 어긋난다는 걸 먼저 웃으며 인정하기(which is contradictory to what I'm doing right now), 자문자답으로 범위 줄이기(Do I need to X? No. But I do want to Y), 작업 방식(as I go / in one fell swoop), 내 원칙(I don't play around), 쉬는 방식(a nice reprieve from X)을 이유와 대조를 섞어 동료에게 자연스럽게 풀어 말하기",
+ "sets": [
+  {
+   "title": "카페에서 일하는 이유를 말하고, 볼일을 먼저 할지 나중에 할지 정하기",
+   "start": 175.64,
+   "end": 195.78,
+   "speaker": "HANNAH",
+   "text": "And also, it helps that there are other people in coffee shops working, too. So, it kind of feels like I'm co-working with them, even though I don't know them. I want to go down and do that. I also do need to stop at a couple stores on King Street, which I'm trying to figure out if I want to do that first, like, before I open up my work or after. I think I might just do it before so I can get it out of the way.",
+   "ko": "그리고 카페엔 일하는 사람들이 또 있잖아요, 그게 도움이 돼요. 모르는 사람들인데도 같이 코워킹하는 기분이 들거든요. 그래서 오늘은 나가서 그렇게 일하고 싶어요. 킹 스트리트에서 가게 몇 군데도 들러야 하는데, 그걸 먼저 할지, 그러니까 노트북 펴기 전에 할지 끝나고 할지 고민 중이에요. 그냥 먼저 후딱 해치워 버릴까 봐요.",
+   "tip": "'it HELPS that'은 helps에 힘을 주고 that은 '댓'으로 약하게 흘리세요. 'FIRST, like, before I open up my work or AFTER'는 first와 after를 둘 다 살짝 올려 대조하면 고민하는 느낌이 나고, 마지막 'get it out of the way'는 t가 굴러서 '게리라우러더웨이'처럼 한 덩어리로 이어지고, it은 아주 약하게 스치듯 지나갑니다.",
+   "expressions": [
+    {
+     "phrase": "It helps that X",
+     "surface": "it helps that there are other people in coffee shops working, too",
+     "register": "work_ok",
+     "meaning_ko": "X라는 점도 도움이 돼요 / X라서 한결 낫더라고요",
+     "nuance_ko": "어떤 방식이 잘 맞는 이유를 하나 더 얹을 때 쓰는 틀. 'X is helpful'보다 상황 전체를 설명하는 느낌이라 훨씬 자연스러워요. 'And also, it helps that…'처럼 이유를 덧붙이는 자리에서 자주 나오고, 'It doesn't help that X(X라서 더 힘들다)'로 뒤집어 쓰면 불평도 부드럽게 할 수 있어요.",
+     "work_example_en": "I actually get more done on office days, and it helps that the whole design team is in on Tuesdays, so I can ask questions right away.",
+     "work_example_ko": "저는 출근하는 날 오히려 일이 더 잘돼요. 화요일엔 디자인 팀이 다 나와 있어서 바로바로 물어볼 수 있는 것도 도움이 되고요."
+    },
+    {
+     "phrase": "I'm trying to figure out if I want to do X first or after (Y)",
+     "surface": "I'm trying to figure out if I want to do that first, like, before I open up my work or after",
+     "register": "work_ok",
+     "meaning_ko": "X를 먼저 할지, Y 끝나고 할지 고민 중이에요",
+     "nuance_ko": "일의 순서를 아직 정하지 못했다는 걸 솔직하게 말하는 틀. 'I haven't decided'보다 지금 머릿속으로 따져보는 중이라는 느낌이 살아 있어서 스탠드업이나 슬랙에서 계획 말할 때 좋아요. Hannah는 'which I'm trying to figure out…'처럼 which로 이어 붙였는데 말할 때 흔한 꼬임이고, 정석은 'and I'm trying to figure out if…'예요.",
+     "work_example_en": "I still need to send the vendor follow-up, and I'm trying to figure out if I want to do that first or after the client call.",
+     "work_example_ko": "업체에 후속 메일도 보내야 하는데, 그걸 먼저 할지 클라이언트 콜 끝나고 할지 고민 중이에요."
+    },
+    {
+     "phrase": "get X out of the way",
+     "surface": "so I can get it out of the way",
+     "register": "work_ok",
+     "meaning_ko": "(귀찮은 일을) 먼저 해치워 버리다, 치워 두다",
+     "nuance_ko": "꼭 해야 하지만 신경 쓰이는 일을 먼저 끝내서 마음을 비운다는 뉘앙스. 'finish'보다 '빨리 털어버린다'는 느낌이 강해요. 목적어(it, the boring stuff 등)를 꼭 넣으세요. it 없이 'get out of the way'라고 하면 '비켜'라는 전혀 다른 뜻이 돼요(영상에선 it이 아주 약하게 스쳐 지나가요). 'Let's get the boring stuff out of the way first'처럼 회의 시작할 때도 자주 씀.",
+     "work_example_en": "Let's get the budget questions out of the way first, so we can spend the rest of the meeting on the actual roadmap.",
+     "work_example_ko": "예산 질문부터 먼저 정리하고 넘어가죠. 그래야 나머지 시간을 실제 로드맵 얘기에 쓸 수 있으니까요."
+    }
+   ]
+  },
+  {
+   "title": "'서두르지 않으려는' 다짐과 지금 모습의 모순을 스스로 짚기",
+   "start": 391.56,
+   "end": 413.8,
+   "speaker": "HANNAH",
+   "text": "I'm also really trying not to rush as much and, like, trying to just not feel like I'm always in a rush, which is super contradictory to what I'm doing right now. Like, breathe, okay? It's fine. Also don't know what to wear today to go downtown. Like, do I need to dress up? No. But I do want to look put together, but it is the highest today is 90.",
+   "ko": "요즘은 좀 덜 서두르려고, 늘 쫓기는 기분으로 지내지 않으려고 진짜 노력 중이에요. 지금 제 모습이랑은 완전 정반대긴 하지만요. 숨 좀 쉬자, 응? 괜찮아. 그리고 오늘 시내 나갈 때 뭘 입을지도 모르겠어요. 차려입어야 하냐고요? 아니요. 근데 깔끔해 보이고는 싶거든요. 문제는 오늘 최고 기온이 32도(화씨 90도)라는 거죠.",
+   "tip": "'which is super contraDICtory'는 DIC에 강세를 주고 살짝 웃듯 톤을 올리면 자기를 놀리는 느낌이 나요. 'do I need to dress UP?'은 끝을 올렸다가 'No.'에서 짧게 뚝 떨어뜨리고, 'But I DO want to'의 do는 강조 조동사라 꾹 눌러 줍니다. 'put together'는 t가 굴러 '푸러게더'처럼 들려요.",
+   "expressions": [
+    {
+     "phrase": "…, which is (pretty) contradictory to what I'm doing right now",
+     "surface": "which is super contradictory to what I'm doing right now",
+     "register": "work_ok",
+     "meaning_ko": "…라고 해놓고, 지금 하는 건 정반대네요",
+     "nuance_ko": "방금 한 말과 내 행동이 안 맞는다는 걸 먼저 웃으며 인정하는 틀. 'which is'로 앞 문장 전체를 받아서 자기 모순을 가볍게 짚기 때문에, 남이 지적하기 전에 선수 치는 유머로 잘 먹혀요. 'which is ironic, because…'와 비슷한 역할. super 대신 pretty/kind of로 바꾸면 더 차분하게 들려요.",
+     "work_example_en": "I keep telling everyone to log off by six, which is pretty contradictory to what I'm doing right now, since I'm answering emails at 9 p.m.",
+     "work_example_ko": "다들 6시엔 로그아웃하라고 맨날 말하면서, 정작 저는 지금 밤 9시에 메일 답하고 있네요. 완전 말이랑 반대로 하고 있죠."
+    },
+    {
+     "phrase": "Do I/we need to X? No. But I do want to / I do think we should Y",
+     "surface": "do I need to dress up? No. But I do want to",
+     "register": "work_ok",
+     "meaning_ko": "X까지 해야 하냐면, 그건 아니에요. 그래도 Y는 하고 싶어요(해야 할 것 같아요)",
+     "nuance_ko": "스스로 묻고 바로 'No.'로 답해서 과한 선택지를 먼저 지운 뒤, 강조 do로 내가 원하는 수준을 딱 말하는 자문자답 틀. 'I don't need to X, but I want to Y'보다 생각하는 과정이 보여서 설득력 있고 리듬도 좋아요. 회의에서 범위를 줄일 때 'Do we need to X? No. But I do think we should Y'로 쓰면 깔끔해요. 강조 do를 빼면 대조가 약해지니 꼭 살리세요. 다만 남의 제안에 대고 'Do we need that? No.'라고 하면 무시하는 말로 들리니, 내 계획이나 팀 전체 범위를 정리할 때 쓰세요.",
+     "work_example_en": "Do we need to rebuild the whole onboarding flow this quarter? No. But I do think we should fix the two steps where people keep dropping off.",
+     "work_example_ko": "이번 분기에 온보딩 플로우를 통째로 다시 만들어야 하냐면, 그건 아니에요. 그래도 사람들이 자꾸 이탈하는 두 단계는 꼭 고쳐야 할 것 같아요."
+    },
+    {
+     "phrase": "look put together",
+     "surface": "I do want to look put together",
+     "register": "work_ok",
+     "meaning_ko": "깔끔하고 단정해 보이다, 정돈돼 보이다",
+     "nuance_ko": "'dress up(차려입다)'까지는 아니어도 대충 나온 것 같지 않게 정돈된 상태. 옷차림뿐 아니라 'She always seems so put together'처럼 사람 전체가 침착하고 정리돼 보인다는 칭찬으로도 써요. Hannah처럼 'dress up? No. But I do want to look put together'로 둘을 대조하면 차이가 분명해져요.",
+     "work_example_en": "It's not a formal pitch, so no need to wear a suit, but we should still look put together since the client's CEO will be there.",
+     "work_example_ko": "공식 피칭은 아니라서 정장까지 입을 필요는 없는데, 클라이언트 CEO도 온다니까 그래도 단정하게는 하고 가요."
+    }
+   ]
+  },
+  {
+   "title": "내 작업 방식을 두 가지 옵션으로 설명하고 '요즘은 이렇게 해요'로 정리하기",
+   "start": 697.32,
+   "end": 718.82,
+   "speaker": "HANNAH",
+   "text": "And then I either add music and text in as I go, if I feel like the vibes are right, or I'll do a second edit and add in the music and the text and everything else. But I've been liking combining them lately and just kind of doing it all in one fell swoop. For this video specifically, I did the first option where I went through and cut everything first and then added stuff on top, but it just depends on the video. But that's a little insight into my editing process, if anyone was wondering.",
+   "ko": "그다음엔 느낌이 딱 오면 하면서 바로 음악이랑 자막을 넣거나, 아니면 2차 편집 때 음악, 자막, 나머지를 한꺼번에 넣어요. 근데 요즘은 그 둘을 합쳐서 한 번에 싹 끝내는 게 좋더라고요. 이번 영상은 첫 번째 방식으로 했어요. 쭉 보면서 먼저 다 잘라내고, 그 위에 이것저것 얹었죠. 근데 그건 영상마다 달라요. 궁금하셨던 분들을 위해 제 편집 과정을 살짝 보여드렸어요.",
+   "tip": "'as I GO'는 go에 힘을 주고 '애자이고우'로 붙여 읽으세요. 'in one fell SWOOP'은 '인원 펠 스웁'으로 swoop을 길게 끌며 내리고, 마지막 'if anyone was wondering'은 힘을 빼고 가볍게 흘리듯 끝냅니다.",
+   "expressions": [
+    {
+     "phrase": "do X as I go / figure it out as we go",
+     "surface": "add music and text in as I go",
+     "register": "work_ok",
+     "meaning_ko": "(따로 단계를 나누지 않고) 하면서 그때그때 X하다",
+     "nuance_ko": "미리 다 계획하지 않고 진행하면서 동시에 처리한다는 뜻. 'at the same time'보다 '흐름 타며 바로바로'라는 느낌이 있어요. 직장에선 'We'll figure it out as we go(하면서 맞춰가죠)'나 'I'll update the doc as I go'처럼 정말 자주 들려요.",
+     "work_example_en": "I didn't write a full spec upfront this time. I'm just updating the doc as I go, so feel free to leave comments whenever.",
+     "work_example_ko": "이번엔 처음부터 스펙을 다 쓰진 않았어요. 하면서 그때그때 문서를 업데이트하고 있으니까 아무 때나 코멘트 남겨 주세요."
+    },
+    {
+     "phrase": "(do it all) in one fell swoop",
+     "surface": "doing it all in one fell swoop",
+     "register": "neutral",
+     "meaning_ko": "한 번에 몰아서, 단번에 싹 다",
+     "nuance_ko": "원래 셰익스피어 『맥베스』에서 나온 표현으로, 여러 단계를 나누지 않고 한 방에 끝낸다는 뜻. 'at once'보다 생생하고 살짝 위트 있게 들려요. 'fell'은 '떨어지다'가 아니라 옛말로 '사나운'이라는 뜻이라 굳어진 덩어리로 외우세요.",
+     "work_example_en": "Instead of updating each dashboard separately, can we just migrate all of them in one fell swoop next sprint?",
+     "work_example_ko": "대시보드를 하나씩 따로 고치지 말고, 다음 스프린트에 한 번에 싹 옮기면 어때요?"
+    },
+    {
+     "phrase": "That's a little insight into my/our X process, if anyone was wondering",
+     "surface": "But that's a little insight into my editing process, if anyone was wondering.",
+     "register": "work_ok",
+     "meaning_ko": "궁금하셨던 분들을 위해, 이게 제(저희) X 과정이에요",
+     "nuance_ko": "설명을 마무리하면서 '내가 일하는 방식을 살짝 보여드렸다'고 가볍게 닫는 틀. 'if anyone was wondering'이 붙어서 잘난 척하는 느낌 없이 겸손하게 들려요. 신규 입사자 온보딩, 팀 소개, 프로세스 공유 발표 끝에 쓰기 좋아요.",
+     "work_example_en": "So we review every request on Mondays and ship fixes by Thursday. That's a little insight into our triage process, if anyone was wondering.",
+     "work_example_ko": "그래서 요청은 월요일마다 다 검토하고 목요일까지 수정 배포해요. 궁금하셨던 분들 있으면, 이게 저희 이슈 분류 과정이에요."
+    }
+   ]
+  },
+  {
+   "title": "제일 좋아하는 레시피의 이유와 내가 절대 타협 안 하는 기준 말하기",
+   "start": 1130.28,
+   "end": 1149.38,
+   "speaker": "HANNAH",
+   "text": "That is my favorite recipe to marinate chicken by far. It reheats so well. I feel like I have the chicken ick a lot of the time when I reheat chicken. If it's not seasoned or marinated well, it just tastes like garbage when I go to reheat it, and then I can't— I just don't want to eat it. So I'm very serious about my seasonings and my marinades. I don't play around.",
+   "ko": "닭고기 재우는 레시피 중엔 그게 단연 최고예요. 데워 먹어도 맛이 그대로거든요. 전 닭고기를 데워 먹을 때 확 정떨어질 때가 많아요. 간이 잘 안 됐거나 제대로 안 재워졌으면, 데우는 순간 그냥 맛이 쓰레기 같아서, 그럼 못… 그냥 먹기가 싫어져요. 그래서 양념이랑 마리네이드엔 진심이에요. 허투루 안 해요.",
+   "tip": "'It reHEATS so WELL'은 heats와 well 두 군데에 힘을 주고 so를 살짝 길게 끌어 감탄을 실으세요. 'the chicken ICK'은 ick을 짧고 세게 끊고, 마지막 'I don't play aROUND.'는 앞에서 한 박자 쉬고 단호하게 툭 내려놓으면 농담 섞인 결연함이 살아요.",
+   "expressions": [
+    {
+     "phrase": "X reheats / scales / reads well (사물이 주어인 '~가 잘 되다' 동사)",
+     "surface": "It reheats so well",
+     "register": "work_ok",
+     "meaning_ko": "(데워도) 맛이 잘 살아요 → X가 ~하기 좋아요, ~가 잘 돼요",
+     "nuance_ko": "사물을 주어로 두고 '동사 + well'만 붙이면 'X는 ~했을 때 결과가 좋다'는 뜻이 돼요. 'It's good when you reheat it'보다 훨씬 짧고 원어민답죠. 수동태(is reheated well)나 'is good to reheat'로 바꾸면 어색하거나 길어져요. 같은 구조가 회사에서 정말 많이 쓰여요: 'This setup scales well(규모가 커져도 잘 버텨요)', 'The deck reads well(술술 읽혀요)', 'That message lands well(잘 먹혀요)'. Hannah의 'so well'은 감탄조라 회의에선 'pretty well', 'really well' 정도가 차분해요.",
+     "work_example_en": "I'd go with the second layout, because it scales well across screen sizes and the summary slide reads well on its own, even if nobody's there to walk people through it.",
+     "work_example_ko": "저는 두 번째 레이아웃이 좋을 것 같아요. 화면 크기가 달라도 잘 맞고, 요약 슬라이드는 옆에서 설명해 줄 사람이 없어도 그것만으로 술술 읽히거든요."
+    },
+    {
+     "phrase": "get/have the ick (about X)",
+     "surface": "I have the chicken ick",
+     "register": "casual",
+     "meaning_ko": "(X가) 갑자기 정떨어지다, 확 싫어지다",
+     "nuance_ko": "원래 연애에서 '상대한테 갑자기 정이 확 떨어지는 순간'을 말하던 요즘 슬랭인데, Hannah처럼 음식·물건·습관에도 넓게 써요. 'the + 명사 + ick'처럼 대상을 앞에 붙이기도 해요. 친한 동료와 점심 잡담 정도에서만 쓰고, 회의나 상사 앞에서는 'it puts me off'가 안전해요.",
+     "work_example_en": "I tried the new salad place by the office, but I got the ick when I saw how long the chicken had been sitting out.",
+     "work_example_ko": "회사 근처 새 샐러드집 가 봤는데, 닭고기가 얼마나 오래 밖에 나와 있었는지 보고 정이 확 떨어졌어요."
+    },
+    {
+     "phrase": "I'm (very) serious about X. I don't play around (when it comes to X).",
+     "surface": "So I'm very serious about my seasonings and my marinades. I don't play around.",
+     "register": "neutral",
+     "meaning_ko": "X엔 진심이에요. 그건 대충 안 해요.",
+     "nuance_ko": "내가 타협하지 않는 기준을 반쯤 농담처럼, 하지만 분명하게 말하는 틀. 'I don't play around'는 '장난 안 친다, 허투루 안 한다'는 뜻이에요. 영상 앞부분(827초)에서도 'I don't play around when it comes to chicken'이라고 해서, 'when it comes to X'를 붙인 형태도 같이 연습하세요. 가벼운 톤이라 친한 동료 사이에서 더 잘 어울려요.",
+     "work_example_en": "I'm very serious about version control on shared decks. I don't play around when it comes to that, so please never edit the final file directly.",
+     "work_example_ko": "공유 덱 버전 관리엔 제가 진심이에요. 그건 대충 넘어가는 거 없으니까, 최종 파일은 절대 직접 수정하지 말아 주세요."
+    }
+   ]
+  },
+  {
+   "title": "독서가 좋은 이유를 '머리를 쉬게 해준다'로 설명하기",
+   "start": 1361.68,
+   "end": 1378.34,
+   "speaker": "HANNAH",
+   "text": "Reading is the best hobby because it forces my entire attention onto the book. Like, I can't multitask when I'm reading. I just have to sit and read, and it just is a nice reprieve for my brain from the constant multitasking and thinking about a million things.",
+   "ko": "독서가 최고의 취미인 게, 제 온 신경을 책에만 쏟게 만들거든요. 책 읽을 땐 멀티태스킹이 안 돼요. 그냥 앉아서 읽는 수밖에 없죠. 그게 쉴 새 없이 이것저것 동시에 하고 오만 가지 생각하던 머리한테 잠깐 숨 돌릴 틈이 돼줘요.",
+   "tip": "'FORces my entire atTENtion onto the book'은 forces와 ten 두 군데에 강세를 두고 천천히, 'a nice rePRIEVE'는 prieve를 '프리이브'로 길게 끌어 주세요. 'the constant MULtitasking'은 constant 끝 t가 거의 안 들려 '칸스턴 멀티태스킹'처럼 이어지고, mul에 힘을 줍니다.",
+   "expressions": [
+    {
+     "phrase": "X is a nice reprieve (for my brain) from Y",
+     "surface": "it just is a nice reprieve for my brain from the constant multitasking",
+     "register": "work_ok",
+     "meaning_ko": "X가 Y에서 잠깐 벗어나 숨 돌리게 해줘요",
+     "nuance_ko": "reprieve는 원래 '(형 집행) 유예'라는 뜻이라, 힘든 상황에서 잠시 풀려나는 느낌이 있어요. 'break'보다 고급스럽고 정확해서 '이게 나한테 쉼이 된다'를 설명할 때 좋아요. Hannah는 'it just is'라고 했지만 보통은 'it's just a nice reprieve'로 말해요.",
+     "work_example_en": "Honestly, the offsite was a nice reprieve from all the back-to-back calls, and I came back with way more energy for the launch.",
+     "work_example_ko": "솔직히 오프사이트가 연달아 잡힌 콜들에서 잠깐 숨 돌리는 시간이 돼서, 런칭 준비할 힘이 훨씬 생겨서 돌아왔어요."
+    },
+    {
+     "phrase": "X forces my (entire) attention onto Y",
+     "surface": "it forces my entire attention onto the book",
+     "register": "work_ok",
+     "meaning_ko": "X 때문에 온 신경을 Y에만 쏟게 돼요",
+     "nuance_ko": "집중하려고 애쓰는 게 아니라 상황 자체가 집중할 수밖에 없게 만든다는 뜻. 'help me focus'보다 강제성이 있어서 '딴짓할 틈이 없다'는 느낌이 나요. 'It forces me to focus on…'으로 바꿔 써도 자연스러워요.",
+     "work_example_en": "I like whiteboard sessions because they force everyone's attention onto the problem instead of their laptops and Slack notifications.",
+     "work_example_ko": "화이트보드 세션이 좋은 게, 다들 노트북이나 슬랙 알림 대신 문제에만 집중하게 되거든요."
+    },
+    {
+     "phrase": "the constant X-ing (constant context-switching / the constant back-and-forth)",
+     "surface": "the constant multitasking",
+     "register": "work_ok",
+     "meaning_ko": "쉴 새 없이 ~하는 것, 끊임없는 ~",
+     "nuance_ko": "계속 반복돼서 사람을 지치게 하는 패턴을 'the constant + 동명사/명사' 하나로 묶어 이름 붙이는 말이에요. 'I always multitask'처럼 always를 반복하는 것보다 원인을 객관적인 명사로 짚어서, 1:1에서 업무 부담을 감정 싣지 않고 설명하기 좋아요. 직장에선 'the constant context-switching', 'the constant back-and-forth(계속 오가는 수정 요청)'이 단골이에요. 다만 'your constant interruptions'처럼 특정 사람 행동에 붙이면 비난으로 들리니 상황이나 프로세스에만 쓰세요.",
+     "work_example_en": "It's not really the workload that's wearing me out, it's the constant context-switching between three projects, plus all the Slack pings in between.",
+     "work_example_ko": "저를 지치게 하는 건 사실 업무량보다, 프로젝트 세 개를 쉴 새 없이 왔다 갔다 하는 거랑 그 사이사이 오는 슬랙 알림이에요."
+    }
+   ]
+  }
+ ]
+}

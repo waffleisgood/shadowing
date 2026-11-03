@@ -1,0 +1,201 @@
+{
+ "id": "BKuAgyatjig",
+ "day": 4,
+ "title": "Day 04 · 스몰토크",
+ "label": "LINDSEYREM · spend a few days with me (packing for NYC, cooking, and chat",
+ "theme": "lindseyrem",
+ "theme_full": "스몰토크: 여행 앞둔 근황과 계획을 '아직 못 정한 것·미뤄둔 것·마음이 기운 쪽'으로 풀어 말하기",
+ "goal": "출장·여행 앞둔 근황을 말할 때, 아직 정하지 못한 것(I have yet to), 알면서 미뤄둔 것(I knew I wanted to X, but I've been putting off Y), 아쉽지만 접은 것(I would have loved to X, but), 마음이 기운 선택지(I haven't decided, but I'm leaning towards), 남은 일과 대략의 윤곽(All that's left is / a loose grasp on)을 이유와 함께 이어 말하기",
+ "sets": [
+  {
+   "title": "날씨 얘기로 시작해서 다가오는 여행과 아직 못 정한 일 꺼내기",
+   "start": 3.04,
+   "end": 23.38,
+   "speaker": "LINDSEY",
+   "text": "It is pretty nice and cold and gloomy today in Los Angeles. I don't think this is going to last, but it's really getting me in the mood for my trip to New York that's coming up. I wanted to vlog the process of packing my suitcase and what I'm going to wear, because I have yet to figure that out. So, I thought it would be fun to do together.",
+   "ko": "오늘 LA는 기분 좋게 쌀쌀하고 흐린 날이에요. 이게 오래가진 않겠지만, 덕분에 곧 다가오는 뉴욕 여행 기분이 제대로 나네요. 짐 싸는 과정이랑 뭘 입을지를 브이로그로 담아보고 싶었어요. 사실 그걸 아직 못 정했거든요. 그래서 같이 하면 재밌겠다 싶었어요.",
+   "tip": "'pretty NICE and COLD'는 nice and를 '나이슨'처럼 붙여 한 덩어리로 흘리고 cold에 힘을 줘야 '기분 좋게 춥다'는 강조로 들려요. 'I have YET to figure that out'은 yet에 강세를 꾹 주고, 'figure that out'은 '피겨댓아웃'이 아니라 t를 굴려 '피겨대라웃'처럼 이어 읽습니다.",
+   "expressions": [
+    {
+     "phrase": "nice and + adj (nice and early / quiet / short)",
+     "surface": "nice and cold",
+     "register": "work_ok",
+     "meaning_ko": "기분 좋게 ~한, 딱 알맞게 ~한",
+     "nuance_ko": "'nice and'가 '좋고, 그리고'가 아니라 뒤 형용사를 '반갑게, 딱 좋게'로 강조하는 구어 패턴이에요. 'very cold'는 정도만 말하지만 'nice and cold'에는 '그게 마음에 든다'는 긍정이 깔려요. 그래서 'nice and early', 'nice and quiet', 'nice and short'처럼 반가운 상태에만 쓰고, 'nice and late'처럼 안 좋은 상황에 쓰면 비꼬는 말로 들려요. Lindsey 문장은 '꽤 좋고, 춥고, 흐리다'로도 읽히지만, 쌀쌀한 날씨가 여행 기분을 띄워준다는 흐름상 강조 패턴으로 보는 게 자연스러워요.",
+     "work_example_en": "Let's keep the update nice and short today, because half the team has to jump on the client call right after this.",
+     "work_example_ko": "오늘 업데이트는 짧게 끝낼게요. 팀 절반이 이거 끝나자마자 바로 클라이언트 콜 들어가야 하거든요."
+    },
+    {
+     "phrase": "X is getting me in the mood for Y",
+     "surface": "it's really getting me in the mood for my trip",
+     "register": "work_ok",
+     "meaning_ko": "X 덕분에 Y 기분이 나요, Y할 마음이 생겨요",
+     "nuance_ko": "날씨·음악·장식 같은 게 다가올 일(여행, 연휴, 행사)의 분위기를 미리 띄워 줄 때 써요. 'I'm excited for'보다 '분위기에 젖어 든다'는 느낌이라 더 구체적이고 생생하게 들려요. 반대로 'I'm not in the mood for…'는 '…할 기분 아니에요'.",
+     "work_example_en": "The office playlist this week is all holiday music, and honestly it's getting me in the mood for the end-of-year break.",
+     "work_example_ko": "이번 주 사무실 플레이리스트가 전부 크리스마스 노래라, 벌써 연말 휴가 기분이 나요."
+    },
+    {
+     "phrase": "I have yet to + V",
+     "surface": "I have yet to figure that out",
+     "register": "work_ok",
+     "meaning_ko": "아직 ~하지 못했어요, 아직 ~ 전이에요",
+     "nuance_ko": "'I haven't figured it out yet'과 뜻은 같지만, '해야 할 일인데 아직 안 됐다'는 걸 조금 더 또렷하고 세련되게 말하는 틀. 진행 상황 보고에서 '아직 확인 전이에요'를 말할 때 아주 자주 써요. 뒤에 반드시 to + 동사원형.",
+     "work_example_en": "I've drafted the agenda for the offsite, but I have yet to hear back from facilities about the room booking.",
+     "work_example_ko": "워크숍 안건 초안은 만들었는데, 회의실 예약은 시설팀에서 아직 답을 못 받았어요."
+    }
+   ]
+  },
+  {
+   "title": "가져가고 싶었지만 계속 미뤄둔 일과 그 이유, 다음 계획 말하기",
+   "start": 243.2,
+   "end": 262.7,
+   "speaker": "LINDSEY",
+   "text": "So, I knew I wanted to bring them with me to New York, but I've just been putting off getting them hemmed because they are super long and they definitely require a hem, but I know I want to keep a little bit of a cuff. So, this is how much of a cuff I need right now, and I think I'm going to have them make it, like, approximately half of that.",
+   "ko": "이 바지는 뉴욕에 꼭 가져가고 싶었는데, 단 줄이는 걸 계속 미루고 있었어요. 기장이 엄청 길어서 수선은 무조건 해야 하는데, 밑단을 살짝 접어 입을 정도는 남겨두고 싶거든요. 지금은 이만큼 접어야 하니까, 수선집에 대충 이거 반 정도로 해달라고 하려고요.",
+   "tip": "'I KNEW I wanted to'에서 knew에 힘을 주고, 'but I've just been PUTTING OFF'는 putting의 tt를 굴려 '푸링 오f'로 빠르게 잇습니다. 'this is HOW MUCH of a cuff'는 how much에 힘을 주고 'of a'는 '어버'로 약하게 붙여 '하우머치어버 커f'처럼 한 번에 흘려요.",
+   "expressions": [
+    {
+     "phrase": "I knew I wanted to X, but I've (just) been putting off Y because…",
+     "surface": "I knew I wanted to bring them with me to New York, but I've just been putting off getting them hemmed because",
+     "register": "work_ok",
+     "meaning_ko": "X하고 싶다는 건 진작 알았는데, Y를 계속 미뤄왔어요. 왜냐하면…",
+     "nuance_ko": "하고 싶은 마음은 분명했는데 준비 단계를 미뤘다는 걸 솔직하게 인정하는 틀. 'I knew I wanted to'로 의지는 있었다는 걸 먼저 보여줘서, 일이 늦어진 걸 말해도 변명처럼 들리지 않아요. 'delay'·'postpone'은 일정을 공식적으로 늦출 때 쓰고, 'put off'는 부담돼서 스스로 미적거린 걸 인정할 때 써요. 뒤에 동사가 오면 꼭 -ing(putting off getting…), 대명사면 'putting it off'처럼 가운데 넣어요. 1:1에서 미뤄둔 일을 꺼낼 때 좋아요.",
+     "work_example_en": "I knew I wanted to present the data at the all-hands, but I've just been putting off cleaning it up because the export keeps breaking.",
+     "work_example_ko": "전체 회의에서 그 데이터 발표하고 싶다는 건 진작 생각했는데, 내보내기가 자꾸 깨져서 정리하는 걸 계속 미뤄왔어요."
+    },
+    {
+     "phrase": "how much of a + 단수명사 (how much of a difference / an impact / a delay)",
+     "surface": "this is how much of a cuff I need",
+     "register": "work_ok",
+     "meaning_ko": "~가 어느 정도인지, 얼마만큼의 ~인지",
+     "nuance_ko": "'how much'는 보통 셀 수 없는 명사와 쓰지만, 'how much of a + 단수명사'로 쓰면 개수가 아니라 '그게 얼마나 큰 ~인지' 정도를 물어요. 한국인은 'how big the difference is'나 'how big of an impact'로 돌려 말하기 쉬운데, 원어민은 'how much of a difference it makes', 'how much of a delay this causes'를 훨씬 자주 써요. 부정형 'not much of a X'(별로 ~라고 할 정도는 아닌)도 같은 틀이에요. Lindsey는 바지 밑단을 손으로 접어 보이며 '지금은 접단이 이만큼 필요하다'고 정도를 보여 준 거예요.",
+     "work_example_en": "I don't think people realize how much of a difference a short agenda makes, so I'm going to start sending one before every sync.",
+     "work_example_ko": "짧은 안건 하나가 얼마나 큰 차이를 만드는지 다들 잘 모르는 것 같아서, 앞으로 싱크 전마다 안건을 보내 보려고요."
+    },
+    {
+     "phrase": "I'm going to have them + V",
+     "surface": "I'm going to have them make it",
+     "register": "work_ok",
+     "meaning_ko": "그쪽에 ~해달라고 할 거예요, (사람을 시켜) ~하게 할 거예요",
+     "nuance_ko": "내가 직접 하는 게 아니라 업체·다른 팀에 맡겨서 처리한다는 걸 말하는 사역 구조. 'ask them to'보다 '그렇게 처리되도록 하겠다'는 결정의 느낌이 있어요. 한국인이 'I will request them to…'처럼 딱딱하게 말하기 쉬운 자리에 쓰면 훨씬 자연스러워요.",
+     "work_example_en": "The vendor's quote came in higher than expected, so I'm going to have them break it down by line item before we approve anything.",
+     "work_example_ko": "업체 견적이 생각보다 높게 나와서, 승인하기 전에 항목별로 나눠서 다시 보내달라고 하려고요."
+    }
+   ]
+  },
+  {
+   "title": "하고 싶었지만 상황 때문에 접은 것, 아쉬움을 가볍게 말하기",
+   "start": 734.52,
+   "end": 749.7,
+   "speaker": "LINDSEY",
+   "text": "I would have loved to get a pumpkin spice latte today, but it just feels wrong to do when it's this hot out. Like, I want my pumpkin spice latte hot. I don't want it iced, and so I will just have to wait, I guess, until the cold comes back.",
+   "ko": "오늘 펌킨 스파이스 라테 마시고 싶었는데, 날이 이렇게 더울 때 마시는 건 왠지 아닌 것 같아요. 펌킨 라테는 따뜻하게 마셔야죠. 아이스는 싫거든요. 그러니까 뭐, 다시 추워질 때까지 기다려야겠죠.",
+   "tip": "'I would have LOVED to'는 '아이우더v 러v투'처럼 would have를 약하게 뭉개고 loved에 힘을 줍니다. 'it just feels WRONG'에서 한 박자 강조하고, 'I guess,'는 낮고 짧게 끼워 넣듯 읽어요.",
+   "expressions": [
+    {
+     "phrase": "I would have loved to X, but it just feels wrong to (do that) when…",
+     "surface": "I would have loved to get a pumpkin spice latte today, but it just feels wrong to do when",
+     "register": "work_ok",
+     "meaning_ko": "X하고 싶었는데, ~한 상황에서 그러는 건 좀 아닌 것 같아서요",
+     "nuance_ko": "'I wanted to'보다 아쉬움이 훨씬 부드럽게 묻어나는 'would have loved to'에, 하지 않은 이유를 '왠지 맞지 않는다(feels wrong)'로 붙이는 구조. 상대 탓이 아니라 상황 탓으로 돌려서, 초대나 제안을 정중하게 사양할 때도 좋아요.",
+     "work_example_en": "I would have loved to join the team dinner, but it just feels wrong to take a night off when the release is still blocked.",
+     "work_example_ko": "팀 회식 정말 가고 싶었는데, 릴리스가 아직 막혀 있는데 저녁에 빠지는 건 좀 아닌 것 같아서요."
+    },
+    {
+     "phrase": "it's this hot / cold / nice out",
+     "surface": "when it's this hot out",
+     "register": "neutral",
+     "meaning_ko": "밖이 이렇게 더울 때 / 날이 이렇게 추울 때",
+     "nuance_ko": "날씨를 말할 때 원어민은 'outside' 대신 짧게 'out'을 붙여요('It's nice out today'). 'this'는 '이 정도로'라는 뜻이라 'so hot'보다 지금 눈앞의 날씨를 가리키는 느낌. 점심 스몰토크에서 바로 쓸 수 있어요.",
+     "work_example_en": "Should we just order in for the workshop? Nobody's going to want to walk ten minutes for lunch when it's this cold out.",
+     "work_example_ko": "워크숍 점심은 그냥 시켜 먹을까요? 날이 이렇게 추운데 점심 먹으러 10분씩 걸어가고 싶은 사람은 없을 거예요."
+    },
+    {
+     "phrase": "I'll just have to wait (, I guess,) until X",
+     "surface": "I will just have to wait, I guess, until",
+     "register": "work_ok",
+     "meaning_ko": "뭐, X할 때까지 기다려야겠죠",
+     "nuance_ko": "내가 어쩔 수 없는 조건이 바뀔 때까지 기다리겠다는 걸, 'I guess'로 살짝 체념 섞인 여유를 담아 말하는 표현. 불평처럼 안 들리고 '괜찮아요, 기다리죠' 하는 쿨한 톤이 나요. 다른 팀 결정이나 승인을 기다릴 때 딱. 'I guess'는 Lindsey처럼 중간에 끼워도 되고 'I guess I'll just have to wait'처럼 맨 앞에 둬도 돼요. 다만 상사가 기다려 달라고 할 때 이렇게 받으면 마지못해 하는 걸로 들릴 수 있으니, 그땐 'Sure, I can wait until…'이 안전해요.",
+     "work_example_en": "Legal still hasn't signed off on the new contract template, so I guess I'll just have to wait until they're back from the conference.",
+     "work_example_ko": "법무팀이 아직 새 계약서 템플릿 승인을 안 해줘서, 뭐 컨퍼런스 끝나고 돌아올 때까지 기다려야겠죠."
+    }
+   ]
+  },
+  {
+   "title": "아직 결정은 안 했지만 마음이 기운 선택지와 그 이유 설명하기",
+   "start": 1097.44,
+   "end": 1122.38,
+   "speaker": "LINDSEY",
+   "text": "I haven't decided what bag I'm going to bring, but I'm leaning towards this one because it is over the shoulder, but it's— it's relatively hands-free, because my normal go-to is this big hobo bag from Bottega, but if it's full of stuff, it can be quite heavy, and it does, like, fall off the shoulder a little bit easier, and I want to be my most comfortable when I'm running all over New York.",
+   "ko": "어떤 가방을 가져갈지는 아직 못 정했는데, 이걸로 마음이 기울고 있어요. 어깨에 메는 거라 손이 비교적 자유롭거든요. 평소에 제일 자주 드는 건 보테가 큰 호보백인데, 물건이 꽉 차면 꽤 무겁고 어깨에서도 좀 더 잘 흘러내려요. 뉴욕을 여기저기 돌아다닐 땐 최대한 편하고 싶어서요.",
+   "tip": "'I'm LEANING towards this one'은 leaning에 힘을 주고 'towards'는 '터워즈'로 약하게. 'it DOES, like, fall off'는 does를 또렷하고 세게 말해야 '그건 인정해요' 하는 강조의 do로 들려요. 마지막 'my MOST comfortable'에서 most를 살짝 늘이며 내려 마무리합니다.",
+   "expressions": [
+    {
+     "phrase": "I haven't decided X yet, but I'm leaning towards Y because…",
+     "surface": "I haven't decided what bag I'm going to bring, but I'm leaning towards this one because",
+     "register": "work_ok",
+     "meaning_ko": "X는 아직 못 정했는데, Y 쪽으로 마음이 기울고 있어요. 왜냐하면…",
+     "nuance_ko": "결정을 못 박지 않으면서도 지금 어느 쪽인지는 분명히 밝히는 틀. 'I'll probably choose'보다 열려 있는 느낌이라 상대가 의견을 보탤 여지를 남겨요. 회의에서 선택지를 공유할 때 아주 자주 쓰고, 'because'로 이유까지 붙이면 설득력이 생겨요.",
+     "work_example_en": "I haven't decided which vendor to go with yet, but I'm leaning towards the second one because their support team is in our time zone.",
+     "work_example_ko": "어느 업체로 갈지 아직 못 정했는데, 두 번째 업체 쪽으로 마음이 가요. 지원팀이 우리랑 같은 시간대에 있거든요."
+    },
+    {
+     "phrase": "It does + V (, but…) (단점을 인정하는 강조의 do)",
+     "surface": "it does, like, fall off the shoulder a little bit easier",
+     "register": "work_ok",
+     "meaning_ko": "~하긴 해요, 실제로 ~한 건 맞아요",
+     "nuance_ko": "동사 앞에 do/does/did를 넣어 '그건 인정해요'라는 양보를 만드는 구조예요. 'It falls off easily'는 그냥 사실을 말하는 거고, 'It does fall off'는 '단점이 있긴 하다'고 먼저 인정하는 느낌이라 뒤에 'but'으로 장점을 이으면 설득력이 커져요. 회의에서 내 제안의 약점을 먼저 꺼낼 때 아주 유용해요. 한국인은 'It's true that…'으로 길게 돌려 말하기 쉬운 자리예요. Day 2 'X. I did.'는 문장 끝에 붙는 꼬리고, 이건 문장 안 동사 앞에 넣는 형태라 쓰임이 달라요.",
+     "work_example_en": "The new tool does take a bit longer to set up, but once it's running, it saves us a couple of hours every week.",
+     "work_example_ko": "새 툴이 세팅하는 데 시간이 좀 더 걸리긴 해요. 그래도 한번 돌아가기 시작하면 매주 두어 시간은 아껴줘요."
+    },
+    {
+     "phrase": "be my most + adj (when…)",
+     "surface": "I want to be my most comfortable when",
+     "register": "work_ok",
+     "meaning_ko": "~할 때 최대한 (편안한/좋은) 상태이고 싶어요",
+     "nuance_ko": "'the most comfortable'이 아니라 소유격 'my most'를 써서 '내가 낼 수 있는 최상의 상태'를 말하는 표현. 'be at my best'와 비슷하지만 형용사를 바꿔 끼울 수 있어서(my most focused, my most productive) 업무 컨디션 얘기할 때 유용해요. 'at my most focused'처럼 at을 붙인 형태도 똑같이 자주 써요. 다만 'my most happy'처럼 짧은 형용사엔 안 쓰고 'my happiest'로 말해요.",
+     "work_example_en": "I'm usually my most productive first thing in the morning, so I'd rather keep those hours meeting-free if we can.",
+     "work_example_ko": "저는 보통 아침 일찍이 제일 일이 잘 돼서, 가능하면 그 시간엔 회의를 안 잡고 싶어요."
+    }
+   ]
+  },
+  {
+   "title": "남은 준비와 지금 할 수 없는 이유, 그래도 윤곽은 잡혔다고 정리하기",
+   "start": 1268.36,
+   "end": 1288.3,
+   "speaker": "LINDSEY",
+   "text": "Pajamas, and then all that's left is really, like, medications, phone chargers, tech stuff, which I'm going to be using over the next few days, so I can't really pack that far in advance. But it feels a lot better to have a loose grasp on, like, what outfits I'm going to wear. So when you see those outfits on Instagram, just act like you didn't see them before.",
+   "ko": "잠옷까지 넣고, 이제 남은 건 약이랑 휴대폰 충전기, 전자기기 정도예요. 앞으로 며칠 동안 계속 쓸 거라 너무 미리 싸둘 수가 없거든요. 그래도 뭘 입을지 대충이라도 윤곽이 잡히니까 마음이 훨씬 편하네요. 그러니까 나중에 인스타에서 그 옷들 보면, 처음 보는 척해 주세요.",
+   "tip": "'all that's LEFT is'는 '올댓츠레프티즈'로 한 번에 굴리고 left에 강세. 'that FAR in advance'에서 far를 늘여 강조하고, 'But it feels a LOT better' 앞에서 반 박자 쉬어 전환을 들려주세요. 'a loose grasp on'은 '어루스그래스뻔'처럼 이어집니다.",
+   "expressions": [
+    {
+     "phrase": "All that's left is X",
+     "surface": "all that's left is really, like, medications, phone chargers, tech stuff",
+     "register": "work_ok",
+     "meaning_ko": "이제 남은 건 X뿐이에요",
+     "nuance_ko": "큰일은 다 끝났고 자잘한 것만 남았다는 걸 깔끔하게 정리하는 틀. 'We only have X left'보다 마무리 단계에 왔다는 느낌이 강해서 스탠드업이나 진행 보고에서 아주 잘 어울려요. 'All that's left to do is + V'로도 써요.",
+     "work_example_en": "The design is signed off and the copy is final, so all that's left is a quick QA pass before we send it to the client.",
+     "work_example_ko": "디자인 승인 났고 카피도 확정이라, 이제 클라이언트한테 보내기 전에 QA 한 번 빠르게 보는 것만 남았어요."
+    },
+    {
+     "phrase": "I can't really X that far in advance",
+     "surface": "I can't really pack that far in advance",
+     "register": "work_ok",
+     "meaning_ko": "그렇게까지 미리 X할 수는 없어요",
+     "nuance_ko": "'in advance(미리)'에 'that far(그렇게 멀리)'를 붙여 '너무 앞서서는 무리'라는 뜻. 이유를 앞에(which I'm going to be using…, so) 두면 핑계가 아니라 합리적인 설명으로 들려요. 일정·계획을 너무 일찍 확정해 달라는 요청을 부드럽게 미룰 때 좋아요.",
+     "work_example_en": "The client keeps changing the scope, so I can't really plan the sprint that far in advance without knowing what they'll sign off on.",
+     "work_example_ko": "클라이언트가 계속 범위를 바꿔서, 뭘 승인할지 모르는 상태로는 스프린트를 그렇게까지 미리 짤 수가 없어요."
+    },
+    {
+     "phrase": "It feels a lot better to have (at least) a loose grasp on X",
+     "surface": "it feels a lot better to have a loose grasp on, like, what outfits I'm going to wear",
+     "register": "work_ok",
+     "meaning_ko": "X가 대충이라도 감이 잡히니까 훨씬 마음이 놓여요",
+     "nuance_ko": "'have a grasp on'은 '파악하고 있다'인데, 'loose'를 붙여 '완벽하진 않아도 대략은 안다'로 낮춘 표현. 다 정해진 건 아니지만 불안은 줄었다는 걸 솔직하게 말할 수 있어요. 앞 문장에서 못 하는 것을 말하고 'But it feels a lot better to…'로 넘기면 자연스러운 전환이 돼요.",
+     "work_example_en": "The budget isn't final yet, but it feels a lot better to have a loose grasp on what we can spend before we start talking to agencies.",
+     "work_example_ko": "예산이 아직 확정은 아니지만, 에이전시랑 얘기 시작하기 전에 쓸 수 있는 규모가 대충이라도 잡히니까 훨씬 마음이 놓여요."
+    }
+   ]
+  }
+ ]
+}

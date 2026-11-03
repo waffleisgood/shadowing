@@ -1,0 +1,192 @@
+{
+ "id": "a1FEGtQqqcE",
+ "day": 1,
+ "title": "Day 01 · 근황을 이야기처럼 풀기",
+ "label": "HANNAH ELISE · vlogging like you're on my private story for a week 🤳🏼 (aka ",
+ "theme": "Hannah Elise",
+ "theme_full": "근황을 이야기처럼 풀기: 맥락 깔고, 반전 주고, 내 생각으로 마무리",
+ "goal": "\"요즘 어때요?\"에 한 줄로 끝내지 않고, 상황 설명 → 속마음·반전 → 내 결론 순서로 2~4문장을 이어 말하는 연결 프레임 익히기",
+ "sets": [
+  {
+   "title": "바쁜 하루 근황: 피곤함을 유머로 풀고 마감 상황 전하기",
+   "start": 628.32,
+   "end": 644.72,
+   "speaker": "HANNAH",
+   "text": "I have been editing all day, except for this morning when I went to the grocery store and did my weekly grocery run, which you saw. My eyeballs feel like they might fall out of my head sometime soon. And I'm getting hungry. So, the last thing I need to be is hangry while editing, because I need to have this video done today. I'm making good progress.",
+   "ko": "오늘 하루 종일 편집만 했어요. 아침에 마트 가서 일주일 치 장 본 것만 빼고요. 그건 아까 보셨죠? 이러다 눈알이 진짜 빠질 것 같아요. 배도 슬슬 고파지고요. 편집하는데 배고파서 짜증까지 나면 그건 진짜 최악이거든요. 이 영상 오늘 안에 꼭 끝내야 해서요. 그래도 진도는 꽤 나갔어요.",
+   "tip": "'the LAST thing'은 last의 t가 thing 앞에서 거의 사라져 '래스띵'처럼 붙고, 강세는 LAST와 HANGRY 두 군데만 줘요. 'I need to have this video DONE today'는 need to가 '니투'로 뭉개지고 have는 약하게 지나간 뒤 done에서 힘을 줘요.",
+   "expressions": [
+    {
+     "phrase": "My eyeballs feel like they're going to fall out (of my head)",
+     "surface": "My eyeballs feel like they might fall out of my head",
+     "register": "neutral",
+     "meaning_ko": "화면을 너무 오래 봐서 눈이 빠질 것 같아요",
+     "nuance_ko": "'My eyes are tired'보다 훨씬 생생하고 웃기게 지친 걸 전하는 과장이에요. 비속어가 없어서 동료와의 잡담, 슬랙, 분위기가 편한 스탠드업이나 상사와의 1:1 근황 정도까지는 괜찮아요. 다만 클라이언트 메일이나 공식 보고에서는 'I've been in spreadsheets all day'처럼 담백하게 바꾸세요. 짧게 'My eyes are going to fall out'이라고도 많이 해요.",
+     "work_example_en": "I've been staring at the Q3 numbers since nine this morning, and my eyeballs feel like they might fall out of my head.",
+     "work_example_ko": "아침 아홉 시부터 3분기 숫자만 들여다봤더니 눈알이 빠질 것 같아요."
+    },
+    {
+     "phrase": "The last thing I need (right now) is X",
+     "surface": "the last thing I need to be is hangry",
+     "register": "work_ok",
+     "meaning_ko": "지금 제일 피하고 싶은 게 X예요 / X만큼은 정말 안 돼요",
+     "nuance_ko": "'I don't want X'는 그냥 싫다는 말이지만, 이 구조는 '지금 상황에서 X가 생기면 정말 곤란하다'는 이유까지 담겨서 감정 싸움 없이 선을 긋기 좋아요. 영상처럼 'The last thing I need to be is + 형용사'로 내 상태를 넣을 수도 있고, 회사에서는 'The last thing I need is + 명사'나 'The last thing we want is…'가 가장 흔해요.",
+     "work_example_en": "The last thing I need this week is another status meeting, so could we just sort this out over Slack?",
+     "work_example_ko": "이번 주에 진행 상황 회의가 하나 더 잡히는 것만큼은 정말 피하고 싶어서요, 이건 슬랙으로 정리해도 될까요?"
+    },
+    {
+     "phrase": "need to have X done by + 시점",
+     "surface": "I need to have this video done today",
+     "register": "work_ok",
+     "meaning_ko": "(언제)까지 X를 끝내 놔야 해요",
+     "nuance_ko": "'finish X'는 끝내는 행동에, 'have X done by'는 마감 시점에 '다 된 상태'라는 결과에 초점이 있어서 일정 얘기에 더 자연스러워요. 마감은 반드시 by(~까지 완료)로 쓰고 until은 쓰지 마세요(until은 '그때까지 계속'). 남에게 부탁할 때 'I need this done by Friday'는 지시처럼 들릴 수 있으니 'Would it be possible to have this done by Friday?'로 누그러뜨리세요.",
+     "work_example_en": "I need to have the client deck done by Thursday so Sarah has time to review it before the call.",
+     "work_example_ko": "사라가 콜 전에 검토할 시간이 있으려면 제가 목요일까지 클라이언트 자료를 끝내 놔야 해요."
+    }
+   ]
+  },
+  {
+   "title": "늦은 밤 진행 상황 공유: 바람은 말하되, 내 손을 떠난 건 담담하게",
+   "start": 887.92,
+   "end": 904.32,
+   "speaker": "HANNAH",
+   "text": "What's up? It's 11:17 p.m. Just finished my video. I am rendering. Then I have to export. Then I have to upload. I'm hoping that that can be done by midnight. But at this point, it is out of my hands, because I can't control how fast it does any of that. So, I'm going to drink my tea.",
+   "ko": "안녕하세요. 지금 밤 11시 17분이에요. 방금 영상 다 끝냈어요. 지금 렌더링 중이고, 그다음엔 내보내기, 그다음엔 업로드까지 해야 해요. 자정 전에는 다 끝났으면 좋겠는데, 이제 와서는 제 손을 떠난 일이에요. 그게 얼마나 빨리 되는지는 제가 어떻게 할 수가 없거든요. 그래서 차나 마시려고요.",
+   "tip": "'Then I have to exPORT. Then I have to upLOAD.'는 같은 리듬을 두 번 반복해서 '할 일이 줄줄이'라는 느낌을 살려요. 'But at this POINT,' 뒤에서 반 박자 넘게 쉬었다가 'it is OUT of my HANDS'를 또박또박 말하고, 'out of my'는 t가 굴러서 '아우러마이'처럼 붙어요.",
+   "expressions": [
+    {
+     "phrase": "At this point, it's out of my hands (because…)",
+     "surface": "at this point, it is out of my hands",
+     "register": "work_ok",
+     "meaning_ko": "이제 와서는 제 손을 떠났어요 / 제가 할 수 있는 건 다 했어요",
+     "nuance_ko": "'I can't do anything'은 무력하거나 손 놓은 것처럼 들리지만, 이 말은 '내 몫은 끝났고 이제 다른 사람(팀, 시스템) 차례'라는 상황 공유예요. 뒤에 because로 무엇에 달려 있는지 붙이면 변명이 아니라 깔끔한 진행 보고가 돼서 상사에게도 써도 돼요. 다만 아직 내 책임인 일에 쓰면 발 빼는 걸로 들리니 조심하세요.",
+     "work_example_en": "I've already sent the contract over to legal, so at this point it's out of my hands until they come back with comments.",
+     "work_example_ko": "계약서는 이미 법무팀에 넘겼으니까, 그쪽에서 의견 줄 때까지는 이제 제 손을 떠난 일이에요."
+    },
+    {
+     "phrase": "I'm hoping (that) X can be done by + 시점",
+     "surface": "I'm hoping that that can be done by midnight",
+     "register": "work_ok",
+     "meaning_ko": "(언제)까지는 끝났으면 하고 있어요 (약속은 아니에요)",
+     "nuance_ko": "'It will be done by…'는 약속이라 못 지키면 부담이 되지만, 'I'm hoping…'은 기대치를 미리 낮춰 두는 말이에요. 1번 세트의 'need to have X done by'가 내가 끝내야 하는 의무라면, 이건 내 통제 밖 일정에 희망을 거는 말이라 짝으로 익혀 두면 좋아요. 'can be done'처럼 수동형을 쓰면 누가 늦는지 콕 집지 않아서 남 탓처럼 들리지 않아요.",
+     "work_example_en": "The vendor is still fixing the bug, but I'm hoping that it can be done by Wednesday so we don't have to move the release.",
+     "work_example_ko": "업체에서 아직 버그를 고치고 있는데, 출시 일정을 안 옮겨도 되게 수요일까지는 끝났으면 해요."
+    }
+   ]
+  },
+  {
+   "title": "내 습관 설명하기: 왜 이렇게 하는지 이유와 결론까지",
+   "start": 1133.52,
+   "end": 1150.96,
+   "speaker": "HANNAH",
+   "text": "Like, I have multiple things that I have to do and decisions I have to make consciously to unlock my phone and be able to scroll on social media. And it gives me enough time to second-guess myself and be like, do I really need to do that? And the answer is most often no. You know, I could just get up and go unlock it, but for what?",
+   "ko": "그러니까 제가 폰 잠금 풀고 SNS 좀 보려면 거쳐야 하는 단계가 여러 개고, 중간중간 '그래, 풀자' 하고 일부러 마음먹어야 하는 순간도 있어요. 그러다 보면 '이거 지금 진짜 해야 돼?' 하고 다시 생각해 볼 틈이 생기거든요. 근데 답은 거의 '아니'예요. 뭐, 그냥 일어나서 가서 풀면 되긴 하죠. 근데 굳이?",
+   "tip": "'second-GUESS myself'는 guess에 강세가 오고, 바로 뒤 'and be like'는 '앤비라익'처럼 한 덩어리로 빠르게 넘겨요. 마지막 'but for WHAT?'은 앞에서 반 박자 쉬었다가 what을 살짝 올리며 웃듯이 끝내요.",
+   "expressions": [
+    {
+     "phrase": "It gives me (just) enough time to + V",
+     "surface": "it gives me enough time to",
+     "register": "work_ok",
+     "meaning_ko": "그 덕분에 ~할 만큼의 여유가 생겨요",
+     "nuance_ko": "'It helps me'는 막연하지만, 이 구조는 '시간이 생겨서 무엇이 가능해지는지'까지 짚어 줘서 내 업무 방식이나 프로세스를 설명할 때 설득력이 있어요. 회의, 1:1 어디서든 써도 돼요.",
+     "work_example_en": "I block off the first hour of my day because it gives me enough time to clear my inbox before meetings start.",
+     "work_example_ko": "아침 첫 한 시간은 일정을 막아 두는데, 그래야 회의 시작 전에 메일함을 정리할 시간이 생기거든요."
+    },
+    {
+     "phrase": "second-guess oneself",
+     "surface": "second-guess myself",
+     "register": "work_ok",
+     "meaning_ko": "(이미 정한 걸) 다시 의심하다, 내 판단을 자꾸 다시 따져 보다",
+     "nuance_ko": "'think again'은 중립적으로 다시 생각한다는 뜻이고, 'second-guess myself'는 '괜히 내 판단을 못 믿고 자꾸 뒤집어 본다'는 망설임이 묻어나요. 여기서는 좋은 브레이크라는 긍정적인 뜻으로 썼어요. 피드백을 부탁할 때 자신 없음을 솔직하게 드러내기 좋고, 'second-guess your decision'처럼 남에게 쓰면 '결정을 의심한다'는 뜻이라 조심하세요.",
+     "work_example_en": "I keep second-guessing myself on the pricing slide, so could you give it a quick sanity check before I send it?",
+     "work_example_ko": "가격 슬라이드가 이게 맞나 자꾸 확신이 안 서서요, 보내기 전에 한번 빠르게 봐 주실 수 있을까요?"
+    },
+    {
+     "phrase": "I could X, but for what?",
+     "surface": "but for what?",
+     "register": "neutral",
+     "meaning_ko": "~할 수도 있죠, 근데 굳이? / 그래 봤자 뭐 해요?",
+     "nuance_ko": "'It's pointless'는 딱 잘라 무의미하다고 하는 말이라 세게 들리지만, 이건 '할 수는 있는데 이유가 없네' 하고 웃으며 넘기는 느낌이에요. 내 일에 대해 동료와 잡담할 때 좋아요. 상사가 시킨 일에 쓰면 일을 깎아내리는 것처럼 들리니 피하세요.",
+     "work_example_en": "I could stay late and polish these slides again, but for what? Nobody's going to look at them that closely.",
+     "work_example_ko": "남아서 이 슬라이드를 또 다듬을 수도 있죠, 근데 굳이요? 그렇게까지 자세히 볼 사람도 없는데요."
+    }
+   ]
+  },
+  {
+   "title": "지난 경험 돌아보기: 결과는 없었지만 얻은 것으로 마무리",
+   "start": 1851.68,
+   "end": 1870.8,
+   "speaker": "HANNAH",
+   "text": "And honestly, I don't even know what made me feel confident enough to do that, but I'm glad that I did. Like, did anything come of it? No. But I did learn how to meet people, have conversations. Like, I feel like I gained a lot of confidence just in myself. And that was honestly the most important takeaway. So I'm really happy that I did that. It just wasn't my time.",
+   "ko": "솔직히 그때 무슨 자신감으로 그랬는지도 모르겠어요. 근데 하길 잘했어요. 그래서 뭐가 됐냐고요? 아니요, 아무것도요. 그래도 사람 만나는 법, 대화하는 법은 확실히 배웠어요. 그냥 저 자신한테 자신감이 많이 붙은 것 같아요. 솔직히 그게 제일 큰 수확이었고요. 그래서 해 보길 진짜 잘했다 싶어요. 그냥 그땐 제 때가 아니었던 거죠.",
+   "tip": "'did anything COME of it? NO.'는 질문 끝을 올렸다가 No를 짧게 툭 떨어뜨리고 잠깐 쉬어요. 이 자문자답 쉼이 반전이에요. 마지막 'It just WASN'T my TIME'은 wasn't의 t가 거의 안 들려 '워즌마이'로 붙고, time에서 담담하게 내려 끝내요.",
+   "expressions": [
+    {
+     "phrase": "I don't even know what made me + V, but I'm glad (that) I did",
+     "surface": "I don't even know what made me feel confident enough to do that, but I'm glad that I did",
+     "register": "work_ok",
+     "meaning_ko": "제가 왜 그랬는지도 모르겠는데, 하길 잘했어요",
+     "nuance_ko": "'I'm glad I did it'만 쓰면 결과 보고로 끝나지만, 앞에 'I don't even know what made me…'를 붙이면 '나도 신기하다'는 겸손이 깔려서 자랑처럼 들리지 않아요. 새 일을 맡았던 경험이나 도전 얘기를 1:1이나 회고에서 할 때 좋아요.",
+     "work_example_en": "I don't even know what made me volunteer to present at the all-hands, but I'm glad I did, because I learned a ton.",
+     "work_example_ko": "제가 무슨 생각으로 전사 미팅 발표를 자원했는지 모르겠는데, 하길 잘했어요. 배운 게 정말 많았거든요."
+    },
+    {
+     "phrase": "come of something / nothing came of it",
+     "surface": "did anything come of it?",
+     "register": "work_ok",
+     "meaning_ko": "(그 일에서) 뭔가 결과가 나오다 / 결국 아무 성과가 없었다",
+     "nuance_ko": "'Did it work?'는 성공했냐 실패했냐를 묻지만, 'Did anything come of it?'은 '그래서 뭐라도 이어진 게 있었어?'라는 열린 질문이에요. 'Nothing came of it'은 실패를 담담하게 정리할 때 아주 자주 써서 회의에서도 문제없어요.",
+     "work_example_en": "We had a few calls with that vendor last year, but nothing really came of it, so I'd start fresh this time.",
+     "work_example_ko": "작년에 그 업체랑 콜을 몇 번 했는데 결국 별 성과가 없었어요. 그래서 이번엔 처음부터 새로 가는 게 좋겠어요."
+    },
+    {
+     "phrase": "It just wasn't my time / It just wasn't the right time",
+     "surface": "It just wasn't my time",
+     "register": "neutral",
+     "meaning_ko": "그냥 그때가 제 때가 아니었던 거예요",
+     "nuance_ko": "'I failed'처럼 실패를 인정하는 말이 아니라, '타이밍이 안 맞았을 뿐'이라고 담담하게 정리하면서 자존심도 지키는 말이에요. 승진, 지원, 프로젝트가 안 됐을 때 동료와 이야기하기 좋아요. 'my time'은 개인적인 느낌이라, 팀 일이나 프로젝트에는 'It just wasn't the right time'이 더 자연스러워요.",
+     "work_example_en": "I didn't get the team lead role last cycle, but it just wasn't my time, and I'm genuinely okay with that.",
+     "work_example_ko": "지난번에 팀 리드 자리는 안 됐는데, 그냥 그땐 제 때가 아니었던 거예요. 저는 진짜 괜찮아요."
+    }
+   ]
+  },
+  {
+   "title": "내 기준 설명하기: 원하는 것과 원하지 않는 것, 그리고 고민",
+   "start": 2185.36,
+   "end": 2206.48,
+   "speaker": "HANNAH",
+   "text": "Like, I'm not trying to find a man or, like, rush into something just to say that I have it, or to feel some type of box checked off. That's not... I want it to be, like, a good situation. So I'm super on edge, I guess. Like, I'm just very wary of everybody, which, like, I think it's good to be kind of guarded, but not so guarded. I think I might be too guarded.",
+   "ko": "그러니까 남자를 찾으려고 애쓰는 것도 아니고, '나 연애해' 소리 하려고, 아니면 체크리스트 하나 지우는 기분 내려고 덜컥 아무나 만나려는 것도 아니에요. 그런 게 아니라… 진짜 좋은 관계였으면 좋겠어요. 그래서 제가 좀 날이 서 있나 봐요. 그냥 모든 사람을 엄청 경계하거든요. 근데 뭐, 어느 정도 경계하는 건 좋다고 생각하는데, 너무 그러면 안 되잖아요. 저는 좀 너무 그런 것 같기도 해요.",
+   "tip": "'RUSH into something'은 rush의 sh가 into에 바로 붙어 '러쉰투'처럼 들리고, 강세는 rush에만 줘요. 'kind of GUARDED, but not SO guarded'는 but 앞에서 살짝 끊고 so에 확실히 힘을 줘서 대비를 살려요.",
+   "expressions": [
+    {
+     "phrase": "rush into (something)",
+     "surface": "rush into something",
+     "register": "work_ok",
+     "meaning_ko": "(충분히 생각하지 않고) 서둘러 뛰어들다, 덜컥 결정하다",
+     "nuance_ko": "'hurry'는 그냥 빨리 한다는 뜻이지만, 'rush into'는 '준비 없이 성급하게 뛰어든다'는 걱정이 담겨요. 회의에서 반대 의견을 꺼낼 때 'I don't want us to rush into…'로 시작하면 반대하는 사람이 아니라 신중한 사람으로 들려요.",
+     "work_example_en": "I don't want us to rush into a new tool just because everyone's talking about it, so let's run a small pilot first.",
+     "work_example_ko": "다들 얘기한다고 새 툴을 덜컥 도입하고 싶지는 않아요. 먼저 작게 파일럿부터 해 봐요."
+    },
+    {
+     "phrase": "check a box / (just) to get a box checked off",
+     "surface": "box checked off",
+     "register": "work_ok",
+     "meaning_ko": "의미보다는 '했다'는 표시만 하려고 하는 것, 형식적으로 해치우기",
+     "nuance_ko": "'do it for show'보다 훨씬 자연스러운 회사 말로, 체크리스트 칸만 채우듯 형식적으로 한다는 뉘앙스예요. 'just checking a box'는 보여주기식을 비판할 때 회의에서도 흔히 써요. 다만 남의 작업에 'You're just checking a box'라고 하면 꽤 날카롭게 들리니 'we'를 주어로 쓰는 게 안전해요.",
+     "work_example_en": "I don't want this training to feel like we're just checking a box for compliance; it should actually help people.",
+     "work_example_ko": "이번 교육이 컴플라이언스 때문에 형식적으로 하는 걸로 느껴지지 않았으면 해요. 실제로 사람들한테 도움이 돼야죠."
+    },
+    {
+     "phrase": "It's good to be X, but not (so / too) X",
+     "surface": "it's good to be kind of guarded, but not so guarded",
+     "register": "work_ok",
+     "meaning_ko": "어느 정도 X한 건 좋지만, 너무 X하면 곤란해요",
+     "nuance_ko": "'X is bad'라고 잘라 말하는 대신 장점을 먼저 인정하고 선을 긋는 구조라, 피드백을 줄 때 상대가 방어적이 되지 않아요. 보통 뒤에 'that…'을 붙여 어디부터가 지나친지 구체적으로 말해요.",
+     "work_example_en": "It's good to be careful with the budget, but not so careful that we miss the window for the campaign.",
+     "work_example_ko": "예산을 신중하게 쓰는 건 좋은데, 너무 조심하다가 캠페인 타이밍을 놓치면 안 되잖아요."
+    }
+   ]
+  }
+ ]
+}

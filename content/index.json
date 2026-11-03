@@ -1,0 +1,103 @@
+{
+ "updated": "2026-11-03",
+ "days": [
+  {
+   "day": 1,
+   "publish_date": "2026-11-03",
+   "file": "days/day01.json",
+   "title": "Day 01 · 근황을 이야기처럼 풀기",
+   "channel": "Hannah Elise"
+  },
+  {
+   "day": 2,
+   "publish_date": "2026-11-03",
+   "file": "days/day02.json",
+   "title": "Day 02 · 의견 말하기",
+   "channel": "Jenn Im"
+  },
+  {
+   "day": 3,
+   "publish_date": "2026-11-03",
+   "file": "days/day03.json",
+   "title": "Day 03 · 근황 털어놓기",
+   "channel": "Caroline Winkler"
+  },
+  {
+   "day": 4,
+   "publish_date": "2026-11-03",
+   "file": "days/day04.json",
+   "title": "Day 04 · 스몰토크",
+   "channel": "lindseyrem"
+  },
+  {
+   "day": 5,
+   "publish_date": "2026-11-03",
+   "file": "days/day05.json",
+   "title": "Day 05 · 의견 말하기",
+   "channel": "Kelsey Simone"
+  },
+  {
+   "day": 6,
+   "publish_date": "2026-11-03",
+   "file": "days/day06.json",
+   "title": "Day 06 · 스몰토크",
+   "channel": "Alyssa Lenore"
+  },
+  {
+   "day": 7,
+   "publish_date": "2026-11-03",
+   "file": "days/day07.json",
+   "title": "Day 07 · 근황 말하기",
+   "channel": "Claudia Sulewski"
+  },
+  {
+   "day": 8,
+   "publish_date": "2026-11-03",
+   "file": "days/day08.json",
+   "title": "Day 08 · 일·루틴",
+   "channel": "lindseyrem"
+  },
+  {
+   "day": 9,
+   "publish_date": "2026-11-03",
+   "file": "days/day09.json",
+   "title": "Day 09 · 일·루틴",
+   "channel": "Hannah Elise"
+  },
+  {
+   "day": 10,
+   "publish_date": "2026-11-03",
+   "file": "days/day10.json",
+   "title": "Day 10 · 계획 말하기",
+   "channel": "Kelsey Simone"
+  },
+  {
+   "day": 11,
+   "publish_date": "2026-11-03",
+   "file": "days/day11.json",
+   "title": "Day 11 · 생산성",
+   "channel": "Jenn Im"
+  },
+  {
+   "day": 12,
+   "publish_date": "2026-11-03",
+   "file": "days/day12.json",
+   "title": "Day 12 · 일정 브리핑",
+   "channel": "Alyssa Lenore"
+  },
+  {
+   "day": 13,
+   "publish_date": "2026-11-03",
+   "file": "days/day13.json",
+   "title": "Day 13 · 일",
+   "channel": "Caroline Winkler"
+  },
+  {
+   "day": 14,
+   "publish_date": "2026-11-03",
+   "file": "days/day14.json",
+   "title": "Day 14 · 계획",
+   "channel": "Claudia Sulewski"
+  }
+ ]
+}

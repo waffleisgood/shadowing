@@ -1,0 +1,192 @@
+{
+ "id": "p_Kewa9cvmE",
+ "day": 3,
+ "title": "Day 03 · 근황 털어놓기",
+ "label": "CAROLINE WINKLER · Everything I Haven't Been Talking About",
+ "theme": "Caroline Winkler",
+ "theme_full": "근황 털어놓기: 그만둔 일과 달라진 생각을 '장점 인정 → 솔직한 이유' 순서로 풀어 말하기",
+ "goal": "요즘 안 하게 된 일·바뀐 습관을 이유와 함께 설명하는 말하기를 익혀요. 'So, those are the things I liked… However', 'As much as I do like…'로 좋은 점을 먼저 인정한 뒤 단점을 꺼내고, 'I don't feel like there's much I can… meaningfully'로 한계를 부드럽게 말하고, 'I do think there's something to…'로 단정하지 않고 권하는 흐름까지 연습해요.",
+ "sets": [
+  {
+   "title": "막막했던 상황을 털어놓고, 생각을 바꾼 계기 말하기",
+   "start": 246.84,
+   "end": 265.2,
+   "speaker": "CAROLINE",
+   "text": "It was very overwhelming and paralyzing, and I felt zero inspiration at all. Zero inspiration. Until I just told myself, this actually doesn't have to be the one and only style that I ever like, or that will perfectly represent me. It just— I just— I'm just going to make it something that I like. Just something that I like, and that could be a million things.",
+   "ko": "너무 벅차서 아무것도 못 하겠더라고요. 영감도 하나도 없었고요. 진짜 하나도요. 그러다 제가 저한테 그냥 이렇게 말했어요. 이게 내가 평생 좋아할 단 하나의 스타일일 필요도, 나를 완벽하게 보여 주는 스타일일 필요도 사실 없다고. 그냥… 그냥 내가 좋아하는 걸로 하자. 내가 좋아하는 거면 되는 거고, 그건 뭐든 될 수 있잖아요.",
+   "tip": "'PAR-a-lyz-ing'은 첫음절에 강세를 주고 'overwhelming and'를 '오버웰밍 앤'처럼 한 호흡에 붙여 읽어요. 'Zero inspiration.'을 한 번 더 말할 때는 속도를 늦추고 톤을 낮춰서 담담하게 반복하고, 'Until I just told myself'에서는 just의 t가 거의 빠져 '저스 톨드'처럼 들려요.",
+   "expressions": [
+    {
+     "phrase": "overwhelming and paralyzing",
+     "surface": "overwhelming and paralyzing",
+     "register": "work_ok",
+     "meaning_ko": "너무 벅차서 아예 손을 못 대겠는, 압도돼서 얼어붙은",
+     "nuance_ko": "'overwhelming'만 쓰면 '할 게 많아서 버겁다'에서 끝나지만, 'paralyzing'을 붙이면 '그래서 결국 시작도 못 했다'는 결과까지 말하게 돼요. 한국인 학습자는 보통 'stressful'이나 'too much'에서 멈추는데, 'paralyzing'은 선택지가 너무 많아 결정을 못 하는 상태(analysis paralysis)를 정확히 짚어 줘서 쓸 가치가 있어요. 다만 무게감이 있는 말이라 사소한 일에 쓰면 과장처럼 들리고, 매니저 앞에서 쓸 때는 '그래서 이렇게 해 봤다/도와 달라'를 바로 붙여야 하소연으로 안 들려요.",
+     "work_example_en": "Having twelve top priorities at once felt overwhelming and paralyzing, so I asked my manager to help me rank them.",
+     "work_example_ko": "최우선 과제가 한꺼번에 열두 개나 되니까 너무 벅차서 손을 못 대겠더라고요. 그래서 매니저한테 우선순위를 같이 정해 달라고 했어요."
+    },
+    {
+     "phrase": "X doesn't have to be the one and only Y",
+     "surface": "this actually doesn't have to be the one and only style",
+     "register": "work_ok",
+     "meaning_ko": "X가 유일한(최종) Y일 필요는 없어요",
+     "nuance_ko": "그냥 'It doesn't have to be perfect'라고 하면 기준을 낮추자는 말처럼 들릴 수 있는데, 'the one and only'는 '이게 전부이고 마지막이어야 한다'는 압박 자체를 짚어서 내려놓게 해요. 품질을 포기하자는 게 아니라 '이후에 또 기회가 있다'는 뜻이라 초안 공유나 첫 버전 출시를 설득할 때 잘 맞아요.",
+     "work_example_en": "This deck doesn't have to be the one and only version we ever show the client, so let's get a solid draft out first.",
+     "work_example_ko": "이 자료가 클라이언트한테 보여 줄 유일한 버전일 필요는 없으니까, 일단 탄탄한 초안부터 내보내요."
+    },
+    {
+     "phrase": "That could be a million things",
+     "surface": "that could be a million things",
+     "register": "neutral",
+     "meaning_ko": "그건 얼마든지 여러 가지가 될 수 있어요, 정답이 하나가 아니에요",
+     "nuance_ko": "'There are many possibilities'보다 훨씬 구어적이고 가벼워요. '가능성이 열려 있다'는 긍정적인 뜻으로도, 원인이 불분명할 때 '원인이야 여러 가지일 수 있죠'처럼 섣부른 단정을 막는 말로도 써요. 다만 상대가 구체적인 답을 원하는 자리에서 이 말만 하고 끝내면 회피처럼 들리니, 뒤에 '그러니 이것부터 확인하자'를 붙이세요.",
+     "work_example_en": "Why did sign-ups drop last week? Honestly, that could be a million things, so let's check the funnel data before we blame the new onboarding flow.",
+     "work_example_ko": "지난주에 가입자가 왜 줄었냐고요? 솔직히 원인이야 여러 가지일 수 있으니까, 새 온보딩 탓으로 돌리기 전에 퍼널 데이터부터 확인해 봐요."
+    }
+   ]
+  },
+  {
+   "title": "좋았던 점을 정리한 뒤 'However'로 그만둔 이유 꺼내기",
+   "start": 675.8,
+   "end": 700.14,
+   "speaker": "CAROLINE",
+   "text": "So, those are things I liked about vlogging. However, reasons why I feel like I can't anymore. One reason is that, like, there's so many people watching now. And I don't feel like there's much that I can share meaningfully about my day-to-day life with a million people that wouldn't, like, significantly disrupt other people's lives, like family or friends or fiancé.",
+   "ko": "자, 이게 브이로그 하면서 좋았던 점들이고요. 그런데 이제는 못 하겠다 싶은 이유들도 있어요. 하나는, 지금은 보는 사람이 너무 많아졌다는 거예요. 백만 명한테 제 일상을 의미 있게 나누면서도, 가족이나 친구나 약혼자 같은 주변 사람들 삶을 크게 흔들지 않을 만한 이야기가 별로 없는 것 같아요.",
+   "tip": "'However,' 뒤에서 한 박자 쉬어야 화제가 바뀐다는 게 들려요. 'share MEANingfully', 'sigNIFicantly disRUPT'처럼 긴 단어의 강세 위치를 정확히 잡으면(significantly는 SIG가 아니라 NIF) 문장이 길어도 무게중심이 흔들리지 않아요.",
+   "expressions": [
+    {
+     "phrase": "So, those are (the) things I liked about X. However, ~",
+     "surface": "So, those are things I liked about vlogging. However,",
+     "register": "work_ok",
+     "meaning_ko": "자, 여기까지가 X에서 좋았던 점이에요. 그런데 ~",
+     "nuance_ko": "'It was good, but...'처럼 한 문장에 몰아넣으면 칭찬이 'but' 앞의 형식적인 말로 들리기 쉬워요. 이 틀은 장점을 따로 한 문장으로 마무리해서 존중을 확실히 보여 준 다음, 'However'로 단락을 넘기듯 진짜 하고 싶은 말로 가요. 리뷰나 회고에서 '좋은 점 → 아쉬운 점' 순서로 피드백할 때 그대로 쓸 수 있고, 'However'는 'But'보다 정돈된 느낌이라 회의 발언에 잘 어울려요.",
+     "work_example_en": "So, those are the things I liked about the pilot program. However, I'm not convinced we can scale it with the current headcount.",
+     "work_example_ko": "자, 여기까지가 파일럿 프로그램에서 좋았던 점이에요. 그런데 지금 인원으로 이걸 확대할 수 있을지는 확신이 안 서요."
+    },
+    {
+     "phrase": "I don't feel like there's much (that) I can X meaningfully",
+     "surface": "I don't feel like there's much that I can share meaningfully",
+     "register": "work_ok",
+     "meaning_ko": "제가 의미 있게 ~할 수 있는 게 별로 없는 것 같아요",
+     "nuance_ko": "'I can't'라고 딱 잘라 말하는 대신 'I don't feel like there's much'로 한 겹 감싸서 거절이나 한계를 부드럽게 전해요. 'meaningfully'가 붙으면 '하기 싫어서가 아니라 의미 있게 보탤 게 없어서'라는 뉘앙스가 돼서 성의 없어 보이지 않아요. 회의 불참이나 리뷰 요청을 정중하게 넘길 때 좋아요.",
+     "work_example_en": "I don't feel like there's much I can contribute meaningfully at this stage, so I'll skip the kickoff and catch up on the notes afterward.",
+     "work_example_ko": "지금 단계에서는 제가 의미 있게 보탤 게 별로 없는 것 같아서, 킥오프는 빠지고 나중에 회의록으로 따라갈게요."
+    },
+    {
+     "phrase": "significantly disrupt X / without significantly disrupting X",
+     "surface": "significantly disrupt other people's lives",
+     "register": "work_ok",
+     "meaning_ko": "X에 큰 지장을 주다, X(의 흐름)를 크게 흐트러뜨리다",
+     "nuance_ko": "'affect a lot'이나 'bother'보다 정확해요. 'disrupt'는 원래 잘 돌아가던 흐름·일정·일상이 끊긴다는 뜻이라, 단순히 '영향을 준다'가 아니라 '방해가 된다'는 걸 감정 없이 말할 수 있어요. 'significantly'를 붙이면 정도를 객관적으로 표현하는 느낌이라 일정 조율이나 변경 제안에서 자주 써요. 'a lot disrupt'처럼 말하는 실수 대신 이 덩어리로 외워 두세요.",
+     "work_example_en": "Can we move the database migration to Saturday so it doesn't significantly disrupt the support team's workflow during the week?",
+     "work_example_ko": "데이터베이스 마이그레이션을 토요일로 옮길 수 있을까요? 그래야 주중에 고객지원팀 업무 흐름에 큰 지장이 안 갈 것 같아서요."
+    }
+   ]
+  },
+  {
+   "title": "애정은 인정하면서 솔직한 단점 말하기",
+   "start": 893.7,
+   "end": 917.4,
+   "speaker": "CAROLINE",
+   "text": "Reason number three is that as much as I do like the vlogs I made, and I'm very, very proud of them, and I love that they brought a lot of people joy, they do kind of suck to make. Like, it kind of sucks to be filming and narrating and producing your life instead of living it.",
+   "ko": "세 번째 이유는, 제가 만든 브이로그를 좋아하는 건 맞고, 정말 정말 자랑스럽고, 그걸 보고 많은 분들이 즐거워해 주신 것도 너무 좋은데, 만드는 건 좀 괴로워요. 그러니까, 내 삶을 사는 대신에 그걸 찍고, 내레이션 넣고, 제작하고 있는 게 좀 별로예요.",
+   "tip": "'as much as I DO like'에서 do에 강세를 줘서 '좋아하는 건 진짜'라는 걸 먼저 확실히 해요. 'kind of'는 둘 다 '카인다(kinda)'로 줄여 'they do kinda SUCK to make', 'it kinda sucks'처럼 가볍게 흘리고, 'filming / and narrating / and producing'은 단어마다 살짝 끊었다가 'instead of LIVing it'에서 톤을 내리며 천천히 끝내요.",
+   "expressions": [
+    {
+     "phrase": "As much as I (do) like X, ~",
+     "surface": "as much as I do like the vlogs I made",
+     "register": "work_ok",
+     "meaning_ko": "X를 좋아하는 건 맞지만(아무리 좋아해도), ~",
+     "nuance_ko": "'I like it, but'보다 훨씬 성숙하게 들리는 양보 구조예요. 'do'를 넣으면 '진심으로 좋아한다'는 걸 강조해서, 뒤에 오는 아쉬운 점이 불평이 아니라 고민 끝에 나온 말처럼 들려요. 동료의 아이디어에 반대 의견을 낼 때 아주 유용해요.",
+     "work_example_en": "As much as I do like the idea of a four-day sprint, I'm worried it'll leave QA with almost no time to test.",
+     "work_example_ko": "4일짜리 스프린트라는 아이디어가 좋은 건 맞는데, 그러면 QA가 테스트할 시간이 거의 없을까 봐 걱정돼요."
+    },
+    {
+     "phrase": "It kind of sucks to (do) X",
+     "surface": "it kind of sucks to be filming",
+     "register": "casual",
+     "meaning_ko": "~하는 게 좀 별로예요, ~하는 건 좀 괴로워요",
+     "nuance_ko": "원어민이 가벼운 불만을 말할 때 가장 흔히 쓰는 말인데, 한국인 학습자는 'It's annoying'이나 'It's hard'로만 말하는 경우가 많아요. 'annoying'은 짜증이 직접 드러나고 'hard'는 어렵다는 뜻이라 결이 다르고, 'it kind of sucks'는 '좀 아쉽고 별로다'를 'kind of'로 눌러서 투덜대는 느낌 없이 말해요. 회사에서는 주의가 필요해요. 'suck'는 가까운 동료와의 점심이나 DM 정도까지만 쓰고, 매니저·클라이언트·공식 회의·이메일에서는 'It's a bit of a pain to...'나 'It's not ideal to...'로 바꾸세요. 또 상황에 대해서만 쓰고 'Your plan kind of sucks'처럼 사람이나 결과물에 쓰면 무례하게 들려요.",
+     "work_example_en": "It kind of sucks to be stuck on bug fixes while everyone else gets to work on the new feature.",
+     "work_example_ko": "다른 사람들은 다 새 기능 작업하는데 나만 버그 수정에 묶여 있는 거, 좀 별로긴 해요."
+    },
+    {
+     "phrase": "X-ing (something) instead of (actually) living / doing it",
+     "surface": "producing your life instead of living it",
+     "register": "neutral",
+     "meaning_ko": "직접 경험하는 대신 그걸 기록하고 관리하느라 바쁜",
+     "nuance_ko": "'I'm too busy with admin work'처럼 말하면 그냥 바쁘다는 사실만 전하지만, 'live'와 대비시키면 '본질은 놓치고 겉일만 한다'는 아쉬움까지 짧게 담겨요. 회사에서는 'documenting the work instead of doing it'처럼 바꿔서, 보고와 서류 작업에 치이는 상황을 말할 때 응용할 수 있어요.",
+     "work_example_en": "Lately I feel like I'm documenting the project instead of actually doing it, because every day is status updates and slides.",
+     "work_example_ko": "요즘은 매일 진행 보고에 슬라이드만 만들다 보니까, 프로젝트를 하는 게 아니라 기록만 하고 있는 기분이에요."
+    }
+   ]
+  },
+  {
+   "title": "예전과 달라진 습관을 이유와 비유로 설명하기",
+   "start": 1468.6,
+   "end": 1484.22,
+   "speaker": "CAROLINE",
+   "text": "I do not watch any interior design content on YouTube anymore. I guess I used to, but I haven't watched that in a long time, because it's like watching work. It's like I never get to leave the office then. I don't need to watch other people do room makeovers for so many reasons.",
+   "ko": "저는 이제 유튜브에서 인테리어 콘텐츠는 아예 안 봐요. 예전엔 봤던 것 같은데, 안 본 지 꽤 오래됐어요. 일하는 걸 보는 거나 다름없거든요. 그러면 퇴근을 영영 못 하는 거잖아요. 남들이 방 꾸미는 걸 굳이 볼 필요가 없는 이유는 정말 많아요.",
+   "tip": "'I do NOT watch'는 don't로 줄이지 않고 또박또박 말해서 단호함을 살려요. 'I guess I used to'의 used to는 '유스트 투'가 아니라 '유스터'처럼 붙여 빠르게 흘리고, 'it's like watching WORK'는 마지막 단어에 힘을 줘서 펀치라인처럼 끝내요.",
+   "expressions": [
+    {
+     "phrase": "I guess I used to, but I haven't (done) that in a long time",
+     "surface": "I guess I used to, but I haven't watched that in a long time",
+     "register": "work_ok",
+     "meaning_ko": "예전엔 했던 것 같은데, 안 한 지 꽤 됐어요",
+     "nuance_ko": "'No, I don't'라고만 하면 대화가 끊기는데, 이 틀은 'I guess'로 과거 기억을 살짝 흐릿하게 처리하고 현재완료로 '지금은 아니다'를 담담하게 말해서 자연스럽게 다음 이야기로 이어 가게 해 줘요. 점심이나 커피챗에서 요즘도 그 취미를 하냐는 질문을 받았을 때 잘 맞아요. 'I guess'는 기억이 흐릿한 척 살짝 거리를 두는 말이라, 본인이 확실히 아는 업무 이력에 쓰면 어색해요.",
+     "work_example_en": "You still go climbing after work? I guess I used to, but I haven't been in a long time, not since we moved offices.",
+     "work_example_ko": "아직도 퇴근하고 클라이밍 가냐고요? 예전엔 갔던 것 같은데, 사무실 옮기고 나서는 안 간 지 꽤 됐어요."
+    },
+    {
+     "phrase": "never get to leave the office",
+     "surface": "I never get to leave the office",
+     "register": "work_ok",
+     "meaning_ko": "퇴근을 못 하는 기분이에요, 일에서 벗어날 수가 없어요",
+     "nuance_ko": "'I work too much'는 사실을 말하는 거라 불평처럼 들릴 수 있지만, 이 표현은 실제로 사무실에 있다는 게 아니라 일 생각이 머리에서 안 떠난다는 비유라 훨씬 가볍게 들려요. 'can't'가 아니라 'get to(~할 기회가 주어지다)'를 써서 '쉴 틈이 안 생긴다'는 아쉬움이 묻어나요. 워라밸 이야기를 무겁지 않게 꺼낼 때 쓰기 좋아요.",
+     "work_example_en": "With Slack on my phone and the team spread across time zones, I feel like I never get to leave the office.",
+     "work_example_ko": "폰에 슬랙이 깔려 있고 팀이 시간대별로 흩어져 있다 보니까, 퇴근을 아예 못 하는 기분이에요."
+    }
+   ]
+  },
+  {
+   "title": "해 본 일을 돌아보며 담백하게 권하기",
+   "start": 2477.16,
+   "end": 2495.98,
+   "speaker": "CAROLINE",
+   "text": "So, I'm back— I'm back on the iPhone. It was definitely a good purge. Get a dumb phone and do it for like— do it for like four months. I mean, you can do it also just for one month, but I do think there's something to doing it for, like, a chunk of time where, like, you have to discover new workarounds, you have to establish new habits. It's pretty eye-opening.",
+   "ko": "그래서 저는 다시, 다시 아이폰으로 돌아왔어요. 그래도 확실히 한번 싹 비워 내는 좋은 계기였어요. 피처폰 하나 사서 한, 한 4개월쯤 써 보세요. 뭐, 한 달만 해도 되긴 하는데, 어느 정도 시간을 들여서 해 보는 데는 분명 의미가 있다고 생각해요. 새로운 우회 방법도 찾아야 하고, 새로운 습관도 들여야 하는 그런 시간이요. 생각보다 많은 걸 깨닫게 돼요.",
+   "tip": "'I mean,' 뒤에 짧게 쉬고 'but I DO think'에서 do를 세게 눌러 앞말을 뒤집는 흐름을 살려요. 마지막 'pretty eye-OPEning'은 pretty의 t가 플랩돼서 '프리디'처럼 들리고, eye-opening의 O에 강세를 줘서 가볍게 툭 내려놓듯 마무리해요.",
+   "expressions": [
+    {
+     "phrase": "I do think there's something to (doing) X",
+     "surface": "I do think there's something to doing it",
+     "register": "work_ok",
+     "meaning_ko": "X에는 분명 뭔가(의미·일리)가 있다고 생각해요",
+     "nuance_ko": "'X is better'라고 단정하지 않고 '일리가 있다'로 한발 물러서서 말하는 표현이에요. 앞에서 'you can also just...'처럼 다른 선택지를 인정한 다음 'but I do think there's something to...'로 내 의견을 얹으면 강요하지 않으면서도 설득력이 생겨요. 뒤에는 명사나 동명사(-ing)가 와요.",
+     "work_example_en": "We could keep doing async updates, but I do think there's something to having a quick face-to-face sync once a week.",
+     "work_example_ko": "비동기 업데이트를 계속해도 되긴 하는데, 일주일에 한 번은 짧게 얼굴 보고 싱크하는 게 분명 의미가 있다고 봐요."
+    },
+    {
+     "phrase": "find / discover a workaround",
+     "surface": "discover new workarounds",
+     "register": "work_ok",
+     "meaning_ko": "우회 방법(임시 해결책)을 찾다",
+     "nuance_ko": "'solution'은 문제를 근본적으로 해결하는 거고, 'workaround'는 문제는 그대로 둔 채 일단 돌아가는 방법이에요. 이 차이를 구분해서 쓰면 '고쳤다'고 오해받을 일이 없어요. 개발·운영 쪽에서 매일 쓰는 단어라 'Is there a workaround for now?'처럼 스탠드업에서 바로 써먹을 수 있어요.",
+     "work_example_en": "We found a workaround that lets support export the reports manually until the API fix ships next sprint.",
+     "work_example_ko": "다음 스프린트에 API 수정이 배포될 때까지 고객지원팀이 리포트를 수동으로 내보낼 수 있는 우회 방법을 찾아 뒀어요."
+    },
+    {
+     "phrase": "It's (pretty / really) eye-opening / It was an eye-opener",
+     "surface": "It's pretty eye-opening",
+     "register": "work_ok",
+     "meaning_ko": "몰랐던 걸 새로 깨닫게 돼요, 눈이 확 뜨이는 경험이에요",
+     "nuance_ko": "'It's interesting'은 그냥 흥미롭다는 거고 'I learned a lot'은 평범한 소감인데, 'eye-opening'은 내가 당연하게 여기던 생각이 바뀔 만큼 새로 보게 됐다는 뜻이에요. 'pretty'를 붙이면 호들갑 없이 담담하게 들려서 회고, 고객 인터뷰 후기, 다른 팀 업무 체험 소감에 잘 맞아요. 사소한 정보나 이미 다 아는 이야기에 쓰면 과장처럼 들리니 아껴 쓰세요.",
+     "work_example_en": "Sitting in on the customer support calls last week was pretty eye-opening, because half the complaints were about onboarding.",
+     "work_example_ko": "지난주에 고객지원 통화를 옆에서 들어 봤는데 생각보다 많이 깨달았어요. 불만의 절반이 온보딩 얘기더라고요."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "id": "DJij_F_QGxo",
+ "day": 2,
+ "title": "Day 02 · 의견 말하기",
+ "label": "JENN IM · Q&A | honest takes on regret, motivation, envy, motherhood, ",
+ "theme": "Jenn Im",
+ "theme_full": "의견 말하기: 곤란한 질문에 인정할 건 인정하고 입장은 지키며 답하기",
+ "goal": "후회·질투·재혼처럼 대답하기 곤란한 질문에, 이유를 풀어 설명하고(The thing is), 질문의 전제를 뒤집고(If anything), 아쉬운 점 하나만 깔끔하게 인정하고(X. I did.), 결과는 열어두되 방향은 분명히 하는(We'll see. Either way) 문장 틀로 솔직하면서도 여유 있게 말하기",
+ "sets": [
+  {
+   "title": "'뒤처진 느낌'의 이유를 설명하고 반전으로 문제 제기하기",
+   "start": 105.72,
+   "end": 129.7,
+   "speaker": "JENN",
+   "text": "Like, I wake up like I'm feeling behind. It's because I have this, like, to-do list, and the only way to relieve that anxiety that I feel is by crossing off the things off my list. And the thing is, I feel like I've used this method for so long because it is very effective. Like, I wake up and I get a lot done. But is this sustainable for my mental health? No.",
+   "ko": "아침에 눈뜨면 뭔가 뒤처진 기분이 들어요. 해야 할 일 목록이 있는데, 그 불안을 달랠 방법이 목록을 하나씩 지워 나가는 것밖에 없거든요. 근데 문제는요, 이게 워낙 효과가 좋아서 꽤 오랫동안 이 방법을 써왔다는 거예요. 실제로 일어나자마자 일을 엄청 해치우거든요. 근데 이게 제 정신 건강에 오래 갈 수 있는 방식이냐고요? 아니에요.",
+   "tip": "'feeling beHIND'는 HIND에 힘을 주고, 'crossing off the things'는 '크로씽 어프더 띵즈'처럼 끊지 말고 한 덩어리로 굴려 읽으세요. 'And the thing is,' 뒤에서는 반 박자 쉬어 반전을 예고하고, 마지막 'No.'는 짧고 단호하게 내립니다.",
+   "expressions": [
+    {
+     "phrase": "feel behind (on something)",
+     "surface": "I'm feeling behind",
+     "register": "work_ok",
+     "meaning_ko": "일이 밀린 느낌이에요, 뒤처진 기분이에요",
+     "nuance_ko": "behind는 '일정·진도보다 늦은' 상태. 실제로 마감을 놓쳤다기보다 마음이 쫓기는 느낌을 말할 때 씀. 대상은 on으로 붙여서 'I'm behind on emails'처럼 말해요. 'I'm busy'보다 훨씬 구체적이고 솔직하게 들림.",
+     "work_example_en": "I've been feeling a bit behind since I got back from vacation, so I'm blocking off tomorrow morning to catch up on everything.",
+     "work_example_ko": "휴가 다녀온 뒤로 계속 일이 좀 밀린 느낌이라, 내일 오전은 비워두고 밀린 거 다 따라잡으려고요."
+    },
+    {
+     "phrase": "The thing is, X",
+     "surface": "And the thing is,",
+     "register": "work_ok",
+     "meaning_ko": "근데 문제는요, / 사실은 말이죠,",
+     "nuance_ko": "앞에서 한 말 뒤에 숨어 있던 진짜 문제나 반전을 꺼내는 구조. 'But'으로 바로 반박하는 것보다 부드럽게 들려서, 부탁을 거절하거나 우려를 말할 때 회의에서 아주 자주 씀. 'The thing is' 뒤에서 살짝 쉬어 주면 더 자연스러워요.",
+     "work_example_en": "I'm happy to take on the extra project. The thing is, I'm already stretched pretty thin with the Q4 launch, so something else would have to give.",
+     "work_example_ko": "추가 프로젝트 맡는 건 좋아요. 근데 문제는, 지금 4분기 런칭만으로도 꽤 빠듯해서 다른 걸 하나는 내려놔야 할 것 같아요."
+    },
+    {
+     "phrase": "cross X off (my/the list)",
+     "surface": "crossing off the things off my list",
+     "register": "work_ok",
+     "meaning_ko": "(할 일 목록에서) 하나씩 지우다, 끝낸 일을 줄 그어 없애다",
+     "nuance_ko": "'finish'나 'get done'보다 '하나 해치웠다'는 손맛이 있어서 스탠드업이나 슬랙에서 진행 상황 말할 때 자주 써요. Jenn은 'crossing off the things off'로 off를 두 번 말했는데 말하다 꼬인 거고, 정석은 'cross things off my list'예요. 목적어가 it/that이면 'cross it off'처럼 꼭 가운데 넣어요. 'check off'도 비슷하지만, 'tick off'는 영국식이고 미국에선 '열받게 하다'로 들릴 수 있으니 조심.",
+     "work_example_en": "I spent most of the morning on admin stuff, but at least I managed to cross a few things off my list before the planning meeting.",
+     "work_example_ko": "오전 내내 자잘한 행정 업무만 했는데, 그래도 기획 회의 전에 할 일 몇 개는 지웠어요."
+    }
+   ]
+  },
+  {
+   "title": "부러운 감정을 분석해서 행동으로 연결하는 과정 설명하기",
+   "start": 229.0,
+   "end": 251.72,
+   "speaker": "JENN",
+   "text": "I can look at that and be like, \"Ooh, this is really highlighting something that I may be feeling insecure about, that I feel like I might be missing.\" And then once I've pinpointed that, I can really ask myself, like, \"Hmm, is this something that I can actively work towards? Is there something that I can actively do to change my circumstance?\" If the answer is yes, then I use envy and jealousy as ammunition.",
+   "ko": "그걸 보면서 '아, 이게 내가 자신 없어하는 부분, 나한테 없다고 느끼는 부분을 건드리는구나' 하고 알아차릴 수 있어요. 그렇게 그게 뭔지 딱 짚고 나면, 스스로한테 진지하게 물어봐요. '음, 이건 내가 노력해서 가까워질 수 있는 걸까? 지금 내 상황을 바꾸려고 직접 해볼 수 있는 게 있나?' 답이 '응'이면, 그때는 부러움이랑 질투를 연료로 써요.",
+   "tip": "'pinpointed'는 미국식으로 nt의 t가 거의 빠져 '핀포이니드'처럼 들려요. 'work towards'는 '웍투워즈'로 붙여 읽고, 'ammunition'은 am-mu-NI-tion, NI에 강세를 줍니다. 따옴표 속 혼잣말은 목소리를 살짝 낮춰 생각하는 톤으로.",
+   "expressions": [
+    {
+     "phrase": "Once I've/we've pinpointed X, …",
+     "surface": "once I've pinpointed that",
+     "register": "work_ok",
+     "meaning_ko": "그걸 정확히 짚어내고 나면, …",
+     "nuance_ko": "pinpoint는 '핀으로 콕 찍듯 정확히 찾아내다'. 원인·문제·감정의 정체를 찾아낼 때 씀. 'find'보다 정밀하게 분석했다는 느낌이라 문제 해결 회의에서 잘 어울려요. 'Once ~, …' 구조로 '찾고 나서 다음 단계'를 자연스럽게 이어줌.",
+     "work_example_en": "Once we've pinpointed where users are dropping off in the funnel, we can decide whether it's a design issue or a pricing issue.",
+     "work_example_ko": "사용자들이 퍼널 어디서 이탈하는지 정확히 짚고 나면, 그게 디자인 문제인지 가격 문제인지 판단할 수 있을 거예요."
+    },
+    {
+     "phrase": "Is this something I/we can (actively) work towards?",
+     "surface": "is this something that I can actively work towards?",
+     "register": "work_ok",
+     "meaning_ko": "이건 제가(우리가) 꾸준히 노력해서 이뤄갈 수 있는 건가요?",
+     "nuance_ko": "work towards는 한 번에 끝내는 게 아니라 목표를 향해 차근차근 나아가는 것. 'Is this something…?' 질문형이라 요구가 아니라 가능성을 묻는 느낌이 나서, 1:1에서 승진·역할 이야기를 부드럽게 꺼낼 때 아주 좋아요.",
+     "work_example_en": "I know a promotion might not happen this cycle, but is this something I can actively work towards over the next six months?",
+     "work_example_ko": "이번 평가 때 승진은 어려울 수도 있다는 거 알아요. 그래도 앞으로 6개월 동안 제가 적극적으로 준비해 갈 수 있는 부분일까요?"
+    },
+    {
+     "phrase": "use X as ammunition",
+     "surface": "I use envy and jealousy as ammunition",
+     "register": "neutral",
+     "meaning_ko": "X를 무기(동력)로 삼다 / (직장에선 주로) X를 공격 근거로 쓰다",
+     "nuance_ko": "ammunition은 '탄약'. Jenn처럼 부정적인 감정을 나를 밀어붙이는 동력으로 쓴다는 뜻도 있지만, 이 뜻으로는 'use X as fuel/motivation'이 더 흔해요. 직장에서는 'Don't give them ammunition(꼬투리 잡힐 거리 주지 마)'처럼 '남이 나를 공격할 근거'라는 뜻으로 훨씬 자주 들리니, 내 각오를 말할 때 쓰면 살짝 어색할 수 있어요.",
+     "work_example_en": "Let's tighten up the numbers before the review, because if there are any gaps, finance will use them as ammunition to cut our budget.",
+     "work_example_ko": "리뷰 전에 숫자 좀 꼼꼼히 맞춰 놔요. 빈틈이 하나라도 있으면 재무팀이 그걸 꼬투리 삼아서 예산 깎으려고 할 거예요."
+    }
+   ]
+  },
+  {
+   "title": "질문의 전제와 반대되는 생각을 '오히려'로 부드럽게 꺼내기",
+   "start": 374.72,
+   "end": 394.18,
+   "speaker": "JENN",
+   "text": "I feel like if anything, I like having friends in different eras because it shows, like, the dark and the positive sides of everything. Like, the grass is never, like, always super green on either side. So, if anything, I feel like having friends from different eras, it reminds me that not everything that glitters is gold.",
+   "ko": "저는 오히려 인생에서 서로 다른 시기를 지나고 있는 친구들이 있는 게 좋아요. 무슨 일이든 어두운 면도 좋은 면도 있다는 걸 보여주거든요. 어느 쪽 잔디든 늘 푸르기만 한 건 아니잖아요. 그래서 오히려 그런 친구들을 보면, 반짝인다고 다 금은 아니라는 걸 새삼 느껴요.",
+   "tip": "'if ANything'은 an에 강세를 주고 뒤에서 쉼표만큼 쉬세요. 'glitters is gold'는 tt를 굴려 '글리러즈 이즈 고울드'처럼 이어 읽고, 'is gold'에서 천천히 내리며 마무리합니다.",
+   "expressions": [
+    {
+     "phrase": "If anything, X",
+     "surface": "if anything,",
+     "register": "work_ok",
+     "meaning_ko": "오히려 / 굳이 말하자면 반대로",
+     "nuance_ko": "상대가 깔고 있는 전제(예: 친구랑 시기가 다르면 멀어진다)를 정면으로 부정하지 않고, '오히려 반대쪽에 가깝다'고 방향을 틀어주는 말. 반박인데도 공격적으로 들리지 않아서 회의에서 우려를 반대로 뒤집어 말할 때 딱 좋아요.",
+     "work_example_en": "I don't think the delay actually hurt us. If anything, it gave us time to fix the onboarding bugs before the bigger launch.",
+     "work_example_ko": "일정이 밀린 게 우리한테 손해였다고는 생각 안 해요. 오히려 큰 런칭 전에 온보딩 버그를 고칠 시간이 생겼죠."
+    },
+    {
+     "phrase": "The grass isn't always greener (on the other side)",
+     "surface": "the grass is never, like, always super green on either side",
+     "register": "neutral",
+     "meaning_ko": "남의 떡이 늘 더 커 보이는 건 아니에요 / 어디든 장단점이 있어요",
+     "nuance_ko": "원래 관용구는 'The grass is always greener on the other side(남의 떡이 커 보인다)'. Jenn은 이걸 비틀어 '어느 쪽 잔디도 늘 푸르진 않다'고 말했어요. 이직·부서 이동 이야기에서 'the grass isn't always greener' 형태로 정말 자주 들려요.",
+     "work_example_en": "I was really tempted by the startup offer, but after talking to a few people there, I realized the grass isn't always greener.",
+     "work_example_ko": "스타트업 제안에 꽤 혹했는데, 거기 다니는 사람 몇 명이랑 얘기해 보니까 남의 떡이 꼭 더 큰 건 아니더라고요."
+    },
+    {
+     "phrase": "Not everything that glitters is gold / All that glitters is not gold",
+     "surface": "not everything that glitters is gold",
+     "register": "neutral",
+     "meaning_ko": "반짝인다고 다 금은 아니에요 / 겉으로 좋아 보인다고 다 좋은 건 아니에요",
+     "nuance_ko": "원래 속담은 셰익스피어의 'All that glitters is not gold(원문은 glisters)'. 문법상으론 '반짝이는 건 전부 금이 아니다'로도 읽히는 옛날식 어순이라, 요즘 원어민은 말할 때 Jenn처럼 'Not everything that glitters is gold'나 'Not all that glitters is gold'로 풀어서 자주 말해요. 틀린 게 아니라 더 구어적이고 뜻이 분명한 변형이에요. 글로 인용하거나 속담 자체를 말할 땐 원형, 대화에선 변형이 편해요. 어느 쪽이든 살짝 교훈조라 'you know,'를 앞에 붙이면 덜 거창하게 들리고, 상대가 들떠 있는 아이디어에 대고 쓰면 김빼는 말로 들릴 수 있어요.",
+     "work_example_en": "The vendor's demo was really slick, but you know, not everything that glitters is gold, so I'd push for a short pilot before we sign anything.",
+     "work_example_ko": "업체 데모가 꽤 그럴듯하긴 했는데, 겉만 번지르르할 수도 있잖아요. 계약 전에 짧게 파일럿부터 해보자고 하는 게 좋겠어요."
+    }
+   ]
+  },
+  {
+   "title": "민감한 질문에 '그 덕분에 → 그래도 하나 꼽자면 → 그건 인정해요'로 솔직하게 답하기",
+   "start": 572.88,
+   "end": 587.88,
+   "speaker": "JENN",
+   "text": "For the most part, I try to live with my life with no regrets because if I did not get married when I did, I probably wouldn't have had my son. Like, okay, but if I could change things, yeah, I think I got— I got married a little bit too early. I did.",
+   "ko": "웬만하면 저는 후회 없이 살려고 해요. 그때 결혼을 안 했으면 아마 우리 아들도 없었을 테니까요. 음, 근데 그래도 뭔가 하나 바꿀 수 있다면… 네, 결혼을 좀 일찍 하긴 한 것 같아요. 그건 인정해요.",
+   "tip": "'when I DID'와 마지막 'I DID.' 둘 다 did에 강세를 꾹 주세요. 특히 마지막은 앞에서 한 박자 쉬고 짧게 툭 내려놓아야 '그건 인정해요' 느낌이 나요. 'a little bit too early'는 t를 굴려 '어리를빗 투 얼리'처럼 붙여 읽습니다. 'live with my life'의 첫 with는 Jenn이 말하다 살짝 꼬인 부분이라 소리는 그대로 따라 하되, 직접 말할 땐 'live my life with no regrets'로 하세요.",
+   "expressions": [
+    {
+     "phrase": "X. I did. / It was. / We did. (짧게 되받아 인정하기)",
+     "surface": "I got married a little bit too early. I did.",
+     "register": "work_ok",
+     "meaning_ko": "…했어요. 네, 그건 인정해요.",
+     "nuance_ko": "방금 한 말을 '주어 + 조동사'만으로 한 번 더 되받아서, 얼버무리지 않고 인정한다는 걸 보여주는 짧은 꼬리예요. 'Yes, that's true'나 'I admit it'보다 훨씬 구어적이고 진솔하게 들리고, 한국인 학습자는 거의 안 쓰지만 원어민은 회고·사과에서 정말 자주 써요. 주어·시제에 맞춰 'It was.' 'We did.' 'I do.'로 바뀌어요. 다만 남의 실수에 'You did.'로 쓰면 못 박는 느낌이라 조심.",
+     "work_example_en": "Looking back, we underestimated how much testing the integration would need. We really did, and that's on us.",
+     "work_example_ko": "돌이켜 보면 연동 테스트가 얼마나 필요할지 저희가 너무 얕봤어요. 그건 진짜 인정해요, 저희 책임이에요."
+    },
+    {
+     "phrase": "If I hadn't X when I did, I probably wouldn't have Y",
+     "surface": "if I did not get married when I did, I probably wouldn't have had my son",
+     "register": "work_ok",
+     "meaning_ko": "그때 X를 안 했다면, 아마 Y도 없었을 거예요",
+     "nuance_ko": "과거 결정을 후회 대신 '그 덕분에 지금이 있다'로 정당화하는 구조. 'when I did(하필 그 시점에)'가 핵심 덩어리예요. 정석 문법은 'If I hadn't…'지만 원어민은 말할 때 Jenn처럼 'If I didn't…'로도 자주 말해요. 직장에서는 hadn't 형태로 연습하세요.",
+     "work_example_en": "If we hadn't switched vendors when we did, we probably wouldn't have made the September launch at all.",
+     "work_example_ko": "그때 업체를 바꾸지 않았다면, 아마 9월 런칭은 아예 못 맞췄을 거예요."
+    },
+    {
+     "phrase": "But if I could change things, (yeah,) I'd say…",
+     "surface": "okay, but if I could change things, yeah, I think",
+     "register": "work_ok",
+     "meaning_ko": "그래도 하나 바꿀 수 있다면, 음… 이건 좀 그랬던 것 같아요",
+     "nuance_ko": "먼저 전체를 긍정한 다음, 아쉬운 점을 하나만 콕 집어 인정하는 구조. 'yeah,'로 한 번 뜸을 들이면 진짜 솔직하게 털어놓는 느낌이 나요. 회고(retro)나 프로젝트 리뷰에서 남 탓 없이 개선점을 말할 때 아주 유용.",
+     "work_example_en": "Overall I'm really proud of how the launch went, but if I could change things, I'd say we brought design in a little too late.",
+     "work_example_ko": "전체적으로는 런칭 결과가 정말 뿌듯해요. 그래도 하나 바꿀 수 있다면, 디자인 팀을 좀 늦게 합류시킨 것 같아요."
+    }
+   ]
+  },
+  {
+   "title": "열린 입장 밝히기: 원하긴 하지만 서두르진 않는다",
+   "start": 637.52,
+   "end": 653.84,
+   "speaker": "JENN",
+   "text": "Yeah, I am. I would like to get married again. I would. But I'm in no rush, too. Like, I— if I— I'd be down for, like, a wedding in my 40s or something. Like, that's the kind of vibe I'm going to go for. But we'll see. Either way, I think I'm going to go about it very differently.",
+   "ko": "네, 맞아요. 다시 결혼하고 싶어요. 진짜로요. 근데 딱히 서두를 생각은 없어요. 한 40대쯤에 결혼식 올리는 것도 저는 좋아요. 그런 느낌으로 가보려고요. 뭐, 두고 봐야죠. 어떻게 되든 이번엔 완전히 다르게 해볼 거예요.",
+   "tip": "'I'm in NO rush'는 no에 강세를 실어 여유 있게, 'I'd be down for'는 '아이비 다운퍼'로 한 덩어리로 읽으세요. 'But we'll see.' 뒤에 잠깐 쉬고, 'go about it'은 '고어바우릿'으로 연음합니다.",
+   "expressions": [
+    {
+     "phrase": "I'm in no rush (on/for X)",
+     "surface": "I'm in no rush",
+     "register": "work_ok",
+     "meaning_ko": "급할 거 없어요, 서두를 생각 없어요",
+     "nuance_ko": "'원하긴 하지만 압박은 없다'는 걸 부드럽게 전하는 말. 직장에서는 상대에게 마감 압박을 주지 않으려고 'No rush'만 따로 쓰기도 해요. 'I'm not in a hurry'보다 더 여유롭고 친절하게 들림.",
+     "work_example_en": "I'm in no rush on the slides, so feel free to prioritize the client deck and send them over whenever you get a chance.",
+     "work_example_ko": "슬라이드는 급할 거 없으니까 클라이언트 덱 먼저 하시고, 시간 날 때 보내주세요."
+    },
+    {
+     "phrase": "I'd be down for X / I'd be down to do X",
+     "surface": "I'd be down for",
+     "register": "casual",
+     "meaning_ko": "X라면 좋아요, 콜이에요",
+     "nuance_ko": "제안에 가볍게 찬성할 때 쓰는 구어. 'I'd'(would)를 붙이면 '그런 거라면 할 의향 있다' 정도로 한 발 물러선 느낌이 나요. 친한 동료와의 점심·회식 대화나 슬랙 잡담에는 좋지만, 상사나 공식 회의에서는 'I'd be open to'가 더 안전해요.",
+     "work_example_en": "If anyone's thinking of grabbing lunch after the all-hands, I'd be down for that new ramen place across the street.",
+     "work_example_ko": "전체 회의 끝나고 점심 먹으러 갈 사람 있으면, 저는 길 건너 새로 생긴 라멘집 콜이에요."
+    },
+    {
+     "phrase": "We'll see. Either way, I'm going to go about X differently.",
+     "surface": "But we'll see. Either way, I think I'm going to go about it very differently.",
+     "register": "work_ok",
+     "meaning_ko": "두고 봐야죠. 어떻게 되든 X는 이번엔 다르게 해 볼 거예요.",
+     "nuance_ko": "문장 통째로 외우기보다 두 칸짜리 틀로 쓰세요. ① 'We'll see.'로 내가 정할 수 없는 결과는 열어두고, ② 'Either way, …'로 '어느 쪽이 되든 이건 정해져 있다'를 붙여요. 뒤 칸에 자주 들어가는 게 'go about X'(X를 어떤 방식으로 해 나가다)인데, 'do X differently'보다 '진행 방식 자체를 바꾼다'는 느낌이 있어 회고·계획 회의에서 잘 어울려요. X 자리에 it/this/the hiring plan처럼 바꿔 넣으면 돼요.",
+     "work_example_en": "We'll see what leadership decides on the budget. Either way, I think we should go about the hiring plan differently this time.",
+     "work_example_ko": "예산은 경영진이 어떻게 정할지 두고 봐야죠. 어쨌든 이번엔 채용 계획을 좀 다르게 접근하는 게 맞는 것 같아요."
+    }
+   ]
+  }
+ ]
+}

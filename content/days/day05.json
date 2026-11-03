@@ -1,0 +1,183 @@
+{
+ "id": "18xuxaUTwH4",
+ "day": 5,
+ "title": "Day 05 · 의견 말하기",
+ "label": "KELSEY SIMONE · Lets talk about books! Book haul, My TBR, and favorites!",
+ "theme": "Kelsey Simone",
+ "theme_full": "의견 말하기: 취향을 '조건·예외·기대치'로 섬세하게 풀어 말하기",
+ "goal": "좋아하는 것과 별로인 것을 '좋다/싫다'로 끝내지 않고, 마지못한 허용 범위를 달고(I don't really love a X, but if it's Y, I guess), 딱 이 경우만은 안 맞는다고 선을 긋고(Just when X…), 남이 추천한 것에 대한 실망을 점수와 함께 부드럽게 털어놓고(I'm not going to lie / a three out of five for me), 사실은 인정하되 이유는 분리하고(I've definitely X, but not because Y), 나만 그런지 모를 습관을 쿠션 깔고 꺼내고(I don't know if this is something other people feel), 들은 단점을 먼저 꺼낸 뒤 내 기준으로 받아치는(The only bad thing I've heard about X is that…) 문장 틀로 취향 이야기를 섬세하게 하기",
+ "sets": [
+  {
+   "title": "내 취향의 '허용 범위'를 조건과 예외로 설명하기",
+   "start": 191.44,
+   "end": 210.9,
+   "speaker": "KELSEY",
+   "text": "My favorite book genre of all time is fantasy. I'm a fantasy girl, book— through and through. I don't really love a romance book, but if it's a romantasy, I guess. I don't like spicy reads, but if there's, like, romantic subplots within a fantasy book, I'm okay with that. Just when romance is, like, the entire plot, I— I just don't care. I get really bored.",
+   "ko": "제가 제일 좋아하는 장르는 뭐니 뭐니 해도 판타지예요. 뼛속까지 판타지파예요. 로맨스 소설은 딱히 안 좋아하는데, 로맨스 판타지라면 뭐, 그럭저럭요. 수위 높은 책도 별로인데, 판타지 안에 로맨스가 곁가지로 들어가는 정도면 괜찮아요. 근데 로맨스가 아예 이야기의 전부면, 음… 그냥 관심이 안 가요. 너무 지루하더라고요.",
+   "tip": "'through and THROUGH'는 and를 '언'으로 약하게 줄여 '쓰루언쓰루'로 붙이고, 마지막 THROUGH에 힘을 주세요. 'but if it's a romantasy, I guess.'의 'I guess'는 힘을 빼고 끝을 툭 떨어뜨려야 '뭐, 그 정도면…' 하는 마지못한 허락으로 들려요. 끝을 올리면 질문처럼 들리니 주의하세요.",
+   "expressions": [
+    {
+     "phrase": "X through and through",
+     "surface": "I'm a fantasy girl, book— through and through",
+     "register": "neutral",
+     "meaning_ko": "뼛속까지 X예요, 완전 X 체질이에요",
+     "nuance_ko": "정체성이나 취향이 '처음부터 끝까지, 속속들이' 그렇다는 말. 'I'm a big fan of X'보다 훨씬 확고하고 살짝 유머러스해요. 'a New Yorker through and through', 'an engineer through and through'처럼 사람의 성향을 말할 때도 자주 써요. 회사에서 동료를 칭찬하거나 내 성향을 가볍게 소개할 때 좋아요.",
+     "work_example_en": "Ask Priya to review the contract, because she's a details person through and through and she'll catch anything we missed.",
+     "work_example_ko": "계약서 검토는 프리야한테 부탁해요. 뼛속까지 꼼꼼한 사람이라 우리가 놓친 거 다 잡아낼 거예요."
+    },
+    {
+     "phrase": "I don't really love a X, but if it's Y, I guess (that's fine)",
+     "surface": "I don't really love a romance book, but if it's a romantasy, I guess.",
+     "register": "work_ok",
+     "meaning_ko": "X는 딱히 안 좋아하는데, Y라면 뭐… 괜찮아요",
+     "nuance_ko": "싫은 걸 먼저 말하고 '이 조건이면 받아들일 수 있다'는 허용 범위를 붙이는 구조예요. 포인트는 두 가지. ① 'I don't like'가 아니라 'I don't really love'라서 거부감이 한결 약하고, 'a romance book'처럼 a를 붙이면 '그런 종류' 전반을 가리키는 원어민식 말투가 돼요('I love a good spreadsheet'와 같은 a). ② 끝의 'I guess'는 '생각한다'가 아니라 '뭐, 그 정도면'이라는 마지못한 동의예요. 'Okay'나 'That's fine'으로 끝내면 흔쾌히 찬성하는 걸로 들리지만, 'I guess'를 붙이면 '좋아서가 아니라 양보하는 거예요'라는 속뜻이 전달돼요. 회의에서 써도 되지만, 상사가 열정적으로 밀고 있는 안건에 'I guess'만 툭 던지면 시큰둥해 보일 수 있으니 'I guess that works'처럼 문장으로 마무리하세요.",
+     "work_example_en": "I don't really love a Friday afternoon release, but if it's just a minor bug fix, I guess that's fine.",
+     "work_example_ko": "금요일 오후 배포는 딱히 안 좋아하는데, 자잘한 버그 수정 정도라면 뭐… 괜찮을 것 같아요."
+    },
+    {
+     "phrase": "(It's) just when X that I lose interest / I just don't care",
+     "surface": "Just when romance is, like, the entire plot, I— I just don't care.",
+     "register": "neutral",
+     "meaning_ko": "그냥 X일 때만큼은 관심이 안 가요",
+     "nuance_ko": "앞에서 허용 범위를 말한 다음 '딱 이 경우만은 안 맞는다'고 선을 긋는 예외 꼬리. 'Just when…'으로 시작해서 '전부 싫은 건 아니고 이것만'이라는 느낌을 줘요. 다만 'I just don't care'는 꽤 직설적이라, 직장에서는 'that's where it loses me'나 'that's when I lose interest'로 바꾸면 훨씬 안전해요.",
+     "work_example_en": "I'm fine with long meetings in general. It's just when there's no agenda that I start to lose interest and check my email.",
+     "work_example_ko": "긴 회의 자체는 괜찮아요. 그냥 안건이 없을 때만큼은 집중이 떨어져서 메일을 보게 되더라고요."
+    }
+   ]
+  },
+  {
+   "title": "추천받은 것에 대한 실망을 부드럽게 털어놓고 이유 대기",
+   "start": 390.12,
+   "end": 412.6,
+   "speaker": "KELSEY",
+   "text": "The first one was, like, a three out of five stars for me. I'm not going to lie, I was a little disappointed. It was just, like, too simplistic for me. Like, I like a lot of stuff going on in a fantasy book. I have high expectations, I think. But I love just, like, crazy stuff going on all the time, and it was just, like, very minimalistic, I think, when it came to, like, drama and craziness. Um, but she said the second one ties it together and makes it way better.",
+   "ko": "1권은 저한테 별 다섯 개 중에 세 개 정도였어요. 솔직히 좀 실망했어요. 저한텐 너무 단순했거든요. 저는 판타지 책이면 이것저것 많이 벌어지는 게 좋아요. 제가 눈이 좀 높은가 봐요. 근데 진짜 정신없이 계속 뭔가 터지는 걸 좋아하는데, 이건 갈등이나 사건 면에서 너무 밋밋했던 것 같아요. 음, 그래도 2권에서 이야기가 다 맞물리면서 훨씬 재밌어진대요.",
+   "tip": "'I'm not going to lie'는 실제로는 'I'm not gonna lie'로 줄어서 '암낫거너 라이'처럼 들려요. not의 t는 거의 삼키고 LIE에만 힘을 준 뒤 살짝 쉬세요. 'three out of five'는 out of의 t가 굴러서 '쓰리 아우러브 파이브'처럼 한 덩어리로 이어 읽어요.",
+   "expressions": [
+    {
+     "phrase": "I'm not going to lie, X",
+     "surface": "I'm not going to lie, I was a little disappointed.",
+     "register": "neutral",
+     "meaning_ko": "솔직히 말하면 / 거짓말 안 하고 X였어요",
+     "nuance_ko": "'Honestly'와 뜻은 비슷하지만 하는 일이 달라요. 'Honestly'는 그냥 '솔직히'라는 강조인데, 'I'm not gonna lie'는 '분위기상 아니라고 하고 싶지만 인정할게요'라는 고백 신호예요. 그래서 Kelsey처럼 남이 추천해 준 걸 별로라고 할 때나, 반대로 'I'm not gonna lie, that demo was impressive'처럼 기대 안 했던 걸 칭찬할 때도 써요. 뒤를 'a little disappointed'처럼 약하게 말하면 부정적인 의견도 덜 날카로워져요. 실제 발음은 거의 항상 'not gonna lie'이고, 슬랙에선 'ngl'로도 써요. 동료끼리는 편하게 쓰지만, 경영진 보고나 이메일에서는 'To be honest'나 'I have to admit'가 무난해요.",
+     "work_example_en": "I'm not going to lie, I was a little nervous about presenting to the leadership team, but the Q&A actually went pretty smoothly.",
+     "work_example_ko": "솔직히 경영진 앞에서 발표하는 게 좀 떨렸는데, 질의응답은 의외로 꽤 순조롭게 넘어갔어요."
+    },
+    {
+     "phrase": "X was a (solid) three out of five / seven out of ten for me",
+     "surface": "The first one was, like, a three out of five stars for me.",
+     "register": "neutral",
+     "meaning_ko": "X는 저한텐 5점 만점에 3점 정도였어요",
+     "nuance_ko": "'It was okay'나 'so-so'처럼 뭉뚱그리지 않고 점수로 내 감상을 딱 잘라 말하는 원어민식 스몰토크예요. 'for me'가 붙어서 '객관적 평가가 아니라 제 취향 기준'이라는 쿠션이 생겨요. 말할 땐 stars를 자주 빼고 'a three out of five', 'a solid seven(꽤 괜찮은 7점)'처럼 써요. 극찬할 땐 'ten out of ten'만 따로 던지기도 해요. 행사·식당·툴·책 같은 대상엔 편하게 쓰지만, 동료의 작업물이나 사람에게 점수를 매기면 채점하는 것처럼 들리니 피하세요.",
+     "work_example_en": "The new onboarding training was a three out of five for me, because half of it was stuff we already knew.",
+     "work_example_ko": "새 온보딩 교육은 저한텐 5점 만점에 3점 정도였어요. 반은 이미 아는 내용이었거든요."
+    },
+    {
+     "phrase": "tie it (all) together",
+     "surface": "the second one ties it together",
+     "register": "work_ok",
+     "meaning_ko": "(흩어진 것들을) 하나로 엮다, 다 맞물리게 정리하다",
+     "nuance_ko": "따로 놀던 요소나 복선이 마지막에 하나로 연결되면서 의미가 생길 때 써요. 책·영화뿐 아니라 발표 마무리, 여러 데이터를 하나의 결론으로 엮을 때도 자주 들려요. 'wrap it up'은 '끝내다', 'tie it together'는 '연결해서 완성하다'라는 차이가 있어요.",
+     "work_example_en": "The first few slides feel a bit scattered, so maybe add a summary at the end that ties it all together for the client.",
+     "work_example_ko": "앞쪽 슬라이드가 좀 흩어진 느낌이라, 마지막에 고객용으로 전체를 하나로 엮어 주는 요약을 넣으면 좋을 것 같아요."
+    }
+   ]
+  },
+  {
+   "title": "말하다가 스스로 정정하며 취향을 정확하게 다듬기",
+   "start": 612.8,
+   "end": 629.5,
+   "speaker": "KELSEY",
+   "text": "So I don't like movies and TV shows that are intentionally sad and, like, will make me cry. I don't like to cry. Um, but I have not read, like, a sad book, like a book that's made me cry. Well, no, I've definitely cried reading a book, but not because, like, the book was intentionally, like, a sad book, you know? Do you know what I mean? Like, the genre is just sad.",
+   "ko": "저는 일부러 슬프게 만든, 보면 눈물 나는 영화나 드라마를 안 좋아해요. 우는 걸 싫어하거든요. 근데 슬픈 책, 그러니까 저를 울린 책은 아직 안 읽어 봤어요. 아, 아니다. 책 읽다가 운 적은 분명히 있는데, 그 책이 처음부터 슬프라고 쓴 책이라서 운 건 아니었어요. 무슨 말인지 알죠? 장르 자체가 그냥 슬픈 거요.",
+   "tip": "'Well, NO,'에서 한 박자 멈추고 목소리를 살짝 올려 '아, 정정할게요'라는 느낌을 주세요. 'I've DEFinitely cried'는 DEF에 강세, 'but NOT because'는 NOT을 꾹 눌러 대조를 살립니다. 'inTENtionally'는 TEN에 강세.",
+   "expressions": [
+    {
+     "phrase": "(Well, no—) I've definitely X, but not because Y",
+     "surface": "Well, no, I've definitely cried reading a book, but not because, like, the book was intentionally, like, a sad book",
+     "register": "work_ok",
+     "meaning_ko": "(아, 아니다.) X한 적은 분명 있는데, Y 때문은 아니었어요",
+     "nuance_ko": "핵심은 뒷부분이에요. 'I've definitely X'로 사실은 깔끔하게 인정하고, 'but not because Y'로 상대가 떠올릴 법한 이유만 딱 잘라 내요. '그런 일은 있었지만 원인은 그게 아니다'라고 사실과 이유를 분리하는 틀이라, 단순히 말을 바꾸는 정정('well, actually')보다 훨씬 정확하고 방어적이지 않게 들려요. 앞의 'Well, no'는 방금 한 말을 스스로 뒤집는 신호인데, 원어민은 이렇게 말하면서 고쳐 말하는 걸 자연스럽게 여겨서 오히려 신중한 사람처럼 들려요. 회고 회의에서 '일정이 밀린 적은 있지만 우리 쪽 문제는 아니었다'처럼 원인을 바로잡을 때 딱 좋아요.",
+     "work_example_en": "We've never missed a deadline with this client. Well, no, we definitely slipped once last spring, but not because of anything on our end.",
+     "work_example_ko": "이 고객사 마감은 한 번도 안 놓쳤어요. 아, 아니다. 작년 봄에 한 번 밀리긴 했는데, 저희 쪽 문제 때문은 아니었어요."
+    },
+    {
+     "phrase": "intentionally + 형용사 (intentionally sad / vague / simple)",
+     "surface": "movies and TV shows that are intentionally sad",
+     "register": "work_ok",
+     "meaning_ko": "일부러 ~하게 만든, 의도적으로 ~한",
+     "nuance_ko": "결과가 우연이 아니라 처음부터 그렇게 설계됐다는 걸 짚어 주는 조합. 'on purpose'는 행동에, 'intentionally + 형용사'는 결과물의 성격에 붙이기 좋아요. 직장에서는 'intentionally vague(일부러 애매하게)', 'intentionally simple(의도적으로 단순하게)'이 정말 자주 나와요.",
+     "work_example_en": "The first version of the dashboard is intentionally simple, because we want to see which metrics people actually use before adding more.",
+     "work_example_ko": "대시보드 첫 버전은 일부러 단순하게 만들었어요. 더 넣기 전에 사람들이 실제로 어떤 지표를 쓰는지 먼저 보려고요."
+    }
+   ]
+  },
+  {
+   "title": "나만 그런지 모를 습관을 쿠션 깔고 꺼내며 공감 구하기",
+   "start": 933.2,
+   "end": 952.26,
+   "speaker": "KELSEY",
+   "text": "Now, I have this really weird fear of, like, reading all my books. I don't know if this is something other people feel. Like, I have so many books in my apartment. Like, I— I love books. Like, I have so many books that I own, and so many that I haven't read, but I'm okay with that. I don't want to read every book I own.",
+   "ko": "그리고 저는 좀 이상한 두려움이 하나 있는데요, 제 책을 전부 다 읽어 버리는 게 무서워요. 다른 사람들도 이런지는 모르겠어요. 저희 집에 책이 진짜 많거든요. 저 책 정말 좋아해요. 갖고 있는 책도 엄청 많고 안 읽은 책도 엄청 많은데, 저는 그게 괜찮아요. 갖고 있는 책을 다 읽고 싶진 않거든요.",
+   "tip": "'I have this REALLY WEIRD FEAR'는 this를 '디스'로 가볍게 흘리고 WEIRD와 FEAR에 힘을 줘서 '좀 이상한 거 고백할게요' 하는 느낌을 내세요. 'I don't know if this is something OTHER PEOPLE feel'은 앞부분을 '아론노이프디스이즈'처럼 빠르게 굴리고 OTHER PEOPLE에 강세를 준 뒤, 끝을 뚝 떨어뜨리지 말고 살짝 열어 두면 '여러분도 그래요?' 하고 묻는 느낌이 살아요.",
+   "expressions": [
+    {
+     "phrase": "I don't know if this is something other people feel / do / have noticed, but…",
+     "surface": "I don't know if this is something other people feel",
+     "register": "work_ok",
+     "meaning_ko": "다른 사람들도 이런지는 모르겠는데요…",
+     "nuance_ko": "내 개인적인 경험이나 조금 특이한 습관·고민을 꺼내기 전에 까는 쿠션이에요. '나만 이상한 걸 수도 있다'고 먼저 인정하니까 겸손하게 들리고, 동시에 '혹시 여러분도 그래요?' 하고 공감을 은근히 청하는 효과가 있어요. 'Is it just me, or…'는 장난스럽고 살짝 단정하는 느낌인데, 이 틀은 훨씬 조심스러워요. 동사만 바꿔서(have noticed, struggle with, deal with) 회고나 1:1에서 문제를 처음 꺼낼 때 쓰면, 혼자 불만을 터뜨리는 사람이 아니라 관찰을 공유하는 사람처럼 들려요.",
+     "work_example_en": "I don't know if this is something other people have noticed, but our stand-ups have been running almost twice as long since the reorg.",
+     "work_example_ko": "다른 분들도 느끼셨는지 모르겠는데, 조직 개편 이후로 스탠드업이 거의 두 배로 길어졌어요."
+    },
+    {
+     "phrase": "I have this (weird) fear of X-ing / I have this (weird) thing where…",
+     "surface": "I have this really weird fear of, like, reading all my books",
+     "register": "neutral",
+     "meaning_ko": "저 좀 이상한 게 하나 있는데요, ~하는 게 무서워요 / ~하는 버릇이 있어요",
+     "nuance_ko": "포인트는 'a'가 아니라 'this'예요. 상대가 처음 듣는 이야기를 꺼낼 때 'this'를 쓰면 '지금부터 얘기 하나 할게요'라는 구어식 이야기 시작 신호가 돼요('There was this guy at the conference who…'와 같은 this). 'weird'를 붙여 스스로 먼저 '좀 이상하죠'라고 인정하면 듣는 쪽도 편하게 웃으며 받아 줘요. 'fear'는 꽤 센 단어라 가벼운 버릇이면 'I have this thing where…'가 더 자연스러워요. 점심이나 슬랙 잡담처럼 나를 살짝 드러내는 스몰토크에 잘 맞아요.",
+     "work_example_en": "I have this weird fear of hitting send too fast, so I always schedule important emails to go out ten minutes later.",
+     "work_example_ko": "저는 메일을 너무 빨리 보내 버릴까 봐 이상하게 겁이 나서, 중요한 메일은 항상 10분 뒤에 나가게 예약해 둬요."
+    }
+   ]
+  },
+  {
+   "title": "들은 단점을 먼저 꺼내고, 내 기준으로 '그 정도는 괜찮다'고 받아치기",
+   "start": 1080.16,
+   "end": 1104.55,
+   "speaker": "KELSEY",
+   "text": "The only bad thing I've really heard about this book is that the main character, Addie LaRue, can be insufferable. But, like, so can I. Like, I don't really mind an insufferable girl, because, like, sometimes I can sort of just be like, \"Okay, girl, I get it,\" you know? Um, like, I feel for them a little bit. Like, I would never— I would never put it against a girl for being a little insufferable. So if she is insufferable, I can get over it.",
+   "ko": "이 책에 대해 들은 단점은 딱 하나, 주인공 애디 라뤼가 좀 밉상일 수 있다는 거예요. 근데 뭐, 저도 그렇거든요. 저는 밉상인 캐릭터가 별로 거슬리지 않아요. 가끔은 그냥 '그래, 무슨 마음인지 알아' 하게 되거든요. 좀 짠하기도 하고요. 조금 밉상이라고 그걸로 캐릭터를 미워할 생각은 절대 없어요. 그러니까 진짜 밉상이어도 저는 넘어갈 수 있어요.",
+   "tip": "'insufferable'은 in-SUF-fer-a-ble로 SUF에만 강세를 주고 나머지는 빠르게 흘리세요. 'I FEEL for them'은 FEEL에만 힘을 주고 for them은 '퍼뎀'으로 약하게 붙여 '아이 피일퍼뎀'처럼 한 덩어리로 읽고, 'I can get over it'은 t가 굴러서 '게로버릿'으로 이어집니다.",
+   "expressions": [
+    {
+     "phrase": "The only bad thing I've (really) heard about X is that Y",
+     "surface": "The only bad thing I've really heard about this book is that",
+     "register": "work_ok",
+     "meaning_ko": "X에 대해 들은 안 좋은 얘기는 딱 하나, Y라는 거예요",
+     "nuance_ko": "평판이 좋은 것의 단점을 '하나뿐'이라고 범위를 좁혀서 꺼내는 구조. 단점을 인정하면서도 전체 평가는 긍정적이라는 게 자연스럽게 전달돼요. 뒤에 '근데 저는 상관없어요'를 붙이면 Kelsey처럼 반박까지 깔끔하게 이어져요. 툴·업체·후보자 이야기할 때 아주 유용해요.",
+     "work_example_en": "The only bad thing I've really heard about that vendor is that their support team can be slow, but their product is solid.",
+     "work_example_ko": "그 업체에 대해 들은 안 좋은 얘기는 서포트팀 응답이 좀 느리다는 것 하나예요. 제품 자체는 탄탄하고요."
+    },
+    {
+     "phrase": "feel for someone",
+     "surface": "I feel for them a little bit",
+     "register": "work_ok",
+     "meaning_ko": "(그 사람 처지가) 안쓰러워요, 마음이 쓰여요",
+     "nuance_ko": "상대 입장이 돼 보고 마음이 짠하다는 공감 표현이에요. 'I understand them'은 머리로 이해한다는 말이라 거리감이 있고, 'I feel sorry for them'은 위에서 내려다보는 동정처럼 들릴 때가 있는데, 'I feel for them'은 같은 눈높이에서 같이 아파하는 느낌이라 훨씬 따뜻해요. 'I feel like'(~인 것 같다)와 헷갈리지 마세요. 동료가 힘든 일을 겪을 때 'I really feel for you'라고 하면 회사에서도 아주 자연스럽고, 'I feel you'는 '내 말이' 정도의 반말 슬랭이라 친한 사이에만 써요.",
+     "work_example_en": "I really feel for the support team this week, because they've been handling all the angry tickets from the outage.",
+     "work_example_ko": "이번 주 서포트팀 진짜 안쓰러워요. 장애 때문에 들어온 화난 문의를 다 받아내고 있거든요."
+    },
+    {
+     "phrase": "hold it against someone (for X)",
+     "surface": "I would never put it against a girl for being a little insufferable",
+     "register": "work_ok",
+     "meaning_ko": "(X했다고) 그걸로 누구를 탓하다, 마음에 두다",
+     "nuance_ko": "정석 관용구는 'hold it against someone'이에요. Kelsey는 'put it against'라고 말했는데, 원어민 귀에는 말하다 섞인 실수로 들리는 형태예요. 섀도잉할 땐 소리를 그대로 따라 하되, 직접 쓸 땐 꼭 hold로 하세요. 'blame someone'은 잘못을 따져 묻는 말이라 세지만, 'hold it against'는 '그걸로 그 사람을 나쁘게 보다, 마음에 담아 두다'라서 훨씬 부드러워요. 'I wouldn't hold it against you'는 '그걸로 너 탓 안 해, 신경 쓰지 마'라는 뜻이라, 동료가 실수나 거절을 미안해할 때 정말 자주 쓰는 배려 표현이에요.",
+     "work_example_en": "If you can't make the offsite because of the school pickup, nobody's going to hold it against you, so don't stress about it.",
+     "work_example_ko": "아이 하원 때문에 워크숍에 못 와도 아무도 뭐라 안 할 거예요. 너무 신경 쓰지 마세요."
+    }
+   ]
+  }
+ ]
+}

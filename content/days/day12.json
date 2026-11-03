@@ -1,0 +1,201 @@
+{
+ "id": "o4rW6QJ88Go",
+ "day": 12,
+ "title": "Day 12 · 일정 브리핑",
+ "label": "ALYSSA LENORE · NYC DIARIES: EVENTS, HEAD SPA, & PICKING UP SOMETHING FROM F",
+ "theme": "Alyssa Lenore",
+ "theme_full": "일정 브리핑: 바뀐 일정, 다음 할 일, 결정 이유를 동료에게 풀어 말하기",
+ "goal": "합의된 일정이 틀어진 이유와 새 날짜를 한 문장으로 공유하고(We were supposed to…, but…, so we moved it to…), 요청의 목적을 부담 없이 낮춰 말하고(just so we can get an idea of…), 다음 단계 착수를 알리고(get the ball rolling on), 결정을 근거와 함께 정당화하고(a solid investment, considering…), 내 판단을 공통 인식으로 깔고 들어가고(which I think we can all agree is…), 범위가 안 정해진 일은 기대치를 열어 두는(see where it takes us) 말투로 바쁜 한 주의 일정과 결정을 동료에게 브리핑하기",
+ "sets": [
+  {
+   "title": "계속 찾게 되는 이유 말하고, 계획은 열어 두기",
+   "start": 16.96,
+   "end": 35.6,
+   "speaker": "ALYSSA",
+   "text": "I'm in the middle of SoHo right now. I just got a haircut yesterday because I needed to chop some weight off of my hair. I see Tommy at Masa Kanai. It's a Japanese salon. My hair grows out so nicely every time I go, which is why I keep going back. We're in here for a couple of things for this vlog. Actually, I'm lying. I don't know what's in for this vlog, but we'll see where it takes us.",
+   "ko": "저 지금 소호 한복판이에요. 어제 머리를 잘랐는데, 숱을 좀 쳐내야 했거든요. 저는 마사 카나이라는 일본 미용실에서 토미한테 머리를 해요. 거기만 다녀오면 머리가 진짜 예쁘게 자라거든요. 그래서 자꾸 다시 가게 돼요. 오늘은 브이로그 찍을 게 몇 가지 있어서 나왔는데… 아, 아니다, 거짓말이에요. 이번 브이로그에 뭐가 담길지 저도 몰라요. 일단 흘러가는 대로 가 보죠.",
+   "tip": "'CHOP some WEIGHT off of my hair'는 '찹썸 웨잇 오프옵마이'처럼 off of를 한 덩어리로 붙여 읽으세요. 'which is WHY I keep going BACK'은 why와 back에 힘을 주고 앞 쉼표에서 살짝 쉬고, 'we'll see where it takes us'는 '윌씨 웨어릿 테익서스'처럼 이어 읽으며 끝을 가볍게 내립니다.",
+   "expressions": [
+    {
+     "phrase": "X, which is why I keep + V-ing",
+     "surface": "every time I go, which is why I keep going back",
+     "register": "work_ok",
+     "meaning_ko": "X라서, 그래서 제가 계속 ~하게 되는 거예요",
+     "nuance_ko": "앞에서 경험·결과를 말하고 'which is why'로 '그게 바로 이유'라고 이어 붙이는 구조. 'so'로 새 문장을 시작하는 것보다 한 호흡에 이유와 습관을 묶어서 훨씬 유창하게 들려요. 특정 툴·업체·프로세스를 왜 계속 쓰는지 설명할 때 딱 좋아요.",
+     "work_example_en": "Their support team usually gets back to us within an hour, which is why I keep recommending them whenever another team asks for a vendor.",
+     "work_example_ko": "거기 지원팀은 보통 한 시간 안에 답을 주거든요. 그래서 다른 팀에서 업체 물어볼 때마다 제가 계속 거기를 추천하는 거예요."
+    },
+    {
+     "phrase": "chop X off (of) Y",
+     "surface": "chop some weight off of my hair",
+     "register": "neutral",
+     "meaning_ko": "Y에서 X만큼 (과감하게) 잘라내다, 덜어내다",
+     "nuance_ko": "chop은 칼로 '툭툭 잘라낸다'는 그림이라 'cut'보다 과감하고 시원하게 들려요. 머리카락뿐 아니라 일정·분량·비용에도 그대로 써서 'chop a week off the timeline', 'chop ten minutes off the agenda', 'chop a few slides off the deck'처럼 말해요. 비슷한 'shave X off'는 '조금씩 깎아낸다'는 느낌이라 줄이는 양이 작을 때 더 잘 맞아요. 'off of'는 미국 구어에서 흔한 말투고, 글로 쓸 때는 'off'만 쓰는 게 깔끔해요.",
+     "work_example_en": "If we merge the two review rounds into one, we can probably chop a full week off the launch timeline.",
+     "work_example_ko": "리뷰 두 번을 한 번으로 합치면, 런칭 일정에서 한 주는 통째로 덜어낼 수 있을 것 같아요."
+    },
+    {
+     "phrase": "(Let's / We'll) see where X takes us",
+     "surface": "but we'll see where it takes us",
+     "register": "work_ok",
+     "meaning_ko": "어떻게 흘러가는지 한번 봐요 / 일단 해보고 지켜보죠",
+     "nuance_ko": "핵심은 'where X takes us'예요. 정해진 계획 없이 시작하지만 결과에 열려 있다는 태도라서, 'I don't know what will happen'처럼 막막하게 들리지 않고 여유 있고 긍정적으로 들려요. Day 2의 'We'll see. Either way…'는 결과는 보류하고 '방향은 정해져 있다'를 붙이는 틀이고, 이건 '일단 굴려 보고 결과를 따라가 보자'는 쪽이라 쓰임이 달라요. 탐색 단계 프로젝트나 파일럿, 첫 미팅 앞에서 기대치를 낮출 때 회사에서 그대로 써도 돼요. 다만 마감과 결과물이 정해진 일에 쓰면 '계획이 없다'로 들릴 수 있으니 조심하세요. it 자리에 'this conversation', 'the pilot'처럼 구체적인 걸 넣어도 돼요.",
+     "work_example_en": "We don't have a clear scope for the pilot yet, but let's run it with two teams first and see where it takes us.",
+     "work_example_ko": "파일럿 범위가 아직 딱 정해진 건 아니지만, 일단 두 팀이랑 먼저 돌려보고 어떻게 흘러가는지 봐요."
+    }
+   ]
+  },
+  {
+   "title": "미뤄진 일정과 다시 잡은 날짜를 한 번에 설명하기",
+   "start": 110.6,
+   "end": 128.9,
+   "speaker": "ALYSSA",
+   "text": "Marco and I are at Lumira Spa, which is a place that I've been wanting to check out for so long. We were actually supposed to do this last weekend for our anniversary, but got rained out, so we moved it to today. I'm so excited. I'm doing their Hokkaido head spa treatment. Marco is going with the massage, again, as usual, but it is so beautiful.",
+   "ko": "마르코랑 루미라 스파에 왔어요. 진짜 오래전부터 와 보고 싶었던 곳이에요. 원래는 지난 주말 기념일에 오려고 했는데 비 때문에 못 와서 오늘로 옮겼어요. 너무 설레요. 저는 여기 홋카이도 헤드 스파를 받을 거고, 마르코는 늘 그렇듯 이번에도 마사지래요. 근데 여기 공간이 진짜 예뻐요.",
+   "tip": "'I've been WANTing to check OUT'은 '아이브빈 워닝 투 체카웃'처럼 nt의 t를 거의 빼고 굴려 읽으세요. 'supPOSED to'는 '서포즈투'로 d를 삼키고, 'got RAINED out, so we MOVED it to toDAY'는 rained와 moved에 박자를 실어 일정이 바뀐 흐름을 또렷하게 들려줍니다.",
+   "expressions": [
+    {
+     "phrase": "X is something I've been wanting to + V for so long",
+     "surface": "a place that I've been wanting to check out for so long",
+     "register": "work_ok",
+     "meaning_ko": "X는 제가 진짜 오래전부터 ~해보고 싶었던 거예요",
+     "nuance_ko": "현재완료진행(have been wanting)이라 '예전부터 지금까지 쭉 마음에 두고 있었다'는 느낌이 살아요. Day 6의 'I've been meaning to X'와 구조는 닮았지만 속뜻이 달라요. 'meaning to'는 '해야지 하면서 미뤄 온 일'이라 늦은 답장 사과처럼 살짝 미안함이 깔리고, 'wanting to … for so long'은 '진짜 하고 싶었던 일'이라 드디어 기회가 왔을 때의 반가움과 기대가 실려요. 그래서 새 툴·교육·협업 제안이 들어왔을 때 반갑게 받는 말로는 이쪽이 맞고, 내가 처리 못 한 일을 꺼낼 때는 'meaning to'가 맞아요. for so long 대신 for a while을 쓰면 조금 더 담백해져요.",
+     "work_example_en": "Honestly, a cross-team design review is something I've been wanting to set up for so long, so I'm glad leadership finally asked for it.",
+     "work_example_ko": "팀 간 디자인 리뷰는 사실 제가 진짜 오래전부터 만들고 싶었던 거라, 드디어 위에서 요청해 줘서 반가워요."
+    },
+    {
+     "phrase": "We were (actually) supposed to X, but …, so we moved it to Y",
+     "surface": "We were actually supposed to do this last weekend for our anniversary, but got rained out, so we moved it to today",
+     "register": "work_ok",
+     "meaning_ko": "원래는 X하기로 했는데, …해서 Y로 옮겼어요",
+     "nuance_ko": "'원래 계획 → 틀어진 이유 → 새 일정'을 한 문장에 담는 구조라, 일정 변경을 공유할 때 거의 그대로 쓸 수 있어요. 'be supposed to'는 '하기로 되어 있었다(근데 안 됐다)'는 뉘앙스가 이미 들어 있어서 but이 자연스럽게 따라와요. 'move X to + 날짜'는 'reschedule'보다 구어적이고 가벼워요. 미루면 'push it to', 앞당기면 'move it up to'. Day 10의 'I was originally going to X, but then I realized Y'와 다른 점: 그건 '내 계획을 내가 다시 생각해서 바꿨다'(내부 판단, realize)는 이야기고, 이건 '이미 잡혀 있던 약속이 외부 사정으로 틀어져서 날짜를 옮겼다'(be supposed to + 원인 + 새 일정)는 공지예요. 그래서 이건 상대도 알고 있던 일정의 변경을 알릴 때 쓰고, Day 10 틀은 내 결정 과정을 설명할 때 써요.",
+     "work_example_en": "We were actually supposed to demo this on Tuesday, but the client had a conflict, so we moved it to Thursday afternoon.",
+     "work_example_ko": "원래는 화요일에 이거 데모하기로 했는데, 클라이언트 쪽 일정이 겹쳐서 목요일 오후로 옮겼어요."
+    },
+    {
+     "phrase": "get rained out",
+     "surface": "got rained out",
+     "register": "neutral",
+     "meaning_ko": "비 때문에 (행사·계획이) 취소되다, 무산되다",
+     "nuance_ko": "야외 경기·행사가 비로 취소될 때 쓰는 말이에요. 주어는 행사('The picnic got rained out')도 되고, 영상처럼 사람('We got rained out')도 돼요. 'canceled because of the rain'을 짧고 자연스럽게 줄인 표현이라 원어민이 정말 자주 써요. 회사에선 야외 팀 행사, 워크숍, 회사 피크닉 얘기할 때 딱이에요.",
+     "work_example_en": "Our team offsite at the park got rained out last Friday, so we're trying to find another date before the end of the month.",
+     "work_example_ko": "지난 금요일 공원에서 하려던 팀 오프사이트가 비 때문에 취소돼서, 이번 달 안에 다른 날짜를 잡아보려고 해요."
+    }
+   ]
+  },
+  {
+   "title": "오늘 일정과 다음 단계를 브리핑하듯 말하기",
+   "start": 219.72,
+   "end": 239.1,
+   "speaker": "ALYSSA",
+   "text": "We are now in Flatiron. I'm taking Marco to Waterworks and Rejuvenation, just so we can get an idea of how much these materials are going to cost. Got a quote back from our contractor. I also hopped off a meeting with a stone company. So, let's get the ball rolling on these renovations.",
+   "ko": "지금은 플랫아이언에 와 있어요. 마르코 데리고 워터웍스랑 리주버네이션 가는 길이에요. 이런 자재들이 대충 얼마나 할지 감이라도 잡아 보려고요. 시공업체한테 견적도 받았고, 석재 회사랑 미팅도 방금 끝내고 나왔어요. 자, 이제 리모델링 슬슬 시작해 봐야죠.",
+   "tip": "'just so we can get an iDEA of'는 '저슷소위컨 게런아이디어브'처럼 한 덩어리로 굴려 읽고 idea에만 힘을 주세요. 'Got a QUOTE back'과 'HOPPED off a meeting'은 주어 없이 짧게 끊는 메모 톤으로, 마지막 'let's get the BALL ROLLing'은 살짝 올려서 의욕 있게 마무리합니다.",
+   "expressions": [
+    {
+     "phrase": "(just) so we can get an idea of X",
+     "surface": "just so we can get an idea of how much these materials are going to cost",
+     "register": "work_ok",
+     "meaning_ko": "X가 대충 어느 정도인지 감이라도 잡으려고요",
+     "nuance_ko": "'just so we can'은 '거창한 목적이 아니라 딱 이 정도를 위해서'라는 겸손한 목적 표현이고, 'get an idea of'는 정확한 답이 아니라 대략적인 감을 잡는다는 뜻이에요. 둘을 합치면 요청이 부담스럽지 않게 들려서, 견적·일정·작업량을 물어볼 때 아주 유용해요. 'how much / how long / what ~ looks like'가 뒤에 자주 붙어요.",
+     "work_example_en": "Could you send over a rough estimate by Friday, just so we can get an idea of how long the migration is going to take?",
+     "work_example_ko": "금요일까지 대략적인 견적만 보내주실 수 있을까요? 이전 작업이 얼마나 걸릴지 감이라도 잡아 보려고요."
+    },
+    {
+     "phrase": "hop off (a call / a meeting)",
+     "surface": "I also hopped off a meeting with a stone company",
+     "register": "neutral",
+     "meaning_ko": "(통화·미팅을) 막 끝내고 나오다",
+     "nuance_ko": "hop은 '깡충 뛰다'라서 hop on은 '잠깐 들어가다', hop off는 '빠져나오다'라는 가벼운 느낌이에요. 'I just finished a meeting'보다 훨씬 구어적이고 바쁜 하루의 리듬이 느껴져서, 화상회의 문화에서 동료끼리 정말 자주 써요. 'Let me hop on a quick call', 'I have to hop off in five'처럼 짝으로 익혀 두세요.",
+     "work_example_en": "Sorry for the late reply, I just hopped off a call with the client and they want to push the review to next week.",
+     "work_example_ko": "답장 늦어서 미안해요. 방금 클라이언트랑 통화 끝내고 나왔는데, 리뷰를 다음 주로 미루고 싶대요."
+    },
+    {
+     "phrase": "get the ball rolling (on X)",
+     "surface": "let's get the ball rolling on these renovations",
+     "register": "work_ok",
+     "meaning_ko": "(X를) 슬슬 시작하다, 첫 단추를 끼우다",
+     "nuance_ko": "멈춰 있던 공을 굴리기 시작한다는 그림이라, 준비만 하던 일을 '이제 실제로 움직이자'고 할 때 써요. 'Let's start'보다 추진력과 의욕이 느껴지고, 회의 시작이나 킥오프 메일에서 아주 자연스러워요. 이미 진행 중인 일엔 'keep the ball rolling'.",
+     "work_example_en": "Now that the budget's been approved, let's get the ball rolling on hiring so we have someone in place by January.",
+     "work_example_ko": "예산 승인도 났으니까 채용 슬슬 시작해요. 그래야 1월까지 사람을 앉힐 수 있어요."
+    }
+   ]
+  },
+  {
+   "title": "결정의 근거를 들어 '괜찮은 선택'이었다고 설명하기",
+   "start": 288.04,
+   "end": 310.6,
+   "speaker": "ALYSSA",
+   "text": "She's actually going back to Fashionphile now because Danny texted me about this one. Chocolat with palladium hardware, and it's so much more me. It was a pretty solid investment considering what I got that bag for, and I'm basically doing, like, an even switch. So, this is going to be my new brown So Kelly.",
+   "ko": "얘는 사실 이제 다시 패션파일로 돌아가요. 대니가 이 가방 들어왔다고 문자를 줬거든요. 쇼콜라 색에 팔라듐 장식인데, 이게 훨씬 더 제 스타일이에요. 그 가방 샀던 가격을 생각하면 꽤 괜찮은 투자였고, 거의 같은 값으로 맞바꾸는 셈이에요. 그래서 이게 제 새 브라운 소 켈리가 될 거예요.",
+   "tip": "'it's so much more ME'는 마지막 me에 강세를 꾹 주고 살짝 길게 끄세요. 'a pretty SOLid INvestment / conSIDering'은 강세 위치를 지키면서 끊지 말고 이어 읽고, 'what I GOT that bag for'는 '왓아이갓댓 백퍼'처럼 for를 약하게 붙여 마무리합니다.",
+   "expressions": [
+    {
+     "phrase": "X is (so much) more me / X is very me",
+     "surface": "it's so much more me",
+     "register": "neutral",
+     "meaning_ko": "이게 훨씬 더 저다워요, 제 스타일이에요",
+     "nuance_ko": "me를 형용사처럼 써서 '나라는 사람과 잘 맞는다'는 뜻을 만드는 구어예요. 'more my style'보다 짧고 개성 있게 들리고, 반대는 'It's not really me'. 동료끼리 업무 방식이나 역할 얘기할 때도 'That role is so much more me'처럼 가볍게 쓸 수 있어요. 공식 문서보다는 대화용.",
+     "work_example_en": "I tried the strict time-blocking thing for a month, but honestly, a loose to-do list for the day is so much more me.",
+     "work_example_ko": "한 달 동안 시간 블록을 빡빡하게 짜 봤는데, 솔직히 그날 할 일 목록만 느슨하게 두는 게 훨씬 저한테 맞더라고요."
+    },
+    {
+     "phrase": "X was a (pretty) solid investment, considering Y",
+     "surface": "It was a pretty solid investment considering what I got that bag for",
+     "register": "work_ok",
+     "meaning_ko": "Y를 생각하면 X는 꽤 괜찮은 투자였어요",
+     "nuance_ko": "'solid'는 '대단하다'가 아니라 '탄탄하고 믿을 만하다' 정도의 칭찬이라 과장 없이 결정을 정당화할 때 좋아요. 뒤에 'considering + 근거'를 붙이면 왜 그렇게 판단하는지가 바로 따라와서, 툴 구매나 교육비, 채용 결정을 돌아볼 때 설득력 있게 들려요. 'considering' 대신 'given'을 쓰면 조금 더 격식 있어요.",
+     "work_example_en": "The new analytics tool was a pretty solid investment, considering how many hours it's saved the team on weekly reporting.",
+     "work_example_ko": "주간 리포트 만드는 데 팀이 아낀 시간을 생각하면, 새 분석 툴은 꽤 괜찮은 투자였어요."
+    },
+    {
+     "phrase": "an even switch / an even swap",
+     "surface": "I'm basically doing, like, an even switch",
+     "register": "neutral",
+     "meaning_ko": "(손해도 이득도 없이) 같은 값으로 맞바꾸기",
+     "nuance_ko": "even은 '양쪽이 똑같은'이라서, 돈이나 시간, 업무량이 서로 상쇄되는 교환을 말해요. 회사에선 근무일·당번·업무를 동료와 바꿀 때 '깔끔하게 1대1로 바꾸자'는 느낌으로 자주 써요. 'a fair trade'보다 더 가볍고 일상적이에요.",
+     "work_example_en": "If you cover my on-call shift this Saturday, I'll take yours next weekend, so it's basically an even switch.",
+     "work_example_ko": "이번 토요일 당번 대신 서 주시면 제가 다음 주말 걸 맡을게요. 그러면 서로 그냥 맞바꾸는 거죠."
+    }
+   ]
+  },
+  {
+   "title": "모두가 동의할 만한 점을 짚으며 내 취향 말하기",
+   "start": 432.96,
+   "end": 449.54,
+   "speaker": "ALYSSA",
+   "text": "I actually really like this one. But this is mine, which I think we can all agree on is definitely in my color family. I love a So Kelly. Big fan. Big, big fan. Here we have the archetype, which I also think is a great bag.",
+   "ko": "이것도 사실 되게 마음에 들어요. 근데 이게 제 거예요. 이건 다들 인정하시겠지만 딱 제 색 계열이잖아요. 저 소 켈리 진짜 좋아해요. 완전 팬이에요. 찐팬이에요, 찐팬. 그리고 이건 아키타입인데, 이것도 진짜 괜찮은 가방 같아요.",
+   "tip": "'which I think we can ALL aGREE on'은 all과 agree에 힘을 주고, 그 뒤 'is DEFinitely' 앞에서 한 박자 쉬었다가 들어가세요. 'Big FAN. Big, BIG fan.'은 두 번째를 더 크게 반복해서 장난스럽게 강조합니다.",
+   "expressions": [
+    {
+     "phrase": "X, which I think we can all agree (on) is Y",
+     "surface": "which I think we can all agree on is definitely in my color family",
+     "register": "work_ok",
+     "meaning_ko": "X는요, 이건 다들 동의하실 것 같은데, Y예요",
+     "nuance_ko": "내 판단을 '우리 모두의 공통 인식'으로 살짝 끌어올려서, 반박하기 어렵게 하면서도 부드럽게 들리게 하는 구조예요. 회의에서 논쟁 없이 합의점부터 깔고 갈 때 정말 유용해요. 문법적으로는 'which I think we can all agree is'가 정석이고, Alyssa처럼 on을 넣는 건 말할 때 흔한 변형이에요. 너무 자주 쓰면 내 의견을 남한테 떠넘기는 느낌이 날 수 있으니 진짜 뻔한 사실에만 쓰세요.",
+     "work_example_en": "The onboarding flow, which I think we can all agree is the biggest pain point right now, should be our first priority next sprint.",
+     "work_example_ko": "온보딩 흐름은, 이건 다들 동의하실 것 같은데, 지금 제일 큰 문제니까 다음 스프린트에서 최우선으로 봐야 할 것 같아요."
+    },
+    {
+     "phrase": "be in (my / our) color family",
+     "surface": "is definitely in my color family",
+     "register": "neutral",
+     "meaning_ko": "(내가 늘 쓰는) 색 계열에 들어가다, 내 톤이다",
+     "nuance_ko": "색을 '가족'처럼 계열로 묶는 디자인·패션 용어예요. 개인 취향으로도 쓰고, 회사에서는 브랜드 컬러나 슬라이드 톤을 맞출 때 '이건 우리 색 계열 안이다/밖이다'를 말할 때 자연스러워요. 'my color'보다 범위가 넓어서 '정확히 같은 색은 아니지만 같은 계열'이라는 여지가 있어요.",
+     "work_example_en": "The new banner looks great, but that orange isn't really in our brand color family, so could we try something closer to the coral?",
+     "work_example_ko": "새 배너 좋긴 한데, 그 주황색은 우리 브랜드 색 계열은 아닌 것 같아요. 코랄 쪽에 더 가까운 걸로 한번 해볼 수 있을까요?"
+    },
+    {
+     "phrase": "I love a (good) X. Big fan.",
+     "surface": "I love a So Kelly. Big fan. Big, big fan.",
+     "register": "neutral",
+     "meaning_ko": "저 X 진짜 좋아해요. 완전 팬이에요.",
+     "nuance_ko": "'a + 단수 명사'로 '그런 종류 전반'을 가리키는 말투는 Day 5 'I don't really love a X'에서 봤죠. 이번엔 그 긍정판이에요. 'I love a (good) X'는 '그런 거라면 언제든 환영'이라는 애정 표현이고, 'a good'을 넣어 'I love a good checklist'처럼 쓰는 경우가 특히 많아요. 이번 표현의 새 포인트는 뒤에 붙는 꼬리예요. 'Big fan.'은 'I'm a big fan'을 주어 없이 줄인 짧은 꼬리라서 가볍고 유쾌하게 들려요. 회의보다는 동료와의 잡담이나 슬랙 리액션에 잘 맞아요.",
+     "work_example_en": "You color-coded the whole launch tracker? I love a good system. Big fan. I'll start adding my items this afternoon.",
+     "work_example_ko": "런칭 트래커를 전부 색깔별로 정리하셨어요? 저 잘 짜인 체계 진짜 좋아하거든요. 완전 팬이에요. 오늘 오후부터 제 항목 채워 넣을게요."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "id": "3itwRGEJ4BA",
+ "day": 13,
+ "title": "Day 13 · 일",
+ "label": "CAROLINE WINKLER · 56 Brutal Life Lessons in 15 minutes",
+ "theme": "Caroline Winkler",
+ "theme_full": "일: 실수에서 배운 교훈을 단정하지 않고 정리해서 말하기",
+ "goal": "겪어 보고 깨달은 교훈을 '꼭 그렇다는 건 아니다(isn't necessarily)'로 단정을 피하고, 'less X than Y'로 진짜 원인을 다시 짚고, '어느 시점엔 해야 한다(At a certain point)'로 결론을 내리고, '그걸 사람들은 Y라고 부르죠(what some people call)'로 깔끔하게 이름 붙여 회고·1:1에서 차분하게 정리하는 문장 틀 익히기",
+ "sets": [
+  {
+   "title": "첫인상이 좋다고 다 맞는 건 아니다: 겉으로 보이는 신호를 다시 해석하기",
+   "start": 120.24,
+   "end": 136.54,
+   "speaker": "CAROLINE",
+   "text": "Chemistry on a first date isn't necessarily a marker of long-term success. Often, it's less an indicator of compatibility as much as it is just a sign that two people are similarly charismatic. Don't mistake a good performance for a good match.",
+   "ko": "첫 데이트에서 케미가 좋다고 해서 그게 꼭 오래갈 사이라는 신호는 아니에요. 둘이 잘 맞는다는 증거라기보다는, 그냥 두 사람 다 비슷하게 사람을 끄는 매력이 있다는 뜻일 때가 많거든요. 둘이 합이 잘 맞는 '공연'을 했다고 해서 잘 맞는 짝이라고 착각하면 안 돼요.",
+   "tip": "'isn't neCESSarily'는 cess에 강세를 주고 '이즌 네써세럴리'처럼 한 덩어리로 굴리세요. 'less an indicator'는 '레썬 인디케이러'로 붙이고 indicator의 t는 굴립니다. 'it's LESS an indicator ~ as MUCH as it IS just a sign'은 less와 much, is에 힘을 줘서 대조를 살리고, 'compatibility' 뒤에서 반 박자 쉽니다. 마지막 'a good perFORmance for a good MATCH'는 두 good을 같은 높이로 맞춰 리듬을 만드세요.",
+   "expressions": [
+    {
+     "phrase": "X isn't necessarily a marker of Y",
+     "surface": "isn't necessarily a marker of long-term success",
+     "register": "work_ok",
+     "meaning_ko": "X라고 해서 꼭 Y를 보여주는 지표는 아니에요",
+     "nuance_ko": "'X means Y'라고 단정하지 않고 '그렇게 볼 수도 있지만 꼭 그런 건 아니다'로 한 발 물러서는 말. marker는 '지표, 신호'라서 숫자·성과·평가 이야기에 잘 붙어요. 상대가 어떤 지표를 과하게 믿을 때 정면으로 반박하지 않고 의문을 던질 수 있어서 리뷰 회의에서 유용해요. 'a sign of', 'an indicator of'로 바꿔 써도 됩니다.",
+     "work_example_en": "A packed calendar isn't necessarily a marker of productivity, so I'd rather look at what the team actually shipped this quarter.",
+     "work_example_ko": "일정이 꽉 차 있다고 해서 꼭 생산성이 높다는 뜻은 아니니까, 이번 분기에 팀이 실제로 뭘 내놨는지를 보는 게 낫겠어요."
+    },
+    {
+     "phrase": "It's less X than (it is) Y / It's not so much X as Y",
+     "surface": "it's less an indicator of compatibility as much as it is just a sign that",
+     "register": "work_ok",
+     "meaning_ko": "X라기보다는 오히려 Y인 거예요",
+     "nuance_ko": "흔히 생각하는 해석(X)을 살짝 내려놓고 진짜 원인(Y)을 다시 짚는 구조. Caroline은 'less X'와 'not so much X as Y'를 섞어 'less X as much as it is Y'라고 말했는데, 원어민이 말할 때 자주 나오는 섞인 형태예요. 직접 쓸 땐 'It's less X than Y'나 'It's not so much X as Y'가 정석이에요. 'it is'를 한 번 더 넣으면 대조가 또렷해져서 회고에서 원인을 다시 정리할 때 좋아요.",
+     "work_example_en": "The pushback from sales is less a problem with the product than it is a sign that we didn't loop them in early enough.",
+     "work_example_ko": "영업팀이 반발하는 건 제품 문제라기보다는, 우리가 그쪽을 너무 늦게 끌어들였다는 신호에 가까워요."
+    },
+    {
+     "phrase": "Don't mistake X for Y",
+     "surface": "Don't mistake a good performance for a good match.",
+     "register": "work_ok",
+     "meaning_ko": "X를 Y로 착각하지 마세요",
+     "nuance_ko": "mistake A for B는 'A를 B로 잘못 보다'. 겉으로 비슷해 보이는 두 가지(조용함 vs 만족, 바쁨 vs 성과)를 구분하라고 말할 때 딱 맞아요. 'Don't'로 말하면 조언처럼 들리니, 동료에게는 'Let's not mistake X for Y'로 '우리'를 주어로 하면 훨씬 부드러워요.",
+     "work_example_en": "Let's not mistake a quiet Slack channel for a happy client. I'd still check in with them before the renewal call.",
+     "work_example_ko": "슬랙 채널이 조용하다고 클라이언트가 만족한다고 착각하진 말자고요. 갱신 미팅 전에 한번 연락해 보는 게 좋겠어요."
+    }
+   ]
+  },
+  {
+   "title": "내 시간 지키기도 정도껏: 대가를 인정하고 균형 잡기",
+   "start": 302.64,
+   "end": 317.3,
+   "speaker": "CAROLINE",
+   "text": "Protect your peace, sure, but don't protect your peace so hard that you wake up one day in total isolation. Community and relationship will require some inconveniences, some annoyances. Hopefully the trade-off is worth it.",
+   "ko": "내 마음의 평화를 지키는 거, 좋아요. 근데 너무 꽁꽁 지키다가 어느 날 눈떠 보니 완전히 혼자가 돼 있으면 안 되잖아요. 사람들과 어울리고 관계를 맺으려면 좀 불편하고 귀찮은 일도 감수해야 해요. 그래도 그만한 가치가 있으면 좋겠어요.",
+   "tip": "'Protect your PEACE, SURE,'는 sure를 짧게 끊어 올렸다가, 'but DON'T'에서 다시 힘을 주세요. 'so HARD that you wake up one day'는 '쏘 할댓츄 웨이컵 원데이'처럼 이어 읽고, 'TRADE-off'는 앞 음절에 강세, 'worth it'은 '워씻'으로 연음합니다.",
+   "expressions": [
+    {
+     "phrase": "protect one's peace",
+     "surface": "Protect your peace",
+     "register": "neutral",
+     "meaning_ko": "내 마음의 평화(멘탈)를 지키다, 나를 지치게 하는 것과 거리를 두다",
+     "nuance_ko": "요즘 SNS에서 많이 퍼진 표현으로, 스트레스 주는 사람·알림·일과 선을 긋는다는 뜻. 동료끼리 퇴근 후 알림 끄는 얘기, 휴가 중 연락 안 받는 얘기 할 때 가볍게 써요. 살짝 유행어 느낌이라 공식 회의보다는 스몰토크용이고, Caroline처럼 'sure, but'을 붙여 '좋긴 한데 지나치면 문제'라고 비트는 데도 자주 쓰여요.",
+     "work_example_en": "I've started muting work notifications after seven, just to protect my peace a little on weeknights.",
+     "work_example_ko": "평일 저녁엔 멘탈 좀 지키려고 7시 넘으면 업무 알림을 꺼 두기 시작했어요."
+    },
+    {
+     "phrase": "wake up one day (and/with/in) X",
+     "surface": "you wake up one day in total isolation",
+     "register": "work_ok",
+     "meaning_ko": "어느 날 정신 차려 보니 X가 돼 있다",
+     "nuance_ko": "진짜 아침에 일어난다는 뜻이 아니라, 조금씩 쌓인 결과를 어느 순간 갑자기 깨닫게 된다는 말. '지금 이대로 두면 언젠가 이렇게 된다'고 경고할 때 아주 자연스러워요. 'so X that you wake up one day…'처럼 앞에 원인을 붙이면 Caroline 문장처럼 교훈이 됩니다.",
+     "work_example_en": "If we keep pushing the tech debt back every sprint, we're going to wake up one day with a codebase nobody wants to touch.",
+     "work_example_ko": "기술 부채를 매 스프린트마다 계속 미루면, 어느 날 정신 차려 보니 아무도 손대기 싫은 코드만 남아 있을 거예요."
+    },
+    {
+     "phrase": "(Hopefully) the trade-off is worth it",
+     "surface": "Hopefully the trade-off is worth it.",
+     "register": "work_ok",
+     "meaning_ko": "(포기하는 게 있지만) 그만한 가치가 있으면 좋겠어요",
+     "nuance_ko": "trade-off는 '하나를 얻으려고 다른 하나를 내주는 것'. 결정의 단점을 먼저 인정하고 마지막에 이 한 줄로 마무리하면, 확신을 과장하지 않으면서도 결정을 지지하는 느낌이 나요. 확신이 있으면 'The trade-off is worth it', 결과를 보고 판단하자는 뉘앙스면 'We'll see if the trade-off is worth it'로 바꿔 쓰세요.",
+     "work_example_en": "We're cutting two features to hit the launch date, which isn't ideal, but hopefully the trade-off is worth it in the long run.",
+     "work_example_ko": "런칭 날짜 맞추려고 기능 두 개를 빼는 거라 아쉽긴 한데, 길게 보면 그만한 가치가 있으면 좋겠어요."
+    }
+   ]
+  },
+  {
+   "title": "완벽주의를 다시 보기: 준비가 덜 돼도 시작해야 하는 이유",
+   "start": 584.01,
+   "end": 601.3,
+   "speaker": "CAROLINE",
+   "text": "Perfectionism is not a badge of honor. It's just the PR spin for a deeply ingrained fear of failure. Sometimes over-planning is actually just well-disguised postponing and avoiding. At a certain point, you have to start doing, whether you feel perfectly ready or not.",
+   "ko": "완벽주의는 자랑할 일이 아니에요. 마음 깊이 박힌 실패에 대한 두려움을 그럴듯하게 포장한 말일 뿐이에요. 계획을 너무 많이 세우는 것도, 사실은 미루고 피하는 걸 그럴싸하게 감춘 거일 때가 있어요. 어느 시점이 되면, 완벽하게 준비됐다고 느끼든 아니든 일단 해야 해요.",
+   "tip": "'a BADGE of HONor'는 '어 배쥐어브 아너'로 이어 읽고, 'PR spin'은 P와 R을 또박또박 말한 뒤 spin에 힘을 줍니다. 'deeply inGRAINED'는 grained에 강세. 마지막 문장은 'At a certain POINT,' 뒤에서 한 번 쉬고, 'whether you feel PERfectly READy or NOT'에서 not을 짧고 단호하게 내리세요.",
+   "expressions": [
+    {
+     "phrase": "X is not a badge of honor",
+     "surface": "Perfectionism is not a badge of honor.",
+     "register": "work_ok",
+     "meaning_ko": "X는 자랑할 일이 아니에요, 훈장처럼 내세울 게 아니에요",
+     "nuance_ko": "badge of honor는 '명예 훈장'. 야근·바쁨·완벽주의처럼 사람들이 은근히 자랑삼아 말하는 걸 '그거 자랑 아니에요'라고 짚을 때 써요. 상대를 비난한다기보다 문화나 습관을 지적하는 말이라, 팀장이 팀원에게 쉬라고 권할 때도 부드럽게 들려요. 반대로 'wear X like a badge of honor(X를 훈장처럼 자랑하다)'도 자주 씀.",
+     "work_example_en": "Working until midnight isn't a badge of honor here, so please log off on time whenever you can.",
+     "work_example_ko": "여기선 자정까지 일하는 게 자랑할 일이 아니에요. 그러니까 웬만하면 제때 퇴근하세요."
+    },
+    {
+     "phrase": "(It's just) PR spin for X / put a (positive) spin on X",
+     "surface": "It's just the PR spin for a deeply ingrained fear of failure.",
+     "register": "neutral",
+     "meaning_ko": "X를 그럴듯하게 포장한 말일 뿐이에요",
+     "nuance_ko": "spin은 홍보·언론에서 '사실을 유리한 쪽으로 돌려 말하기'. 'It's just PR spin'은 '듣기 좋게 포장한 거지 실제론 다르다'는 뜻이라 살짝 냉소적이에요. 회사 공지나 다른 팀 발표에 대해 친한 동료끼리 말할 땐 괜찮지만, 당사자 앞에서는 공격적으로 들릴 수 있어요. 중립적으로는 'put a positive spin on it(좋게 포장하다)'을 쓰세요.",
+     "work_example_en": "Calling it a strategic realignment is just PR spin for the fact that the project lost its funding.",
+     "work_example_ko": "'전략적 재정비'라고 부르는 건, 그냥 프로젝트 예산이 끊겼다는 걸 그럴듯하게 포장한 말이에요."
+    },
+    {
+     "phrase": "At a certain point, you/we have to X, whether you feel ready or not",
+     "surface": "At a certain point, you have to start doing, whether you feel perfectly ready or not.",
+     "register": "work_ok",
+     "meaning_ko": "어느 시점에는, 준비됐다고 느끼든 아니든 X해야 해요",
+     "nuance_ko": "'At a certain point'로 '지금까지는 괜찮았지만 이제는'이라는 선을 긋고, 'whether ~ or not'으로 핑계를 미리 막는 두 칸짜리 틀. 끝없이 다듬는 문서, 미뤄지는 결정을 마무리하자고 할 때 강요가 아니라 현실적인 판단처럼 들려요. 주어를 we로 바꾸면 팀 전체에 하는 말이 되어 더 부드러워요.",
+     "work_example_en": "We could keep polishing the deck forever, but at a certain point, we have to send it, whether we feel totally ready or not.",
+     "work_example_ko": "덱은 끝없이 다듬을 수도 있겠지만, 어느 시점엔 완전히 준비됐다고 느끼든 아니든 보내야 해요."
+    }
+   ]
+  },
+  {
+   "title": "학교에선 안 가르쳐 주는 것: 규칙을 언제 깰지, 실수의 의미",
+   "start": 631.64,
+   "end": 647.02,
+   "speaker": "CAROLINE",
+   "text": "They won't teach you this in school, but one of the most important life skills you can have as an adult is learning how and when to break the rules. 41. If you're not making mistakes, you're not doing anything new.",
+   "ko": "학교에서는 이런 거 안 가르쳐 주지만, 어른이 돼서 가질 수 있는 가장 중요한 삶의 기술 중 하나는 규칙을 어떻게, 그리고 언제 깰지 아는 거예요. 41번. 실수를 안 하고 있다면, 새로운 걸 아무것도 안 하고 있다는 뜻이에요.",
+   "tip": "'They WON'T teach you this in SCHOOL,'은 'teach you'를 '티츄'로 붙이고 won't와 school에 힘을 주고 쉼표에서 살짝 올려 기대감을 주세요. 'how AND WHEN to break the rules'는 and when을 또박또박 끊어 강조합니다. rules 뒤 약 3초 쉼과 '41'은 영상 속 목록 번호라, 따라 말하지 않고 숨을 고르는 구간으로 쓰세요. 마지막 문장은 'If you're NOT making misTAKES, / you're NOT doing anything NEW'로 두 not을 같은 세기로 맞춰 대구를 살리세요.",
+   "expressions": [
+    {
+     "phrase": "They won't teach you this in school, but…",
+     "surface": "They won't teach you this in school, but",
+     "register": "work_ok",
+     "meaning_ko": "학교에선 이런 거 안 알려주지만…",
+     "nuance_ko": "교과서엔 없지만 실제로 겪어 봐야 아는 요령을 꺼낼 때 쓰는 도입부. they는 특정인이 아니라 '세상, 학교, 교육' 전체예요. 신입 온보딩이나 후배 멘토링에서 경험에서 나온 팁을 말할 때 '잘난 척' 느낌 없이 가볍게 들려요. 'Nobody tells you this, but…'도 비슷하게 자주 씀.",
+     "work_example_en": "They won't teach you this in school, but knowing who to cc on an email is honestly half the job here.",
+     "work_example_ko": "학교에선 안 알려주는 건데, 여기선 메일에 누굴 참조로 넣을지 아는 게 솔직히 일의 절반이에요."
+    },
+    {
+     "phrase": "(know/learn) how and when to X",
+     "surface": "learning how and when to break the rules",
+     "register": "work_ok",
+     "meaning_ko": "X를 어떻게, 그리고 언제 해야 하는지 (알다/배우다)",
+     "nuance_ko": "'how to'만 쓰면 방법만 말하는 거지만, 'and when'을 붙이면 '타이밍 판단'까지 포함돼서 훨씬 노련하게 들려요. push back, escalate, say no처럼 상황 판단이 중요한 동사와 특히 잘 어울려요.",
+     "work_example_en": "The hardest part of being a new manager is learning how and when to push back on leadership without burning bridges.",
+     "work_example_ko": "새로 매니저가 됐을 때 제일 어려운 건, 관계 망치지 않으면서 경영진한테 언제 어떻게 반대 의견을 낼지 배우는 거예요."
+    },
+    {
+     "phrase": "If you're not X-ing, you're not Y-ing",
+     "surface": "If you're not making mistakes, you're not doing anything new.",
+     "register": "work_ok",
+     "meaning_ko": "X를 안 하고 있다면, Y도 안 하고 있다는 거예요",
+     "nuance_ko": "'실수가 없다 = 잘하고 있다'는 통념을 뒤집어서 '실수가 없다 = 도전을 안 한다'로 연결하는 대구 구조. 두 절의 리듬이 같아서 말하면 바로 귀에 꽂혀요. 실수한 동료를 다독이거나 팀에 실험을 권할 때 좋고, 'probably'를 넣으면 단정이 덜해져요.",
+     "work_example_en": "If you're not getting a little pushback in design reviews, you're probably not taking enough risks with your ideas.",
+     "work_example_ko": "디자인 리뷰에서 반대 의견이 조금도 안 나온다면, 아마 아이디어에서 충분히 모험을 안 하고 있는 걸 거예요."
+    }
+   ]
+  },
+  {
+   "title": "남의 평판 vs 나와의 평판: 개념에 이름 붙이며 결론 내리기",
+   "start": 775.8,
+   "end": 792.46,
+   "speaker": "CAROLINE",
+   "text": "It's nice for others to think highly of you, but there's only one place where you have 100% control over your reputation. And that is the reputation you build with yourself. And that reputation that you build with yourself is what some people call self-esteem.",
+   "ko": "다른 사람들이 나를 좋게 봐 주면 물론 좋죠. 근데 내 평판을 100% 내 마음대로 할 수 있는 곳은 딱 하나뿐이에요. 바로 나 자신과 쌓는 평판이요. 그리고 그렇게 나 자신과 쌓아 가는 평판을, 사람들은 자존감이라고 부르죠.",
+   "tip": "'think HIGHly of you'는 '띵크 하일리 어뷰'로 붙여 읽고, but 앞에서 한 박자 쉬세요. 'ONLY ONE place'는 only와 one을 또박또박, '100% conTROL over'는 '헌드레드 퍼센트 컨트로로버'로 이어 가고, reputation 뒤에서 한 박자 쉰 다음 'And THAT is'를 살짝 올려 답을 공개하듯 말하세요. 마지막 'is what some people call self-ESTEEM'은 앞을 낮게 깔다가 esteem에서 힘을 주며 내리세요.",
+   "expressions": [
+    {
+     "phrase": "think highly of someone",
+     "surface": "think highly of you",
+     "register": "work_ok",
+     "meaning_ko": "~를 좋게 보다, 높이 평가하다",
+     "nuance_ko": "'like'보다 '능력·인품을 인정한다'는 무게가 있어서 추천·평판 얘기에 딱 맞아요. 'He thinks really highly of you'처럼 제3자의 평가를 전할 때 특히 자주 들려요. 'think high of'라고 하지 않도록 주의(highly가 정석).",
+     "work_example_en": "Priya on the data team thinks really highly of you, so I'm sure she'd put in a good word if you applied for that role.",
+     "work_example_ko": "데이터팀 프리야 씨가 정말 좋게 보더라고요. 그 자리에 지원하면 분명 좋은 말 해 줄 거예요."
+    },
+    {
+     "phrase": "There's only one X where/that …, and that's Y",
+     "surface": "there's only one place where you have 100% control over your reputation. And that is the reputation you build with yourself.",
+     "register": "work_ok",
+     "meaning_ko": "…한 건 딱 하나뿐이에요. 바로 Y예요.",
+     "nuance_ko": "범위를 '딱 하나'로 좁혀 놓고 문장을 한 번 끊은 다음 'And that is…'로 답을 공개하는 구조라, 듣는 사람이 자연스럽게 다음 말을 기다리게 돼요. 'The only thing we can control is Y'처럼 바로 말하는 것보다 강조가 훨씬 또렷해서, 변수가 많을 때 팀의 초점을 하나로 모으는 데 좋아요. 안에 들어 있는 'have control over X'는 of가 아니라 over를 쓰는 게 자연스러워요. 회의에서 'And that is…'로 끊으면 살짝 연설처럼 들릴 수 있으니 한 문장으로 ', and that's …'라고 이어 말하면 딱 좋아요.",
+     "work_example_en": "There's only one part of this launch we have full control over, and that's how quickly we respond to customer feedback.",
+     "work_example_ko": "이번 런칭에서 우리가 온전히 손댈 수 있는 건 딱 하나예요. 고객 피드백에 얼마나 빨리 대응하느냐죠."
+    },
+    {
+     "phrase": "X is what some people call Y",
+     "surface": "is what some people call self-esteem",
+     "register": "work_ok",
+     "meaning_ko": "X를 사람들은 Y라고 부르죠",
+     "nuance_ko": "길게 풀어 설명한 현상에 마지막에 이름표를 붙이며 정리하는 구조. 'some people'을 넣으면 '내가 정의하는 게 아니라 흔히들 그렇게 부른다'는 느낌이라 단정적이지 않고 살짝 위트 있게 들려요. 회의에서 문제 패턴을 짚을 때 'That's what some people call scope creep'처럼 쓰면 분위기를 덜 무겁게 만들 수 있어요.",
+     "work_example_en": "Adding one more small request every week is what some people call scope creep, and it's exactly why we're behind.",
+     "work_example_ko": "매주 작은 요청을 하나씩 더 얹는 거, 그걸 흔히 스코프 크립이라고 하죠. 우리가 일정에 밀린 이유가 딱 그거예요."
+    }
+   ]
+  }
+ ]
+}
