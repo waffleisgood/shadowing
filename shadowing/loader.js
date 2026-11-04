@@ -59,11 +59,10 @@
   function showLockedNote(locked) {
     const aside = document.querySelector('aside');
     if (!aside || !locked.length) return;
-    const first = locked[0].day, last = locked[locked.length - 1].day;
     const box = document.createElement('div');
     box.className = 'locked-cta';
     const title = document.createElement('strong');
-    title.textContent = '🔒 Day ' + dd(first) + (last > first ? '~' + dd(last) : '');
+    title.textContent = '🔒 더 공부하기';
     const p = document.createElement('p');
     p.textContent = '로그인하면 ' + locked.length + '일치를 더 연습할 수 있어요. 지금까지의 기록도 그대로 옮겨져요.';
     box.append(title, p, loginButton('asideLogin', '로그인하고 계속하기'));
