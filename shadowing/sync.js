@@ -104,6 +104,9 @@ const KWSync = (function () {
     box.replaceChildren();
     if (!enabled) { box.hidden = true; return; }
     box.hidden = false;
+    const fb = document.createElement('button'); fb.type = 'button'; fb.className = 'account-btn feedback-btn'; fb.textContent = '피드백';
+    fb.onclick = openFeedback;
+    box.append(fb);
     if (user) {
       const who = document.createElement('span'); who.className = 'account-who';
       who.textContent = '☺ ' + (user.email || '').split('@')[0];
@@ -159,6 +162,64 @@ const KWSync = (function () {
     dlg.showModal();
   }
 
+  // ---------------------------------------------------------------- feedback
+  const FEEDBACK_LAST = 'kw-feedback-last';
+  const FEEDBACK_COOLDOWN = 30000;
+  function feedbackPage() {
+    const title = document.getElementById('lessonTitle');
+    const set = document.getElementById('setTitle');
+    return [location.pathname + location.hash, title && title.textContent, set && set.textContent].filter(Boolean).join(' | ').slice(0, 300);
+  }
+  function openFeedback() {
+    if (!client) { toast('잠시 후 다시 눌러주세요.'); return; }
+    let dlg = document.getElementById('feedbackDialog');
+    if (!dlg) {
+      dlg = document.createElement('dialog'); dlg.id = 'feedbackDialog'; dlg.className = 'login-dialog';
+      dlg.innerHTML =
+        '<form method="dialog" class="login-card feedback-card">' +
+        '<button type="submit" value="close" class="login-close" aria-label="닫기">×</button>' +
+        '<h2>피드백 남기기</h2>' +
+        '<p>불편했던 점이나 바라는 점을 편하게 적어주세요. 틀린 표현을 찾으셨다면 어느 부분인지 알려주세요.</p>' +
+        '<label for="feedbackCategory">종류</label>' +
+        '<select id="feedbackCategory"><option value="idea">제안</option><option value="bug">오류 신고</option><option value="content">표현·콘텐츠</option><option value="etc">기타</option></select>' +
+        '<label for="feedbackBody">내용</label>' +
+        '<textarea id="feedbackBody" rows="5" maxlength="2000" required></textarea>' +
+        '<div id="feedbackContactWrap"><label for="feedbackContact">답장받을 이메일 (선택)</label>' +
+        '<input id="feedbackContact" type="email" maxlength="200" autocomplete="email" placeholder="you@example.com"></div>' +
+        '<div class="feedback-trap" aria-hidden="true"><label>Website<input id="feedbackWebsite" tabindex="-1" autocomplete="off"></label></div>' +
+        '<button type="button" id="feedbackSend" class="primary">보내기</button>' +
+        '<p id="feedbackMsg" class="login-msg" role="status"></p>' +
+        '<p class="login-note">보내주신 내용은 운영자만 볼 수 있어요. 어느 페이지에서 보냈는지도 함께 기록돼요.</p>' +
+        '</form>';
+      document.body.appendChild(dlg);
+      dlg.querySelector('#feedbackSend').onclick = async function () {
+        const msg = dlg.querySelector('#feedbackMsg');
+        const body = dlg.querySelector('#feedbackBody').value.trim();
+        const contact = dlg.querySelector('#feedbackContact').value.trim();
+        if (dlg.querySelector('#feedbackWebsite').value) { dlg.close(); return; } // honeypot: bots fill this
+        if (!body) { msg.textContent = '내용을 적어주세요.'; return; }
+        if (contact && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(contact)) { msg.textContent = '이메일 주소를 확인해 주세요.'; return; }
+        let last = 0; try { last = Number(localStorage.getItem(FEEDBACK_LAST)) || 0; } catch {}
+        if (Date.now() - last < FEEDBACK_COOLDOWN) { msg.textContent = '잠시 후에 다시 보내주세요.'; return; }
+        this.disabled = true; msg.textContent = '보내는 중…';
+        // no .select(): senders have no read permission
+        const { error } = await client.from('feedback').insert({
+          category: dlg.querySelector('#feedbackCategory').value, body: body, contact: user ? null : (contact || null), page: feedbackPage()
+        });
+        this.disabled = false;
+        if (error) { console.warn(error); msg.textContent = '보내지 못했어요. 잠시 후 다시 시도해 주세요.'; return; }
+        try { localStorage.setItem(FEEDBACK_LAST, String(Date.now())); } catch {}
+        dlg.querySelector('#feedbackBody').value = '';
+        dlg.close();
+        toast('피드백을 보냈어요. 고마워요 ☺');
+      };
+    }
+    dlg.querySelector('#feedbackMsg').textContent = '';
+    dlg.querySelector('#feedbackContactWrap').hidden = !!user;
+    dlg.showModal();
+    dlg.querySelector('#feedbackBody').focus();
+  }
+
   async function signOut() {
     if (!confirm('로그아웃할까요? 이 기기에 남아 있는 주머니와 기록은 지워지고, 다시 로그인하면 돌아와요.')) return;
     await client.auth.signOut();
@@ -199,6 +260,6 @@ const KWSync = (function () {
     return Promise.race([readyPromise, new Promise(function (r) { setTimeout(r, 4000); })]);
   }
 
-  return { enabled: enabled, ready: ready, progressChanged: progressChanged, get user() { return user; } };
+  return { enabled: enabled, ready: ready, progressChanged: progressChanged, openFeedback: openFeedback, get user() { return user; } };
 })();
 window.KWSync = KWSync;

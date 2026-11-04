@@ -474,3 +474,22 @@ body.masked .maskable:not(.revealed)::before{color:transparent}
 .oauth-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px;background:#fff}
 .oauth-btn[data-provider="apple"]{background:var(--ink);color:var(--sheet)}
 .oauth-mark{font-family:Arial,sans-serif;font-weight:700;font-size:17px}
+
+/* ---------- feedback ---------- */
+.feedback-card label{margin-top:2px}
+.feedback-card select,.feedback-card textarea{width:100%;font:inherit;font-size:17px;padding:8px 12px;margin-bottom:12px;background:#fff;color:var(--ink);
+  border:1.8px solid var(--ink);border-radius:var(--wobble-sm)}
+.feedback-card textarea{resize:vertical;min-height:120px;line-height:1.5}
+.feedback-card select:focus,.feedback-card textarea:focus{outline:2.5px dashed var(--ink);outline-offset:3px}
+.feedback-trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.feedback-card .primary{width:100%}
+.account-btn{white-space:nowrap}
+@media(max-width:650px){
+  .brand-copy strong{white-space:nowrap}
+  .account{gap:6px}
+  .account-btn{padding:5px 9px;font-size:14px}
+  .pouch-page header{gap:8px}
+  .pouch-page .brand-copy small{display:none}
+  .pouch-page .back-link{font-size:0;border-bottom:0;padding:0}
+  .pouch-page .back-link::before{content:"← 연습";font-size:14px;white-space:nowrap}
+}
