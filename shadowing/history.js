@@ -27,7 +27,9 @@ const KWHistory = (function () {
   }
   function el(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
   function open() {
+    if (!window.__kwAppLoaded) return; // lesson data is still loading
     let dlg = document.getElementById('historyDialog');
+    if (dlg && dlg.open) return;
     if (!dlg) {
       dlg = document.createElement('dialog'); dlg.id = 'historyDialog'; dlg.className = 'login-dialog history-dialog';
       dlg.innerHTML = '<form class="login-card"><button type="button" class="login-close" aria-label="닫기">×</button>' +
@@ -63,6 +65,10 @@ const KWHistory = (function () {
     });
     dlg.showModal();
   }
+  // bound here, not in app.js, so a cached app.js can never leave the button dead
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('#historyOpen')) open();
+  });
   return { open: open, mark: mark, KEY: KEY };
 })();
 window.KWHistory = KWHistory;

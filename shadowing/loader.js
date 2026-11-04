@@ -101,7 +101,7 @@
       if (!res.lessons.length) throw new Error('no published days');
       window.LESSONS = res.lessons;
       installGate(res.locked, res.freeDays);
-      return loadScript('app.js').then(function () {
+      return loadScript('app.js?v=20261105').then(function () {
         window.__kwAppLoaded = true;
         nextReleaseNote(res.upcoming);
         showLockedNote(res.locked);
