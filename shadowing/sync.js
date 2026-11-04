@@ -7,7 +7,8 @@ const KWSync = (function () {
   const LIB = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js';
   const PROGRESS_KEY = 'scene-loop-completed';
   const KNOWN_KEY = 'kw-sync-known-pouch'; // pouch keys last seen on server (to detect removals)
-  let client = null, user = null, pushTimer = null, progressTimer = null;
+  const USERNAME_RE = /^[a-z0-9_]{4,20}$/;
+  let client = null, user = null, profile = null, pushTimer = null, progressTimer = null;
 
   function ls(k, d) { try { const v = JSON.parse(localStorage.getItem(k) || 'null'); return v == null ? d : v; } catch { return d; } }
   function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
@@ -120,7 +121,7 @@ const KWSync = (function () {
     box.append(fb);
     if (user) {
       const who = document.createElement('span'); who.className = 'account-who';
-      who.textContent = '☺ ' + (user.email || '').split('@')[0];
+      who.textContent = '☺ ' + ((profile && (profile.username || profile.display_name)) || (user.email || '').split('@')[0]);
       who.title = (user.email || '') + ' · 주머니와 진도가 모든 기기에 동기화돼요';
       const out = document.createElement('button'); out.type = 'button'; out.className = 'account-btn'; out.textContent = '로그아웃';
       out.onclick = signOut;
@@ -144,45 +145,193 @@ const KWSync = (function () {
     });
   }
 
-  function openLogin() {
+  const AUTH_MODES = {
+    login: { title: '로그인', send: '로그인', intro: '로그인하면 표현 주머니와 연습 기록이 휴대폰과 PC에 함께 저장돼요.' },
+    signup: { title: '회원가입', send: '가입하고 인증 메일 받기', intro: '가입 후 메일의 인증 링크를 누르면 바로 시작할 수 있어요. 지금 이 브라우저의 기록도 그대로 옮겨져요.' },
+    reset: { title: '비밀번호 찾기', send: '재설정 메일 받기', intro: '가입한 이메일로 비밀번호 재설정 링크를 보내드려요.' }
+  };
+  function redirectUrl() { return location.origin + location.pathname; }
+  function validEmail(v) { return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v); }
+  function authMessage(error) {
+    const m = (error && error.message) || '';
+    if (/invalid login credentials/i.test(m)) return '이메일 또는 비밀번호가 맞지 않아요.';
+    if (/email not confirmed/i.test(m)) return '아직 이메일 인증을 하지 않으셨어요. 메일함을 확인해 주세요.';
+    if (/already registered/i.test(m)) return '이미 가입된 이메일이에요. 로그인하거나 비밀번호를 찾아주세요.';
+    if (/rate limit|security purposes|too many/i.test(m)) return '요청이 많아요. 잠시 후 다시 시도해 주세요.';
+    if (/password/i.test(m)) return '비밀번호를 8자 이상으로 더 어렵게 만들어 주세요.';
+    return '처리하지 못했어요. 잠시 후 다시 시도해 주세요.';
+  }
+  function openLogin(mode) {
     let dlg = document.getElementById('loginDialog');
     if (!dlg) {
       dlg = document.createElement('dialog'); dlg.id = 'loginDialog'; dlg.className = 'login-dialog';
       dlg.innerHTML =
-        '<form class="login-card">' +
+        '<form class="login-card auth-card" novalidate>' +
         '<button type="button" class="login-close" aria-label="닫기">×</button>' +
-        '<h2>로그인</h2>' +
-        '<p>로그인하면 <strong>표현 주머니</strong>와 <strong>연습 기록</strong>이 휴대폰과 PC에 함께 저장돼요. 지금 이 브라우저에 있는 기록도 그대로 옮겨져요.</p>' +
-        '<label for="loginEmail">이메일</label>' +
-        '<input id="loginEmail" type="email" autocomplete="email" placeholder="you@example.com">' +
-        '<button type="button" id="loginSend" class="primary">로그인 링크 받기</button>' +
+        '<h2 id="authTitle"></h2>' +
+        '<div class="auth-tabs" role="group" aria-label="로그인 또는 회원가입"><button type="button" data-mode="login">로그인</button><button type="button" data-mode="signup">회원가입</button></div>' +
+        '<p id="authIntro"></p>' +
+        '<div data-modes="login signup reset"><label for="authEmail">이메일</label><input id="authEmail" type="email" autocomplete="email" placeholder="you@example.com"></div>' +
+        '<div data-modes="signup"><label for="authName">이름</label><input id="authName" type="text" maxlength="40" autocomplete="name"></div>' +
+        '<div data-modes="signup"><label for="authUsername">아이디 <small>영문 소문자, 숫자, _ 4~20자</small></label><input id="authUsername" type="text" maxlength="20" autocomplete="username" autocapitalize="none" spellcheck="false"></div>' +
+        '<div data-modes="login signup"><label for="authPassword">비밀번호 <small data-modes="signup">8자 이상</small></label><input id="authPassword" type="password" autocomplete="current-password"></div>' +
+        '<div data-modes="signup"><label for="authPassword2">비밀번호 확인</label><input id="authPassword2" type="password" autocomplete="new-password"></div>' +
+        '<button type="button" id="loginSend" class="primary"></button>' +
+        '<p id="loginMsg" class="login-msg" role="status"></p>' +
+        '<button type="button" id="authResend" class="auth-link" hidden>인증 메일 다시 받기</button>' +
+        '<div data-modes="login"><button type="button" class="auth-link" data-mode="reset">비밀번호를 잊으셨나요?</button></div>' +
+        '<div data-modes="reset"><button type="button" class="auth-link" data-mode="login">← 로그인으로 돌아가기</button></div>' +
+        '<div data-modes="login signup">' +
         ((cfg.enableGoogle || cfg.enableApple) ? '<div class="login-or">또는</div>' : '') +
         (cfg.enableGoogle ? '<button type="button" class="oauth-btn" data-provider="google"><span class="oauth-mark">G</span>Google로 계속하기</button>' : '') +
         (cfg.enableApple ? '<button type="button" class="oauth-btn" data-provider="apple"><span class="oauth-mark"></span>Apple로 계속하기</button>' : '') +
-        '<p id="loginMsg" class="login-msg" role="status"></p>' +
-        '<p class="login-note">비밀번호 없이 메일로 받은 링크를 누르면 로그인돼요.</p>' +
+        '</div>' +
+        '<p class="login-note" data-modes="login">전에 이메일 링크로 가입하셨다면 “비밀번호를 잊으셨나요?”로 비밀번호를 만들어 주세요.</p>' +
         '</form>';
       document.body.appendChild(dlg);
       wireDialog(dlg, '#loginSend');
-      dlg.querySelector('#loginSend').onclick = async function () {
-        const email = dlg.querySelector('#loginEmail').value.trim();
-        const msg = dlg.querySelector('#loginMsg');
-        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { msg.textContent = '이메일 주소를 확인해 주세요.'; return; }
-        this.disabled = true; msg.textContent = '보내는 중…';
-        const redirect = location.origin + location.pathname;
-        const { error } = await client.auth.signInWithOtp({ email: email, options: { emailRedirectTo: redirect } });
-        this.disabled = false;
-        msg.textContent = error ? ('보내지 못했어요: ' + error.message) : '메일함을 확인해 주세요! 링크를 누르면 이 페이지로 돌아와 로그인돼요.';
+      const $f = function (id) { return dlg.querySelector('#' + id); };
+      dlg.querySelectorAll('[data-mode]').forEach(function (b) { b.onclick = function () { setAuthMode(dlg, b.dataset.mode); }; });
+      $f('authResend').onclick = async function () {
+        const email = $f('authEmail').value.trim();
+        const msg = $f('loginMsg');
+        if (!validEmail(email)) { msg.textContent = '이메일 주소를 확인해 주세요.'; return; }
+        const { error } = await client.auth.resend({ type: 'signup', email: email, options: { emailRedirectTo: redirectUrl() } });
+        msg.textContent = error ? authMessage(error) : '인증 메일을 다시 보냈어요. 메일함을 확인해 주세요.';
+      };
+      $f('loginSend').onclick = async function () {
+        const mode = dlg.dataset.mode, btn = this, msg = $f('loginMsg');
+        const email = $f('authEmail').value.trim(), password = $f('authPassword').value;
+        const say = function (t) { msg.textContent = t; };
+        $f('authResend').hidden = true;
+        if (!validEmail(email)) return say('이메일 주소를 확인해 주세요.');
+        btn.disabled = true; say('처리하는 중…');
+        try {
+          if (mode === 'login') {
+            if (!password) return say('비밀번호를 입력해 주세요.');
+            const { error } = await client.auth.signInWithPassword({ email: email, password: password });
+            if (error) { say(authMessage(error)); $f('authResend').hidden = !/email not confirmed/i.test(error.message || ''); return; }
+            $f('authPassword').value = ''; dlg.close();
+          } else if (mode === 'signup') {
+            const name = $f('authName').value.trim();
+            const username = $f('authUsername').value.trim().toLowerCase();
+            if (!name) return say('이름을 입력해 주세요.');
+            if (!USERNAME_RE.test(username)) return say('아이디는 영문 소문자, 숫자, _ 로 4~20자여야 해요.');
+            if (password.length < 8) return say('비밀번호는 8자 이상이어야 해요.');
+            if (password !== $f('authPassword2').value) return say('비밀번호가 서로 달라요.');
+            const check = await client.rpc('username_available', { candidate: username });
+            if (check.data === false) return say('이미 쓰고 있는 아이디예요.');
+            const { data, error } = await client.auth.signUp({
+              email: email, password: password,
+              options: { emailRedirectTo: redirectUrl(), data: { username: username, display_name: name } }
+            });
+            if (error) return say(authMessage(error));
+            // with email confirmation on, an existing address comes back without identities
+            if (data.user && Array.isArray(data.user.identities) && !data.user.identities.length) return say('이미 가입된 이메일이에요. 로그인하거나 비밀번호를 찾아주세요.');
+            $f('authPassword').value = ''; $f('authPassword2').value = '';
+            say(email + '로 인증 메일을 보냈어요. 메일의 링크를 누르면 가입이 끝나요.');
+            $f('authResend').hidden = false;
+          } else {
+            const { error } = await client.auth.resetPasswordForEmail(email, { redirectTo: redirectUrl() });
+            say(error && /rate limit|security purposes/i.test(error.message || '') ? authMessage(error) : '가입된 이메일이라면 재설정 메일이 도착해요. 메일함을 확인해 주세요.');
+          }
+        } finally { btn.disabled = false; }
       };
       dlg.querySelectorAll('.oauth-btn').forEach(function (b) {
         b.onclick = async function () {
-          if (!client) return;
-          const { error } = await client.auth.signInWithOAuth({ provider: b.dataset.provider, options: { redirectTo: location.origin + location.pathname } });
-          if (error) dlg.querySelector('#loginMsg').textContent = '로그인하지 못했어요: ' + error.message;
+          const { error } = await client.auth.signInWithOAuth({ provider: b.dataset.provider, options: { redirectTo: redirectUrl() } });
+          if (error) $f('loginMsg').textContent = authMessage(error);
         };
       });
     }
+    setAuthMode(dlg, mode || 'login');
+    dlg.showModal();
+  }
+  function setAuthMode(dlg, mode) {
+    const t = AUTH_MODES[mode];
+    dlg.dataset.mode = mode;
+    dlg.querySelector('#authTitle').textContent = t.title;
+    dlg.querySelector('#authIntro').textContent = t.intro;
+    dlg.querySelector('#loginSend').textContent = t.send;
     dlg.querySelector('#loginMsg').textContent = '';
+    dlg.querySelector('#authResend').hidden = true;
+    dlg.querySelector('#authPassword').autocomplete = mode === 'signup' ? 'new-password' : 'current-password';
+    dlg.querySelector('.auth-tabs').hidden = mode === 'reset';
+    dlg.querySelectorAll('.auth-tabs [data-mode]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.mode === mode)); });
+    dlg.querySelectorAll('[data-modes]').forEach(function (el) { el.hidden = el.dataset.modes.split(' ').indexOf(mode) < 0; });
+  }
+
+  // new password after clicking the reset mail
+  function openNewPassword() {
+    let dlg = document.getElementById('newPasswordDialog');
+    if (!dlg) {
+      dlg = document.createElement('dialog'); dlg.id = 'newPasswordDialog'; dlg.className = 'login-dialog';
+      dlg.innerHTML =
+        '<form class="login-card auth-card" novalidate>' +
+        '<button type="button" class="login-close" aria-label="닫기">×</button>' +
+        '<h2>새 비밀번호 만들기</h2>' +
+        '<label for="newPassword">새 비밀번호 <small>8자 이상</small></label><input id="newPassword" type="password" autocomplete="new-password">' +
+        '<label for="newPassword2">새 비밀번호 확인</label><input id="newPassword2" type="password" autocomplete="new-password">' +
+        '<button type="button" id="newPasswordSend" class="primary">비밀번호 저장</button>' +
+        '<p id="newPasswordMsg" class="login-msg" role="status"></p></form>';
+      document.body.appendChild(dlg);
+      wireDialog(dlg, '#newPasswordSend');
+      dlg.querySelector('#newPasswordSend').onclick = async function () {
+        const a = dlg.querySelector('#newPassword').value, b = dlg.querySelector('#newPassword2').value;
+        const msg = dlg.querySelector('#newPasswordMsg');
+        if (a.length < 8) { msg.textContent = '비밀번호는 8자 이상이어야 해요.'; return; }
+        if (a !== b) { msg.textContent = '비밀번호가 서로 달라요.'; return; }
+        this.disabled = true;
+        const { error } = await client.auth.updateUser({ password: a });
+        this.disabled = false;
+        if (error) { msg.textContent = authMessage(error); return; }
+        dlg.close(); toast('비밀번호를 저장했어요 ☺');
+      };
+    }
+    dlg.showModal();
+  }
+
+  // members without a username (Google, earlier email-link sign-ups)
+  async function loadProfile() {
+    if (!client || !user) return;
+    const { data, error } = await client.from('profiles').select('username,display_name').eq('id', user.id).maybeSingle();
+    if (error || !data) return;
+    profile = data; renderAccount();
+    let asked = false; try { asked = sessionStorage.getItem('kw-profile-asked') === '1'; } catch {}
+    if (!data.username && !asked && !document.querySelector('dialog[open]')) {
+      try { sessionStorage.setItem('kw-profile-asked', '1'); } catch {}
+      openProfilePrompt();
+    }
+  }
+  function openProfilePrompt() {
+    let dlg = document.getElementById('profileDialog');
+    if (!dlg) {
+      dlg = document.createElement('dialog'); dlg.id = 'profileDialog'; dlg.className = 'login-dialog';
+      dlg.innerHTML =
+        '<form class="login-card auth-card" novalidate>' +
+        '<button type="button" class="login-close" aria-label="닫기">×</button>' +
+        '<h2>프로필 만들기</h2><p>이름과 아이디만 정하면 끝이에요.</p>' +
+        '<label for="profileName">이름</label><input id="profileName" type="text" maxlength="40" autocomplete="name">' +
+        '<label for="profileUsername">아이디 <small>영문 소문자, 숫자, _ 4~20자</small></label><input id="profileUsername" type="text" maxlength="20" autocapitalize="none" spellcheck="false">' +
+        '<button type="button" id="profileSend" class="primary">저장</button>' +
+        '<p id="profileMsg" class="login-msg" role="status"></p></form>';
+      document.body.appendChild(dlg);
+      wireDialog(dlg, '#profileSend');
+      dlg.querySelector('#profileSend').onclick = async function () {
+        const name = dlg.querySelector('#profileName').value.trim();
+        const username = dlg.querySelector('#profileUsername').value.trim().toLowerCase();
+        const msg = dlg.querySelector('#profileMsg');
+        if (!name) { msg.textContent = '이름을 입력해 주세요.'; return; }
+        if (!USERNAME_RE.test(username)) { msg.textContent = '아이디는 영문 소문자, 숫자, _ 로 4~20자여야 해요.'; return; }
+        this.disabled = true;
+        const { error } = await client.from('profiles').update({ username: username, display_name: name }).eq('id', user.id);
+        this.disabled = false;
+        if (error) { msg.textContent = error.code === '23505' ? '이미 쓰고 있는 아이디예요.' : '저장하지 못했어요. 잠시 후 다시 시도해 주세요.'; return; }
+        profile = { username: username, display_name: name };
+        renderAccount(); dlg.close(); toast('프로필을 저장했어요 ☺');
+      };
+    }
+    dlg.querySelector('#profileName').value = (profile && profile.display_name) || '';
     dlg.showModal();
   }
 
@@ -249,6 +398,7 @@ const KWSync = (function () {
     if (!confirm('로그아웃할까요? 이 기기에 남아 있는 주머니와 기록은 지워지고, 다시 로그인하면 돌아와요.')) return;
     await client.auth.signOut();
     try { localStorage.removeItem('kw-pouch-v1'); localStorage.removeItem(PROGRESS_KEY); localStorage.removeItem(KNOWN_KEY); } catch {}
+    try { sessionStorage.removeItem('kw-profile-asked'); } catch {}
     location.reload();
   }
 
@@ -261,6 +411,8 @@ const KWSync = (function () {
       if (!enabled) return;
       try {
         await loadLib();
+        // the reset mail lands here with a token in the URL; remember it across the gate reload
+        if (/type=recovery/.test(location.hash)) { try { sessionStorage.setItem('kw-recovery', '1'); } catch {} }
         client = window.supabase.createClient(cfg.supabaseUrl, cfg.supabaseAnonKey, { auth: { persistSession: true, detectSessionInUrl: true } });
         const { data } = await client.auth.getSession();
         user = data.session ? data.session.user : null;
@@ -268,6 +420,9 @@ const KWSync = (function () {
         // session arrived after the page already applied the login gate
         if (user && window.__kwGated) { location.reload(); return; }
         renderAccount();
+        let recovering = false; try { recovering = sessionStorage.getItem('kw-recovery') === '1'; } catch {}
+        if (user && recovering) { try { sessionStorage.removeItem('kw-recovery'); } catch {} openNewPassword(); }
+        else if (user) loadProfile();
         if (typeof Pouch !== 'undefined') Pouch.onChange(pouchChanged);
         client.auth.onAuthStateChange(function (event, session) {
           const next = session ? session.user : null;
