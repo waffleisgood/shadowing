@@ -64,7 +64,7 @@
     const title = document.createElement('strong');
     title.textContent = '🔒 더 공부하기';
     const p = document.createElement('p');
-    p.textContent = '로그인하면 ' + locked.length + '일치를 더 연습할 수 있어요. 지금까지의 기록도 그대로 옮겨져요.';
+    p.textContent = '로그인하면 매일 매일 연습할 수 있어요. 지금까지의 기록도 그대로 옮겨져요.';
     box.append(title, p, loginButton('asideLogin', '로그인하고 계속하기'));
     const pouch = aside.querySelector('.pouch-link');
     if (pouch) aside.insertBefore(box, pouch); else aside.appendChild(box);
