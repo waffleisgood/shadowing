@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "days": [
   {
    "day": 1,
    "publish_date": "2026-11-03",
-   "file": "days/day01.json",
    "title": "Day 01 · 근황을 이야기처럼 풀기",
-   "channel": "Hannah Elise"
+   "channel": "Hannah Elise",
+   "file": "days/day01.json"
   },
   {
    "day": 2,
    "publish_date": "2026-11-03",
-   "file": "days/day02.json",
    "title": "Day 02 · 의견 말하기",
-   "channel": "Jenn Im"
+   "channel": "Jenn Im",
+   "file": "days/day02.json"
   },
   {
    "day": 3,
    "publish_date": "2026-11-03",
-   "file": "days/day03.json",
    "title": "Day 03 · 근황 털어놓기",
-   "channel": "Caroline Winkler"
+   "channel": "Caroline Winkler",
+   "file": "days/day03.json"
   },
   {
    "day": 4,
    "publish_date": "2026-11-03",
-   "file": "days/day04.json",
    "title": "Day 04 · 스몰토크",
-   "channel": "lindseyrem"
+   "channel": "lindseyrem",
+   "file": "days/day04.json"
   },
   {
    "day": 5,
    "publish_date": "2026-11-03",
-   "file": "days/day05.json",
    "title": "Day 05 · 의견 말하기",
-   "channel": "Kelsey Simone"
+   "channel": "Kelsey Simone",
+   "file": "days/day05.json"
   },
   {
    "day": 6,
@@ -89,6 +89,12 @@
    "publish_date": "2026-11-03",
    "title": "Day 14 · 계획",
    "channel": "Claudia Sulewski"
+  },
+  {
+   "day": 15,
+   "publish_date": "2026-11-11",
+   "title": "Day 15 · 경계 세우기",
+   "channel": "Jenn Im"
   }
  ]
 }
