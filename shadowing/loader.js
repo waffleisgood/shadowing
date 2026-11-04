@@ -83,9 +83,18 @@
         const gated = !!(window.KWSync && KWSync.enabled && !KWSync.user && freeDays > 0);
         const visible = gated ? published.filter(function (x) { return x.day <= freeDays; }) : published;
         const locked = gated ? published.filter(function (x) { return x.day > freeDays; }) : [];
-        return Promise.all(visible.map(function (x) {
-          return fetch('content/' + x.file).then(function (r) { if (!r.ok) throw new Error(x.file + ' ' + r.status); return r.json(); });
-        })).then(function (lessons) { return { lessons: lessons, upcoming: upcoming, locked: locked, freeDays: freeDays }; });
+        const staticDays = visible.filter(function (x) { return x.file; });
+        const remoteDays = visible.filter(function (x) { return !x.file; }).map(function (x) { return x.day; });
+        return Promise.all([
+          Promise.all(staticDays.map(function (x) {
+            return fetch('content/' + x.file).then(function (r) { if (!r.ok) throw new Error(x.file + ' ' + r.status); return r.json(); });
+          })),
+          remoteDays.length && window.KWSync ? KWSync.fetchDays(remoteDays) : Promise.resolve([])
+        ]).then(function (parts) {
+          const lessons = parts[0].concat(parts[1]).sort(function (a, b) { return a.day - b.day; });
+          if (parts[1].length < remoteDays.length && window.KWSync) KWSync.toast('일부 Day를 불러오지 못했어요. 잠시 후 새로고침해 주세요.');
+          return { lessons: lessons, upcoming: upcoming, locked: locked, freeDays: freeDays };
+        });
       });
     })
     .then(function (res) {

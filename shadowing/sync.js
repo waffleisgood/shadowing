@@ -98,6 +98,13 @@ const KWSync = (function () {
   }
 
   // ---------------------------------------------------------------- account UI
+  // gated Days (no static file) come from Supabase; RLS allows signed-in users and released Days only
+  async function fetchDays(days) {
+    if (!client || !user || !days.length) return [];
+    const { data, error } = await client.from('day_content').select('day,lesson').in('day', days);
+    if (error) { console.warn(error); return []; }
+    return data.map(function (r) { return r.lesson; });
+  }
   function login() {
     if (!client) { toast('로그인을 준비하고 있어요. 잠시 후 다시 눌러주세요.'); return; }
     openLogin();
@@ -280,6 +287,6 @@ const KWSync = (function () {
     return Promise.race([readyPromise, new Promise(function (r) { setTimeout(r, 4000); })]);
   }
 
-  return { enabled: enabled, ready: ready, progressChanged: progressChanged, openFeedback: openFeedback, login: login, get user() { return user; } };
+  return { enabled: enabled, ready: ready, progressChanged: progressChanged, openFeedback: openFeedback, login: login, fetchDays: fetchDays, toast: toast, get user() { return user; } };
 })();
 window.KWSync = KWSync;
