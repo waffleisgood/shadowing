@@ -499,3 +499,10 @@ body.masked .maskable:not(.revealed)::before{color:transparent}
 .login-close:hover{background:var(--highlight)}
 .feedback-actions{display:grid;grid-template-columns:1fr 2fr;gap:10px}
 .feedback-card .feedback-actions .primary{width:auto}
+
+/* ---------- login gate ---------- */
+.locked-cta{margin:12px 2px 4px;padding:12px 12px 13px;background:var(--sheet);border:2px dashed var(--ink);border-radius:var(--wobble-sm)}
+.locked-cta strong{display:block;font-weight:400;font-size:19px}
+.locked-cta p{margin:3px 0 9px;font-size:15px;line-height:1.45;color:var(--ink-soft)}
+.locked-cta button{width:100%;font-size:16px}
+.lesson-complete #gateLogin{white-space:nowrap}

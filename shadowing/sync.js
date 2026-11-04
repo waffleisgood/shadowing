@@ -98,6 +98,10 @@ const KWSync = (function () {
   }
 
   // ---------------------------------------------------------------- account UI
+  function login() {
+    if (!client) { toast('로그인을 준비하고 있어요. 잠시 후 다시 눌러주세요.'); return; }
+    openLogin();
+  }
   function renderAccount() {
     const box = document.getElementById('account');
     if (!box) return;
@@ -116,7 +120,7 @@ const KWSync = (function () {
       box.append(who, out);
     } else {
       const b = document.createElement('button'); b.type = 'button'; b.className = 'account-btn primary-soft'; b.textContent = '로그인 ✎';
-      b.onclick = function () { if (!client) { toast('로그인을 준비하고 있어요. 잠시 후 다시 눌러주세요.'); return; } openLogin(); };
+      b.onclick = login;
       box.append(b);
     }
   }
@@ -254,6 +258,8 @@ const KWSync = (function () {
         const { data } = await client.auth.getSession();
         user = data.session ? data.session.user : null;
         if (user) await pullMerge();
+        // session arrived after the page already applied the login gate
+        if (user && window.__kwGated) { location.reload(); return; }
         renderAccount();
         if (typeof Pouch !== 'undefined') Pouch.onChange(pouchChanged);
         client.auth.onAuthStateChange(function (event, session) {
@@ -274,6 +280,6 @@ const KWSync = (function () {
     return Promise.race([readyPromise, new Promise(function (r) { setTimeout(r, 4000); })]);
   }
 
-  return { enabled: enabled, ready: ready, progressChanged: progressChanged, openFeedback: openFeedback, get user() { return user; } };
+  return { enabled: enabled, ready: ready, progressChanged: progressChanged, openFeedback: openFeedback, login: login, get user() { return user; } };
 })();
 window.KWSync = KWSync;
