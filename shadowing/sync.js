@@ -121,17 +121,29 @@ const KWSync = (function () {
     }
   }
 
+  // closing never depends on form validation: ×, 닫기, click outside, Esc (native)
+  function wireDialog(dlg, sendSelector) {
+    dlg.querySelectorAll('.login-close, .dialog-cancel').forEach(function (b) { b.onclick = function () { dlg.close(); }; });
+    let downOnBackdrop = false;
+    dlg.addEventListener('pointerdown', function (e) { downOnBackdrop = e.target === dlg; });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg && downOnBackdrop) dlg.close(); downOnBackdrop = false; });
+    dlg.querySelector('form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (e.target.querySelector(sendSelector)) e.target.querySelector(sendSelector).click();
+    });
+  }
+
   function openLogin() {
     let dlg = document.getElementById('loginDialog');
     if (!dlg) {
       dlg = document.createElement('dialog'); dlg.id = 'loginDialog'; dlg.className = 'login-dialog';
       dlg.innerHTML =
-        '<form method="dialog" class="login-card">' +
-        '<button type="submit" value="close" class="login-close" aria-label="닫기">×</button>' +
+        '<form class="login-card">' +
+        '<button type="button" class="login-close" aria-label="닫기">×</button>' +
         '<h2>로그인</h2>' +
         '<p>로그인하면 <strong>표현 주머니</strong>와 <strong>연습 기록</strong>이 휴대폰과 PC에 함께 저장돼요. 지금 이 브라우저에 있는 기록도 그대로 옮겨져요.</p>' +
         '<label for="loginEmail">이메일</label>' +
-        '<input id="loginEmail" type="email" autocomplete="email" required placeholder="you@example.com">' +
+        '<input id="loginEmail" type="email" autocomplete="email" placeholder="you@example.com">' +
         '<button type="button" id="loginSend" class="primary">로그인 링크 받기</button>' +
         ((cfg.enableGoogle || cfg.enableApple) ? '<div class="login-or">또는</div>' : '') +
         (cfg.enableGoogle ? '<button type="button" class="oauth-btn" data-provider="google"><span class="oauth-mark">G</span>Google로 계속하기</button>' : '') +
@@ -140,6 +152,7 @@ const KWSync = (function () {
         '<p class="login-note">비밀번호 없이 메일로 받은 링크를 누르면 로그인돼요.</p>' +
         '</form>';
       document.body.appendChild(dlg);
+      wireDialog(dlg, '#loginSend');
       dlg.querySelector('#loginSend').onclick = async function () {
         const email = dlg.querySelector('#loginEmail').value.trim();
         const msg = dlg.querySelector('#loginMsg');
@@ -176,22 +189,23 @@ const KWSync = (function () {
     if (!dlg) {
       dlg = document.createElement('dialog'); dlg.id = 'feedbackDialog'; dlg.className = 'login-dialog';
       dlg.innerHTML =
-        '<form method="dialog" class="login-card feedback-card">' +
-        '<button type="submit" value="close" class="login-close" aria-label="닫기">×</button>' +
+        '<form class="login-card feedback-card">' +
+        '<button type="button" class="login-close" aria-label="닫기">×</button>' +
         '<h2>피드백 남기기</h2>' +
         '<p>불편했던 점이나 바라는 점을 편하게 적어주세요. 틀린 표현을 찾으셨다면 어느 부분인지 알려주세요.</p>' +
         '<label for="feedbackCategory">종류</label>' +
         '<select id="feedbackCategory"><option value="idea">제안</option><option value="bug">오류 신고</option><option value="content">표현·콘텐츠</option><option value="etc">기타</option></select>' +
         '<label for="feedbackBody">내용</label>' +
-        '<textarea id="feedbackBody" rows="5" maxlength="2000" required></textarea>' +
+        '<textarea id="feedbackBody" rows="5" maxlength="2000"></textarea>' +
         '<div id="feedbackContactWrap"><label for="feedbackContact">답장받을 이메일 (선택)</label>' +
         '<input id="feedbackContact" type="email" maxlength="200" autocomplete="email" placeholder="you@example.com"></div>' +
         '<div class="feedback-trap" aria-hidden="true"><label>Website<input id="feedbackWebsite" tabindex="-1" autocomplete="off"></label></div>' +
-        '<button type="button" id="feedbackSend" class="primary">보내기</button>' +
+        '<div class="feedback-actions"><button type="button" class="dialog-cancel">닫기</button><button type="button" id="feedbackSend" class="primary">보내기</button></div>' +
         '<p id="feedbackMsg" class="login-msg" role="status"></p>' +
         '<p class="login-note">보내주신 내용은 운영자만 볼 수 있어요. 어느 페이지에서 보냈는지도 함께 기록돼요.</p>' +
         '</form>';
       document.body.appendChild(dlg);
+      wireDialog(dlg, '#feedbackSend');
       dlg.querySelector('#feedbackSend').onclick = async function () {
         const msg = dlg.querySelector('#feedbackMsg');
         const body = dlg.querySelector('#feedbackBody').value.trim();

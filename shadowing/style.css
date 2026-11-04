@@ -493,3 +493,9 @@ body.masked .maskable:not(.revealed)::before{color:transparent}
   .pouch-page .back-link{font-size:0;border-bottom:0;padding:0}
   .pouch-page .back-link::before{content:"← 연습";font-size:14px;white-space:nowrap}
 }
+
+/* dialogs: easier closing */
+.login-close{top:8px;right:8px;width:40px;height:40px;display:grid;place-items:center;border-radius:50%;font-size:30px}
+.login-close:hover{background:var(--highlight)}
+.feedback-actions{display:grid;grid-template-columns:1fr 2fr;gap:10px}
+.feedback-card .feedback-actions .primary{width:auto}
