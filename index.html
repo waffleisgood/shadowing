@@ -3,10 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>Korean Waffle</title>
-  <link rel="canonical" href="https://koreanwaffle.com/shadowing/">
-  <!-- 쉐도잉 사이트는 /shadowing/ 으로 옮겼어요. 로그인 복귀 정보(?code=, #access_token=)도 함께 넘겨요. -->
-  <script>location.replace('/shadowing/' + location.search + location.hash);</script>
-  <noscript><meta http-equiv="refresh" content="0; url=/shadowing/"></noscript>
+  <link rel="canonical" href="https://koreanwaffle.com/links/">
+  <!-- 첫 주소는 소개 페이지로 보내요. 단, Supabase 로그인에서 돌아온 경우(?code=, #access_token=)는 쉐도잉 사이트로 넘겨요. -->
+  <script>
+    (function () {
+      var auth = /[?#&](code|access_token|error_description)=/.test(location.search + location.hash);
+      location.replace(auth ? '/shadowing/' + location.search + location.hash : '/links/');
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/links/"></noscript>
 </head>
-<body><a href="/shadowing/">Korean Waffle Shadowing</a></body>
+<body><a href="/links/">Korean Waffle</a></body>
 </html>
