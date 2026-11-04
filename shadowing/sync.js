@@ -6,6 +6,7 @@ const KWSync = (function () {
   const enabled = !!(cfg.supabaseUrl && cfg.supabaseAnonKey);
   const LIB = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js';
   const PROGRESS_KEY = 'scene-loop-completed';
+  const DATES_KEY = 'kw-completed-at'; // set completion dates, shown in 연습한 영상
   const KNOWN_KEY = 'kw-sync-known-pouch'; // pouch keys last seen on server (to detect removals)
   const USERNAME_RE = /^[a-z0-9_]{4,20}$/;
   let client = null, user = null, profile = null, pushTimer = null, progressTimer = null;
@@ -52,16 +53,20 @@ const KWSync = (function () {
     if (toPush.length) await upsertPouch(toPush);
 
     // progress (union)
-    const { data: prog, error: e2 } = await client.from('progress').select('set_key');
+    const { data: prog, error: e2 } = await client.from('progress').select('set_key,completed_at');
     if (e2) { console.warn(e2); return; }
+    const dates = ls(DATES_KEY, {});
+    prog.forEach(function (r) { dates[r.set_key] = r.completed_at; });
+    lsSet(DATES_KEY, dates);
     const localDone = new Set(ls(PROGRESS_KEY, []));
     const serverDone = new Set(prog.map(function (r) { return r.set_key; }));
     const missing = Array.from(localDone).filter(function (k) { return !serverDone.has(k); });
     serverDone.forEach(function (k) { localDone.add(k); });
     lsSet(PROGRESS_KEY, Array.from(localDone));
-    if (missing.length) await client.from('progress').upsert(missing.map(function (k) { return { set_key: k }; }), { onConflict: 'user_id,set_key', ignoreDuplicates: true });
+    if (missing.length) await client.from('progress').upsert(missing.map(progressRow), { onConflict: 'user_id,set_key', ignoreDuplicates: true });
   }
 
+  function progressRow(k) { return { set_key: k, completed_at: ls(DATES_KEY, {})[k] || new Date().toISOString() }; }
   function rowOf(x) {
     const data = Object.assign({}, x); delete data.learned; delete data.savedAt; delete data.updatedAt;
     return { key: x.key, data: data, learned: !!x.learned, deleted: false, saved_at: x.savedAt || new Date().toISOString(), updated_at: x.updatedAt || new Date().toISOString() };
@@ -93,7 +98,7 @@ const KWSync = (function () {
     progressTimer = setTimeout(async function () {
       const done = ls(PROGRESS_KEY, []);
       if (!done.length) return;
-      const { error } = await client.from('progress').upsert(done.map(function (k) { return { set_key: k }; }), { onConflict: 'user_id,set_key', ignoreDuplicates: true });
+      const { error } = await client.from('progress').upsert(done.map(progressRow), { onConflict: 'user_id,set_key', ignoreDuplicates: true });
       if (error) console.warn(error);
     }, 700);
   }
@@ -397,7 +402,7 @@ const KWSync = (function () {
   async function signOut() {
     if (!confirm('로그아웃할까요? 이 기기에 남아 있는 주머니와 기록은 지워지고, 다시 로그인하면 돌아와요.')) return;
     await client.auth.signOut();
-    try { localStorage.removeItem('kw-pouch-v1'); localStorage.removeItem(PROGRESS_KEY); localStorage.removeItem(KNOWN_KEY); } catch {}
+    try { localStorage.removeItem('kw-pouch-v1'); localStorage.removeItem(PROGRESS_KEY); localStorage.removeItem(KNOWN_KEY); localStorage.removeItem(DATES_KEY); } catch {}
     try { sessionStorage.removeItem('kw-profile-asked'); } catch {}
     location.reload();
   }
