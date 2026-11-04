@@ -1,6 +1,6 @@
 # Supabase 설정 가이드 (로그인 + 동기화)
 
-사이트 주소: https://waffleisgood.github.io/shadowing/
+사이트 주소: https://koreanwaffle.com/
 
 ## 1. 프로젝트 만들기 (5분)
 1. https://supabase.com 에 가입한 뒤 **New project**를 누릅니다. Region은 `Frankfurt (eu-central-1)`처럼 사용자와 가까운 곳으로 고릅니다.
@@ -12,10 +12,10 @@
 
 ## 2. 로그인 주소 설정
 **Authentication → URL Configuration**에서 아래 두 항목을 설정합니다.
-- Site URL: `https://waffleisgood.github.io/shadowing/`
+- Site URL: `https://koreanwaffle.com/`
 - Redirect URLs에 다음을 추가합니다.
-  - `https://waffleisgood.github.io/shadowing/`
-  - `https://waffleisgood.github.io/shadowing/pouch.html`
+  - `https://koreanwaffle.com/`
+  - `https://koreanwaffle.com/pouch.html`
   - `http://localhost:8000/` (로컬 테스트용)
 
 ## 3. 이메일 로그인 (기본, 추가 설정 없음)
