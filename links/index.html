@@ -91,6 +91,20 @@
       font-family: "Jost", sans-serif; font-size: 10px; font-weight: 600; letter-spacing: .12em; color: var(--mute); }
     .folio i { width: 6px; height: 6px; background: var(--ink); }
 
+    /* code popup */
+    .gate { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; padding: 20px; background: rgba(255,255,255,.86); }
+    .gate[hidden] { display: none; }
+    .gate form { width: 100%; max-width: 300px; padding: 22px 20px 18px; background: #fff; border: 1.5px solid var(--line); text-align: center; }
+    .gate h2 { margin: 0; font-size: 15px; font-weight: 700; }
+    .gate input {
+      display: block; width: 100%; margin: 16px 0 6px; padding: 8px 0 8px .4em; border: 0; border-bottom: 1.5px solid var(--line); border-radius: 0;
+      background: none; color: var(--ink); font-family: "Jost", sans-serif; font-size: 24px; font-weight: 600; letter-spacing: .4em; text-align: center; outline: none;
+    }
+    .gate .msg { min-height: 18px; margin: 0; font-size: 12px; color: #b3261e; }
+    .gate .acts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+    .gate button { min-height: 44px; border: 1.5px solid var(--line); border-radius: 0; background: #fff; color: var(--ink); font: 500 14px "Noto Sans KR", sans-serif; cursor: pointer; }
+    .gate button[type=submit] { background: var(--ink); color: #fff; }
+
     @media (max-width: 374px) { .index .en { font-size: 11px; } }
     @media (min-width: 520px) {
       body { padding: 28px 0; }
@@ -122,8 +136,8 @@
 
       <nav aria-label="링크">
         <ol class="index">
-          <li><a href="https://wafelnederlands.com"><span class="no">ITEM 01</span><span class="ko">네덜란드어 공부</span><span class="en">Learning Dutch in Korean</span></a></li>
-          <li><a href="https://koreanwaffle.com/shadowing/"><span class="no">ITEM 02</span><span class="ko">영어 쉐도잉 사이트</span><span class="en">Shadowing Practice</span></a></li>
+          <li><a href="#" data-gate="https://wafelnederlands.com"><span class="no">ITEM 01</span><span class="ko">네덜란드어 공부</span><span class="en">Learning Dutch in Korean</span></a></li>
+          <li><a href="#" data-gate="https://koreanwaffle.com/shadowing/"><span class="no">ITEM 02</span><span class="ko">영어 쉐도잉 사이트</span><span class="en">Shadowing Practice</span></a></li>
           <li><a href="https://www.youtube.com/@KoreanWaffle"><span class="no">ITEM 03</span><span class="ko">유튜브 채널</span><span class="en">Youtube Channel</span></a></li>
           <li><a href="mailto:koreanwaffle01@gmail.com"><span class="no">ITEM 04</span><span class="ko">Contact</span><span class="en">koreanwaffle01@gmail.com</span></a></li>
         </ol>
@@ -150,5 +164,48 @@
     </div>
     <div class="folio">KOREAN WAFFLE 002 <i></i></div>
   </section>
+  <div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title" hidden>
+    <form id="gate-form" novalidate>
+      <h2 id="gate-title">코드 6자리를 넣어주세요</h2>
+      <input id="gate-code" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off" aria-label="코드 6자리" aria-describedby="gate-msg">
+      <p class="msg" id="gate-msg" role="alert"></p>
+      <div class="acts"><button type="button" id="gate-cancel">취소</button><button type="submit">확인</button></div>
+    </form>
+  </div>
+
+  <script>
+    (function () {
+      var HASH = "aac69fa5";
+      var gate = document.getElementById("gate"), form = document.getElementById("gate-form"),
+          code = document.getElementById("gate-code"), msg = document.getElementById("gate-msg"),
+          target = "", opener = null;
+      function fnv(t) {
+        var h = 0x811c9dc5;
+        for (var i = 0; i < t.length; i++) { h ^= t.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+        return ("0000000" + h.toString(16)).slice(-8);
+      }
+      function close() { gate.hidden = true; code.value = ""; msg.textContent = ""; if (opener) opener.focus(); }
+      function check() {
+        if (code.value.length < 6) { msg.textContent = "코드 6자리를 모두 넣어주세요."; code.focus(); return; }
+        if (fnv(code.value) === HASH) { gate.hidden = true; code.value = ""; location.href = target; return; }
+        msg.textContent = "코드가 맞지 않아요."; code.value = ""; code.focus();
+      }
+      document.querySelectorAll("[data-gate]").forEach(function (a) {
+        a.addEventListener("click", function (e) {
+          e.preventDefault();
+          target = a.getAttribute("data-gate"); opener = a;
+          gate.hidden = false; msg.textContent = ""; code.value = ""; code.focus();
+        });
+      });
+      code.addEventListener("input", function () {
+        code.value = code.value.replace(/\D/g, "").slice(0, 6);
+        if (code.value.length === 6) check(); else msg.textContent = "";
+      });
+      form.addEventListener("submit", function (e) { e.preventDefault(); check(); });
+      document.getElementById("gate-cancel").addEventListener("click", close);
+      gate.addEventListener("click", function (e) { if (e.target === gate) close(); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !gate.hidden) close(); });
+    })();
+  </script>
 </body>
 </html>
