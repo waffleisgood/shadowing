@@ -140,8 +140,8 @@
 
       <nav aria-label="링크">
         <ol class="index">
-          <li><a href="#" data-gate="https://wafelnederlands.com"><span class="no">ITEM 01</span><span class="ko">네덜란드어 공부</span><span class="en">Learning Dutch in Korean</span></a></li>
-          <li><a href="#" data-gate="https://koreanwaffle.com/shadowing/"><span class="no">ITEM 02</span><span class="ko">영어 쉐도잉 사이트</span><span class="en">Shadowing Practice</span></a></li>
+          <li><a href="#" data-gate="https://wafelnederlands.com" data-code="aac69fa5"><span class="no">ITEM 01</span><span class="ko">네덜란드어 공부</span><span class="en">Learning Dutch in Korean</span></a></li>
+          <li><a href="#" data-gate="https://koreanwaffle.com/shadowing/" data-code="1e0f9e59"><span class="no">ITEM 02</span><span class="ko">영어 쉐도잉 사이트</span><span class="en">Shadowing Practice</span></a></li>
           <li><a href="https://www.youtube.com/@KoreanWaffle"><span class="no">ITEM 03</span><span class="ko">유튜브 채널</span><span class="en">Youtube Channel</span></a></li>
           <li><a href="mailto:koreanwaffle01@gmail.com"><span class="no">ITEM 04</span><span class="ko">Contact</span><span class="en">koreanwaffle01@gmail.com</span></a></li>
         </ol>
@@ -188,10 +188,9 @@
 
   <script>
     (function () {
-      var HASH = "aac69fa5";
       var gate = document.getElementById("gate"), form = document.getElementById("gate-form"),
           code = document.getElementById("gate-code"), msg = document.getElementById("gate-msg"),
-          target = "", opener = null;
+          target = "", hash = "", opener = null;
       function fnv(t) {
         var h = 0x811c9dc5;
         for (var i = 0; i < t.length; i++) { h ^= t.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
@@ -200,13 +199,13 @@
       function close() { gate.hidden = true; code.value = ""; msg.textContent = ""; if (opener) opener.focus(); }
       function check() {
         if (code.value.length < 6) { msg.textContent = "코드 6자리를 모두 넣어주세요."; code.focus(); return; }
-        if (fnv(code.value) === HASH) { gate.hidden = true; code.value = ""; location.href = target; return; }
+        if (fnv(code.value) === hash) { gate.hidden = true; code.value = ""; location.href = target; return; }
         msg.textContent = "코드가 맞지 않아요."; code.value = ""; code.focus();
       }
       document.querySelectorAll("[data-gate]").forEach(function (a) {
         a.addEventListener("click", function (e) {
           e.preventDefault();
-          target = a.getAttribute("data-gate"); opener = a;
+          target = a.getAttribute("data-gate"); hash = a.getAttribute("data-code"); opener = a;
           gate.hidden = false; msg.textContent = ""; code.value = ""; code.focus();
         });
       });
