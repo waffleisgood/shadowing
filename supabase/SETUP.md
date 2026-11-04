@@ -14,8 +14,8 @@
 **Authentication → URL Configuration**에서 아래 두 항목을 설정합니다.
 - Site URL: `https://koreanwaffle.com/`
 - Redirect URLs에 다음을 추가합니다.
-  - `https://koreanwaffle.com/`
-  - `https://koreanwaffle.com/pouch.html`
+  - `https://koreanwaffle.com/shadowing/`
+  - `https://koreanwaffle.com/shadowing/pouch.html`
   - `http://localhost:8000/` (로컬 테스트용)
 
 ## 3. 이메일 로그인 (기본, 추가 설정 없음)
