@@ -58,7 +58,7 @@
     .with::before, .with::after { content: ""; width: 12px; height: 1.5px; background: var(--line); }
     .sub { font-family: "Jost", sans-serif; font-weight: 700; font-size: 15px; letter-spacing: .05em; }
 
-    .stage { position: relative; height: calc(var(--w) * .68 * 1.62); min-height: 424px; }
+    .stage { position: relative; height: calc(var(--w) * .68 * 1.62); min-height: 440px; }
     .girlbox { position: absolute; right: -6px; top: 0; bottom: 0; width: calc(var(--w) * .68); overflow: hidden; z-index: 1; }
     .girlbox img { display: block; width: 100%; height: auto; mix-blend-mode: multiply; }
     .bubble { position: absolute; z-index: 2; font-family: "Caveat", cursive; text-align: center; color: var(--ink); }
@@ -67,7 +67,10 @@
     .bubble-a { left: 22px; top: 14px; width: 136px; height: 92px; display: grid; place-items: center; padding: 8px 14px 12px; }
 
     /* contents */
-    .index { position: absolute; z-index: 2; left: var(--gutter); bottom: 20px; width: calc(var(--w) * .43); margin: 0; padding: 0; list-style: none; }
+    .links { position: absolute; z-index: 2; left: var(--gutter); bottom: 20px; width: calc(var(--w) * .43); }
+    .hint { display: flex; align-items: center; gap: 4px; margin: 0 0 6px; font-size: 11px; font-weight: 500; line-height: 1.3; color: var(--ink); }
+    .hint svg { flex: none; width: 15px; height: 15px; }
+    .index { margin: 0; padding: 0; list-style: none; }
     .index li { border-top: 1.5px solid var(--line); }
     .index li:last-child { border-bottom: 1.5px solid var(--line); }
     .index a { display: block; padding: 9px 0 10px; min-height: 58px; }
@@ -138,7 +141,10 @@
 
       <div class="girlbox"><img src="img/waffle-tilt.jpg" width="679" height="1700" alt="셔츠와 니트 조끼를 입고 고개를 기울여 웃는 Korean Waffle" fetchpriority="high"></div>
 
-      <nav aria-label="링크">
+      <nav class="links" aria-label="링크">
+        <p class="hint">클릭하세요
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 5.2v8.3l2.1-2 1.4 3.2 1.7-.8-1.4-3.1h2.9z" fill="#fff" stroke="#1b1a18" stroke-width="1.2" stroke-linejoin="round"/><path d="M5.5 2.8V1M2.9 3.9 1.7 2.7M2 6.4H.3M8 3.9l1.2-1.2" fill="none" stroke="#1b1a18" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </p>
         <ol class="index">
           <li><a href="#" data-gate="https://wafelnederlands.com" data-code="aac69fa5"><span class="no">ITEM 01</span><span class="ko">네덜란드어 공부</span><span class="en">Learning Dutch in Korean</span></a></li>
           <li><a href="#" data-gate="https://koreanwaffle.com/shadowing/" data-code="1e0f9e59"><span class="no">ITEM 02</span><span class="ko">영어 쉐도잉 사이트</span><span class="en">Shadowing Practice</span></a></li>
