@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "days": [
   {
    "day": 1,
@@ -95,6 +95,12 @@
    "publish_date": "2026-11-11",
    "title": "Day 15 · 경계 세우기",
    "channel": "Jenn Im"
+  },
+  {
+   "day": 16,
+   "publish_date": "2026-11-12",
+   "title": "Day 16 · 감정",
+   "channel": "Claudia Sulewski"
   }
  ]
 }
