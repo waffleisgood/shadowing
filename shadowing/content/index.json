@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-13",
  "days": [
   {
    "day": 1,
@@ -95,6 +95,30 @@
    "publish_date": "2026-11-11",
    "title": "Day 15 · 경계 세우기",
    "channel": "Jenn Im"
+  },
+  {
+   "day": 16,
+   "publish_date": "2026-11-12",
+   "title": "Day 16 · 감정",
+   "channel": "Claudia Sulewski"
+  },
+  {
+   "day": 17,
+   "publish_date": "2026-11-18",
+   "title": "Day 17 · 감정·가치",
+   "channel": "Kelsey Simone"
+  },
+  {
+   "day": 18,
+   "publish_date": "2026-11-19",
+   "title": "Day 18 · 감정·관계",
+   "channel": "Alyssa Lenore"
+  },
+  {
+   "day": 19,
+   "publish_date": "2026-11-20",
+   "title": "Day 19 · 부드럽게 반대하기",
+   "channel": "lindseyrem"
   }
  ]
 }
