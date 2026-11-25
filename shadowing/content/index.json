@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-25",
  "days": [
   {
    "day": 1,
@@ -95,6 +95,66 @@
    "publish_date": "2026-11-11",
    "title": "Day 15 · 경계 세우기",
    "channel": "Jenn Im"
+  },
+  {
+   "day": 16,
+   "publish_date": "2026-11-12",
+   "title": "Day 16 · 감정",
+   "channel": "Claudia Sulewski"
+  },
+  {
+   "day": 17,
+   "publish_date": "2026-11-18",
+   "title": "Day 17 · 감정·가치",
+   "channel": "Kelsey Simone"
+  },
+  {
+   "day": 18,
+   "publish_date": "2026-11-19",
+   "title": "Day 18 · 감정·관계",
+   "channel": "Alyssa Lenore"
+  },
+  {
+   "day": 19,
+   "publish_date": "2026-11-20",
+   "title": "Day 19 · 부드럽게 반대하기",
+   "channel": "lindseyrem"
+  },
+  {
+   "day": 20,
+   "publish_date": "2026-11-23",
+   "title": "Day 20 · 부드럽게 반대하기",
+   "channel": "Caroline Winkler"
+  },
+  {
+   "day": 21,
+   "publish_date": "2026-11-24",
+   "title": "Day 21 · 경험 이야기",
+   "channel": "Alyssa Lenore"
+  },
+  {
+   "day": 22,
+   "publish_date": "2026-11-28",
+   "title": "Day 22 · 경험 이야기",
+   "channel": "Jenn Im"
+  },
+  {
+   "day": 23,
+   "publish_date": "2026-11-29",
+   "title": "Day 23 · 묘사",
+   "channel": "Claudia Sulewski"
+  },
+  {
+   "day": 24,
+   "publish_date": "2026-11-30",
+   "title": "Day 24 · 묘사와 추천",
+   "channel": "Kelsey Simone"
+  },
+  {
+   "day": 25,
+   "publish_date": "2026-12-02",
+   "title": "Day 25 · 설득·제안",
+   "channel": "Caroline Winkler"
   }
  ]
 }
