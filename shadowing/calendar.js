@@ -94,6 +94,7 @@ const KWCalendar = (function () {
     else { big.textContent = '📅'; small.textContent = '내 진도 달력'; }
     badge.hidden = !m.late.length;
     badge.textContent = '밀림 ' + m.late.length;
+    document.dispatchEvent(new CustomEvent('kw:calendar-refresh', { detail: { button: btn, model: m } }));
     const dlg = document.getElementById('calendarDialog');
     if (dlg && dlg.open) render(dlg);
   }
@@ -219,6 +220,7 @@ const KWCalendar = (function () {
     const m = model();
     const body = dlg.querySelector('#calendarBody');
     body.replaceChildren(summary(m, dlg), month(m, dlg));
+    document.dispatchEvent(new CustomEvent('kw:calendar-render', { detail: { body: body, model: m } })); // streak.js adds its row
   }
 
   function open() {
