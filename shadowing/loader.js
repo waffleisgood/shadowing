@@ -105,6 +105,7 @@
       return loadScript('app.js?v=20261105').then(function () {
         window.__kwAppLoaded = true;
         if (window.KWCalendar) KWCalendar.refresh();
+        document.dispatchEvent(new Event('kw:ready')); // add-on modules (compare, review, ...) start here
         nextReleaseNote(res.upcoming);
         showLockedNote(res.locked);
         openFromHash(res.locked);

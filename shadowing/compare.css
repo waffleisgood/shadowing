@@ -1,0 +1,10 @@
+/* 원음 → 내 녹음 → 원음 이어 듣기 (2026-11-26) */
+#recordingResult:not([hidden]){flex-wrap:wrap}
+.compare-row{flex:1 1 100%;display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin:0 0 10px}
+.compare-btn{background:var(--highlight);font-size:16px}
+.compare-btn[aria-pressed=true]{background:var(--pink)}
+.compare-steps{display:flex;align-items:center;gap:6px;font-size:15px;color:var(--muted)}
+.compare-steps span{padding:1px 8px;border:1.3px dashed var(--line);border-radius:var(--wobble-sm)}
+.compare-steps span.past{color:var(--ink-soft);border-style:solid}
+.compare-steps span.on{color:var(--ink);border:1.6px solid var(--ink);background:var(--highlight)}
+@media(max-width:650px){.compare-btn{width:100%}.compare-steps{font-size:14px}}
