@@ -81,6 +81,28 @@
      "work_example_en": "Let's tighten up the numbers before the review, because if there are any gaps, finance will use them as ammunition to cut our budget.",
      "work_example_ko": "리뷰 전에 숫자 좀 꼼꼼히 맞춰 놔요. 빈틈이 하나라도 있으면 재무팀이 그걸 꼬투리 삼아서 예산 깎으려고 할 거예요."
     }
+   ],
+   "parts": [
+    {
+     "start": 229.0,
+     "end": 237.56,
+     "text": "I can look at that and be like, \"Ooh, this is really highlighting something that I may be feeling insecure about, that I feel like I might be missing."
+    },
+    {
+     "start": 237.56,
+     "end": 243.28,
+     "text": "And then once I've pinpointed that, I can really ask myself, like, \"Hmm, is this something that I can actively work towards?"
+    },
+    {
+     "start": 243.28,
+     "end": 246.68,
+     "text": "Is there something that I can actively do to change my circumstance?"
+    },
+    {
+     "start": 246.68,
+     "end": 251.72,
+     "text": "If the answer is yes, then I use envy and jealousy as ammunition."
+    }
    ]
   },
   {
@@ -118,6 +140,23 @@
      "nuance_ko": "원래 속담은 셰익스피어의 'All that glitters is not gold(원문은 glisters)'. 문법상으론 '반짝이는 건 전부 금이 아니다'로도 읽히는 옛날식 어순이라, 요즘 원어민은 말할 때 Jenn처럼 'Not everything that glitters is gold'나 'Not all that glitters is gold'로 풀어서 자주 말해요. 틀린 게 아니라 더 구어적이고 뜻이 분명한 변형이에요. 글로 인용하거나 속담 자체를 말할 땐 원형, 대화에선 변형이 편해요. 어느 쪽이든 살짝 교훈조라 'you know,'를 앞에 붙이면 덜 거창하게 들리고, 상대가 들떠 있는 아이디어에 대고 쓰면 김빼는 말로 들릴 수 있어요.",
      "work_example_en": "The vendor's demo was really slick, but you know, not everything that glitters is gold, so I'd push for a short pilot before we sign anything.",
      "work_example_ko": "업체 데모가 꽤 그럴듯하긴 했는데, 겉만 번지르르할 수도 있잖아요. 계약 전에 짧게 파일럿부터 해보자고 하는 게 좋겠어요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 374.72,
+     "end": 382.44,
+     "text": "I feel like if anything, I like having friends in different eras because it shows, like, the dark and the positive sides of everything."
+    },
+    {
+     "start": 382.44,
+     "end": 386.0,
+     "text": "Like, the grass is never, like, always super green on either side."
+    },
+    {
+     "start": 386.0,
+     "end": 394.18,
+     "text": "So, if anything, I feel like having friends from different eras, it reminds me that not everything that glitters is gold."
     }
    ]
   },
@@ -157,6 +196,18 @@
      "work_example_en": "Overall I'm really proud of how the launch went, but if I could change things, I'd say we brought design in a little too late.",
      "work_example_ko": "전체적으로는 런칭 결과가 정말 뿌듯해요. 그래도 하나 바꿀 수 있다면, 디자인 팀을 좀 늦게 합류시킨 것 같아요."
     }
+   ],
+   "parts": [
+    {
+     "start": 572.88,
+     "end": 582.04,
+     "text": "For the most part, I try to live with my life with no regrets because if I did not get married when I did, I probably wouldn't have had my son."
+    },
+    {
+     "start": 582.04,
+     "end": 587.88,
+     "text": "Like, okay, but if I could change things, yeah, I think I got— I got married a little bit too early. I did."
+    }
    ]
   },
   {
@@ -194,6 +245,33 @@
      "nuance_ko": "문장 통째로 외우기보다 두 칸짜리 틀로 쓰세요. ① 'We'll see.'로 내가 정할 수 없는 결과는 열어두고, ② 'Either way, …'로 '어느 쪽이 되든 이건 정해져 있다'를 붙여요. 뒤 칸에 자주 들어가는 게 'go about X'(X를 어떤 방식으로 해 나가다)인데, 'do X differently'보다 '진행 방식 자체를 바꾼다'는 느낌이 있어 회고·계획 회의에서 잘 어울려요. X 자리에 it/this/the hiring plan처럼 바꿔 넣으면 돼요.",
      "work_example_en": "We'll see what leadership decides on the budget. Either way, I think we should go about the hiring plan differently this time.",
      "work_example_ko": "예산은 경영진이 어떻게 정할지 두고 봐야죠. 어쨌든 이번엔 채용 계획을 좀 다르게 접근하는 게 맞는 것 같아요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 637.52,
+     "end": 639.84,
+     "text": "Yeah, I am. I would like to get married again."
+    },
+    {
+     "start": 639.84,
+     "end": 643.28,
+     "text": "I would. But I'm in no rush, too."
+    },
+    {
+     "start": 643.28,
+     "end": 648.08,
+     "text": "Like, I— if I— I'd be down for, like, a wedding in my 40s or something."
+    },
+    {
+     "start": 648.08,
+     "end": 650.56,
+     "text": "Like, that's the kind of vibe I'm going to go for."
+    },
+    {
+     "start": 650.56,
+     "end": 653.84,
+     "text": "But we'll see. Either way, I think I'm going to go about it very differently."
     }
    ]
   }
