@@ -60,7 +60,7 @@
   function start() {
     if (run) return stop('비교를 멈췄어요.');
     if (recordBusy) return status('녹음을 먼저 완료해주세요.', true);
-    if (!recordings.get(key())) return status('먼저 녹음해 주세요.', true);
+    if (!recordings.get(recKey())) return status('먼저 녹음해 주세요.', true);
     if (!ready) return status('YouTube가 아직 준비되지 않았어요. 잠시 후 다시 눌러주세요.', true);
     run = { wasLooping: looping };
     looping = false; // one pass per step; the loop setting comes back afterwards

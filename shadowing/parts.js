@@ -18,6 +18,7 @@ const KWParts = (function () {
     idx = i; setKey = key();
     pause();
     render();
+    updateRecording(); // each sentence keeps its own recording
     if (!ready) return;
     if (play) playSegment();
     else { player.seekTo(range() ? range().start : set().start, true); player.pauseVideo(); }
@@ -62,6 +63,7 @@ const KWParts = (function () {
     const b = bar(p); b.id = 'partsBar';
     const top = document.querySelector('.transcript-top');
     if (top) top.after(b);
+    document.dispatchEvent(new Event('kw:parts-render')); // sentence-loop.js adds its button
     // transcript as sentences: the selected one is highlighted, each is clickable
     const tr = document.getElementById('transcript');
     if (tr && !hidden) {
@@ -80,6 +82,7 @@ const KWParts = (function () {
     document.head.appendChild(l);
   }
   css();
-  return { range: range, render: render, choose: choose };
+  function partIndex() { return range() ? idx : null; }
+  return { range: range, render: render, choose: choose, partIndex: partIndex, parts: parts };
 })();
 window.KWParts = KWParts;
