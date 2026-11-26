@@ -59,7 +59,10 @@ const KWCalendar = (function () {
       nextRelease: days.find(function (d) { return d.publish > today; }) || null,
       late: days.filter(function (d) { return d.status === 'late' || d.status === 'locked-late'; }),
       todayDay: days.find(function (d) { return d.due === today; }) || null,
-      doneCount: days.filter(function (d) { return d.status === 'done'; }).length
+      doneCount: days.filter(function (d) { return d.status === 'done'; }).length,
+      // 표현 주머니 간격 복습 (review.js)
+      reviewDue: window.KWReview ? KWReview.dueItems().length : 0,
+      reviewed: window.KWReview ? KWReview.days() : new Map()
     };
   }
 
@@ -86,6 +89,7 @@ const KWCalendar = (function () {
     const m = model();
     const big = btn.querySelector('span'), small = btn.querySelector('small'), badge = btn.querySelector('.cal-badge');
     if (m.todayDay && m.todayDay.status !== 'done') { big.textContent = 'D' + pad(m.todayDay.day); small.textContent = '오늘 할 차례'; }
+    else if (m.reviewDue) { big.textContent = '↻' + m.reviewDue; small.textContent = '복습할 차례'; }
     else if (m.todayDay) { big.textContent = '✓'; small.textContent = '오늘 분량 완료'; }
     else { big.textContent = '📅'; small.textContent = '내 진도 달력'; }
     badge.hidden = !m.late.length;
@@ -138,6 +142,13 @@ const KWCalendar = (function () {
     else if (m.nextRelease) t.append(el('span', null, '오늘 열릴 Day가 없어요. Day ' + pad(m.nextRelease.day) + '는 ' + md(m.nextRelease.publish) + '에 열려요.'));
     else t.append(el('span', null, '오늘 열릴 Day가 없어요.'));
     box.append(t);
+    if (m.reviewDue) {
+      const r = el('div', 'cal-today cal-review');
+      const a = el('a', null, '↻ 표현 복습 ' + m.reviewDue + '개');
+      a.href = 'pouch.html#review';
+      r.append(el('strong', null, '복습'), a);
+      box.append(r);
+    }
     // 4) overdue
     if (m.late.length) {
       const l = el('div', 'cal-late');
@@ -175,7 +186,8 @@ const KWCalendar = (function () {
       const ds = view.y + '-' + pad(view.m + 1) + '-' + pad(day);
       const d = byDue.get(ds);
       const studiedSets = m.studied.get(ds) || 0;
-      const cell = el(d ? 'button' : 'span', 'cal-cell' + (ds === m.today ? ' is-now' : '') + (studiedSets ? ' studied' : '') + (d ? ' has-day is-' + d.status : '') + (ds < m.start ? ' before' : ''));
+      const reviews = m.reviewed.get(ds) || 0;
+      const cell = el(d ? 'button' : 'span', 'cal-cell' + (ds === m.today ? ' is-now' : '') + (studiedSets || reviews ? ' studied' : '') + (d ? ' has-day is-' + d.status : '') + (ds < m.start ? ' before' : ''));
       cell.append(el('span', 'cal-date', String(day)));
       if (d) {
         cell.type = 'button';
@@ -185,6 +197,7 @@ const KWCalendar = (function () {
         else cell.disabled = true;
       } else if (studiedSets) cell.title = '이날 ' + studiedSets + '세트 연습';
       if (studiedSets) cell.append(el('span', 'cal-stamp', '✎' + studiedSets));
+      if (reviews) { cell.append(el('span', 'cal-stamp rv', '↻' + reviews)); cell.title = (cell.title ? cell.title + ' · ' : '') + '표현 ' + reviews + '개 복습'; }
       grid.append(cell);
     }
     wrap.append(grid);
@@ -193,6 +206,7 @@ const KWCalendar = (function () {
       const s = el('span'); s.append(el('i', x[0]), document.createTextNode(x[1])); legend.append(s);
     });
     const st = el('span'); st.append(el('b', 'cal-stamp', '✎'), document.createTextNode('연습한 날 (세트 수)')); legend.append(st);
+    const rv = el('span'); rv.append(el('b', 'cal-stamp', '↻'), document.createTextNode('복습한 표현 수')); legend.append(rv);
     wrap.append(legend);
     return wrap;
   }

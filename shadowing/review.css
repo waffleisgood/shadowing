@@ -1,0 +1,35 @@
+/* 표현 주머니 간격 복습 (2026-11-26) */
+.review-panel{display:flex;align-items:center;gap:12px;margin:0 0 16px;padding:12px 14px;background:#fffbe6;border:2px solid var(--ink);border-radius:var(--wobble-sm);box-shadow:2px 2px 0 var(--ink)}
+.rp-icon{font-size:28px;line-height:1}
+.rp-text{flex:1;min-width:0;display:flex;flex-direction:column}
+.rp-text strong{font-weight:400;font-size:19px}
+.rp-text small{font-size:14px;color:var(--muted)}
+.srs-tag{margin-left:auto;font-size:13px;color:var(--muted);white-space:nowrap;padding:0 6px;border:1.2px dashed var(--line);border-radius:var(--wobble-sm)}
+.srs-tag.due{color:var(--ink);border:1.4px solid var(--ink);background:var(--highlight)}
+.review-dialog{max-width:min(480px,calc(100vw - 32px))}
+.review-dialog .login-card{background:var(--sheet);transform:rotate(-.3deg);text-align:center}
+.rv-top{display:flex;justify-content:space-between;align-items:baseline;margin:0 34px 6px 0}
+.rv-count{font-size:15px;color:var(--ink-soft)}
+.rv-bar{height:6px;background:var(--rule);border-radius:3px;overflow:hidden;margin-bottom:18px}
+.rv-bar i{display:block;height:100%;background:#7fbf72;transition:width .2s}
+.rv-body{display:flex;flex-direction:column;align-items:center;gap:10px;min-height:220px}
+.rv-stage{font-size:13px;color:var(--muted)}
+.rv-phrase{font-size:26px;line-height:1.35;margin:4px 0;overflow-wrap:anywhere}
+.rv-surface{font-size:15px!important;color:var(--ink-soft)!important;margin:0!important}
+.rv-sub{font-size:15px!important;color:var(--muted)!important}
+.rv-reveal{min-width:180px}
+.rv-back{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%}
+.rv-back[hidden]{display:none}
+.rv-meaning{font-size:19px!important;color:var(--ink)!important;margin:4px 0!important;background:linear-gradient(transparent 60%,var(--highlight) 60%);display:inline}
+.rv-ex{font-size:16px!important;color:var(--ink)!important;margin:8px 0 0!important}
+.rv-ex-ko{font-size:14px!important;margin:0!important}
+.rv-grade{display:flex;gap:10px;width:100%;margin-top:12px}
+.rv-grade button{flex:1;font-size:15px;padding:9px 8px}
+.rv-no{background:var(--pink)}
+.rv-yes{background:var(--green)}
+.rv-done-mark{font-size:44px!important;color:var(--ink)!important;margin:6px 0 0!important}
+/* calendar */
+.cal-review{display:flex;align-items:center;gap:10px}
+.cal-review a{font-size:15px;padding:4px 12px;border:1.8px solid var(--ink);border-radius:var(--wobble-sm);box-shadow:1.5px 1.5px 0 var(--ink);background:var(--sheet)}
+.cal-stamp.rv{left:4px;right:auto}
+@media(max-width:650px){.rv-grade{flex-direction:column}.review-panel{flex-wrap:wrap}.review-panel .primary{width:100%}.cal-stamp.rv{left:2px}}
