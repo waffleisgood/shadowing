@@ -1,0 +1,14 @@
+/* 휴대폰 하단 고정 버튼 줄 (2026-11-26) */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+  background:var(--sheet);border-top:2px solid var(--ink);box-shadow:0 -3px 0 #2b2a2814}
+.dock[hidden]{display:none}
+.dock-btn{flex:1 1 0;min-width:0;padding:10px 6px;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:2px 2px 0 var(--ink)}
+.dock-btn[hidden]{display:none}
+.dock-play{background:var(--ink);color:var(--sheet)}
+.dock-play:hover{background:var(--ink)}
+.dock-rec{background:var(--pink)}
+.dock-rec.on{background:#ffb8ab}
+.dock-loop{background:var(--highlight)}
+.dock-loop.on{background:var(--pink)}
+body.has-dock{padding-bottom:76px}
+body.has-dock .kw-toast{bottom:88px}
