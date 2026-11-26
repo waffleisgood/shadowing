@@ -74,6 +74,7 @@
     .then(function (r) { if (!r.ok) throw new Error('index ' + r.status); return r.json(); })
     .then(function (index) {
       const all = (index.days || []).slice().sort(function (a, b) { return a.day - b.day; });
+      window.KW_INDEX = all; // 진도 달력 uses every Day's publish date, including locked/upcoming ones
       const published = all.filter(function (x) { return x.publish_date <= today; });
       const upcoming = all.find(function (x) { return x.publish_date > today; });
       // wait for the session first: it decides which Days this visitor can open
@@ -103,6 +104,7 @@
       installGate(res.locked, res.freeDays);
       return loadScript('app.js?v=20261105').then(function () {
         window.__kwAppLoaded = true;
+        if (window.KWCalendar) KWCalendar.refresh();
         nextReleaseNote(res.upcoming);
         showLockedNote(res.locked);
         openFromHash(res.locked);
