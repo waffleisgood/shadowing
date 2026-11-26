@@ -1,0 +1,19 @@
+/* 문장 루프 (2026-11-26) */
+.sl-btn{margin-left:6px;padding:3px 12px;font-size:15px;background:var(--highlight);box-shadow:1.5px 1.5px 0 var(--ink)}
+.sl-btn[aria-pressed=true]{background:var(--pink)}
+.sl-panel{margin:10px 0 0;padding:10px 12px;border:1.8px solid var(--ink);border-radius:var(--wobble-sm);background:#fffbe6;box-shadow:2px 2px 0 var(--ink)}
+.sl-panel[hidden]{display:none}
+.sl-steps{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;font-size:15px;color:var(--muted)}
+.sl-step{padding:1px 8px;border:1.3px dashed var(--line);border-radius:var(--wobble-sm)}
+.sl-step.past{color:var(--ink-soft);border-style:solid}
+.sl-step.on{color:var(--ink);border:1.6px solid var(--ink);background:var(--highlight)}
+.sl-arrow{font-style:normal}
+.sl-meter{height:8px;margin:10px 0 0;background:var(--rule);border-radius:4px;overflow:hidden}
+.sl-meter[hidden]{display:none}
+.sl-meter i{display:block;height:100%;width:0;background:#e0645a;transition:width .06s linear}
+.sl-msg{margin:8px 0 0;font-size:16px;line-height:1.5}
+.sl-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.sl-actions:empty{display:none}
+.sl-actions button{font-size:15px;padding:5px 12px}
+.sl-quit{border-style:dashed;box-shadow:none}
+@media(max-width:650px){.sl-btn{margin-left:0}.sl-actions button{flex:1 1 auto}}
