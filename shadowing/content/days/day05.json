@@ -43,6 +43,28 @@
      "work_example_en": "I'm fine with long meetings in general. It's just when there's no agenda that I start to lose interest and check my email.",
      "work_example_ko": "긴 회의 자체는 괜찮아요. 그냥 안건이 없을 때만큼은 집중이 떨어져서 메일을 보게 되더라고요."
     }
+   ],
+   "parts": [
+    {
+     "start": 191.44,
+     "end": 195.28,
+     "text": "My favorite book genre of all time is fantasy. I'm a fantasy girl, book— through and through."
+    },
+    {
+     "start": 195.28,
+     "end": 198.84,
+     "text": "I don't really love a romance book, but if it's a romantasy, I guess."
+    },
+    {
+     "start": 198.84,
+     "end": 205.72,
+     "text": "I don't like spicy reads, but if there's, like, romantic subplots within a fantasy book, I'm okay with that."
+    },
+    {
+     "start": 205.72,
+     "end": 210.9,
+     "text": "Just when romance is, like, the entire plot, I— I just don't care. I get really bored."
+    }
    ]
   },
   {
@@ -81,6 +103,33 @@
      "work_example_en": "The first few slides feel a bit scattered, so maybe add a summary at the end that ties it all together for the client.",
      "work_example_ko": "앞쪽 슬라이드가 좀 흩어진 느낌이라, 마지막에 고객용으로 전체를 하나로 엮어 주는 요약을 넣으면 좋을 것 같아요."
     }
+   ],
+   "parts": [
+    {
+     "start": 390.12,
+     "end": 392.4,
+     "text": "The first one was, like, a three out of five stars for me."
+    },
+    {
+     "start": 392.4,
+     "end": 394.88,
+     "text": "I'm not going to lie, I was a little disappointed."
+    },
+    {
+     "start": 394.88,
+     "end": 398.92,
+     "text": "It was just, like, too simplistic for me. Like, I like a lot of stuff going on in a fantasy book."
+    },
+    {
+     "start": 398.92,
+     "end": 409.0,
+     "text": "I have high expectations, I think. But I love just, like, crazy stuff going on all the time, and it was just, like, very minimalistic, I think, when it came to, like, drama and craziness."
+    },
+    {
+     "start": 409.0,
+     "end": 412.6,
+     "text": "Um, but she said the second one ties it together and makes it way better."
+    }
    ]
   },
   {
@@ -110,6 +159,28 @@
      "work_example_en": "The first version of the dashboard is intentionally simple, because we want to see which metrics people actually use before adding more.",
      "work_example_ko": "대시보드 첫 버전은 일부러 단순하게 만들었어요. 더 넣기 전에 사람들이 실제로 어떤 지표를 쓰는지 먼저 보려고요."
     }
+   ],
+   "parts": [
+    {
+     "start": 612.8,
+     "end": 616.4,
+     "text": "So I don't like movies and TV shows that are intentionally sad and, like, will make me cry."
+    },
+    {
+     "start": 616.4,
+     "end": 622.28,
+     "text": "I don't like to cry. Um, but I have not read, like, a sad book, like a book that's made me cry."
+    },
+    {
+     "start": 622.28,
+     "end": 626.56,
+     "text": "Well, no, I've definitely cried reading a book, but not because, like, the book was intentionally, like, a sad book, you know?"
+    },
+    {
+     "start": 626.56,
+     "end": 629.5,
+     "text": "Do you know what I mean? Like, the genre is just sad."
+    }
    ]
   },
   {
@@ -138,6 +209,33 @@
      "nuance_ko": "포인트는 'a'가 아니라 'this'예요. 상대가 처음 듣는 이야기를 꺼낼 때 'this'를 쓰면 '지금부터 얘기 하나 할게요'라는 구어식 이야기 시작 신호가 돼요('There was this guy at the conference who…'와 같은 this). 'weird'를 붙여 스스로 먼저 '좀 이상하죠'라고 인정하면 듣는 쪽도 편하게 웃으며 받아 줘요. 'fear'는 꽤 센 단어라 가벼운 버릇이면 'I have this thing where…'가 더 자연스러워요. 점심이나 슬랙 잡담처럼 나를 살짝 드러내는 스몰토크에 잘 맞아요.",
      "work_example_en": "I have this weird fear of hitting send too fast, so I always schedule important emails to go out ten minutes later.",
      "work_example_ko": "저는 메일을 너무 빨리 보내 버릴까 봐 이상하게 겁이 나서, 중요한 메일은 항상 10분 뒤에 나가게 예약해 둬요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 933.2,
+     "end": 938.6,
+     "text": "Now, I have this really weird fear of, like, reading all my books."
+    },
+    {
+     "start": 938.6,
+     "end": 941.0,
+     "text": "I don't know if this is something other people feel."
+    },
+    {
+     "start": 941.0,
+     "end": 943.72,
+     "text": "Like, I have so many books in my apartment."
+    },
+    {
+     "start": 943.72,
+     "end": 949.36,
+     "text": "Like, I— I love books. Like, I have so many books that I own, and so many that I haven't read, but I'm okay with that."
+    },
+    {
+     "start": 949.36,
+     "end": 952.26,
+     "text": "I don't want to read every book I own."
     }
    ]
   },
@@ -176,6 +274,38 @@
      "nuance_ko": "정석 관용구는 'hold it against someone'이에요. Kelsey는 'put it against'라고 말했는데, 원어민 귀에는 말하다 섞인 실수로 들리는 형태예요. 섀도잉할 땐 소리를 그대로 따라 하되, 직접 쓸 땐 꼭 hold로 하세요. 'blame someone'은 잘못을 따져 묻는 말이라 세지만, 'hold it against'는 '그걸로 그 사람을 나쁘게 보다, 마음에 담아 두다'라서 훨씬 부드러워요. 'I wouldn't hold it against you'는 '그걸로 너 탓 안 해, 신경 쓰지 마'라는 뜻이라, 동료가 실수나 거절을 미안해할 때 정말 자주 쓰는 배려 표현이에요.",
      "work_example_en": "If you can't make the offsite because of the school pickup, nobody's going to hold it against you, so don't stress about it.",
      "work_example_ko": "아이 하원 때문에 워크숍에 못 와도 아무도 뭐라 안 할 거예요. 너무 신경 쓰지 마세요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 1080.16,
+     "end": 1085.52,
+     "text": "The only bad thing I've really heard about this book is that the main character, Addie LaRue, can be insufferable."
+    },
+    {
+     "start": 1085.52,
+     "end": 1088.56,
+     "text": "But, like, so can I."
+    },
+    {
+     "start": 1088.56,
+     "end": 1095.68,
+     "text": "Like, I don't really mind an insufferable girl, because, like, sometimes I can sort of just be like, \"Okay, girl, I get it,\" you know?"
+    },
+    {
+     "start": 1095.68,
+     "end": 1098.48,
+     "text": "Um, like, I feel for them a little bit."
+    },
+    {
+     "start": 1098.48,
+     "end": 1102.24,
+     "text": "Like, I would never— I would never put it against a girl for being a little insufferable."
+    },
+    {
+     "start": 1102.24,
+     "end": 1104.55,
+     "text": "So if she is insufferable, I can get over it."
     }
    ]
   }

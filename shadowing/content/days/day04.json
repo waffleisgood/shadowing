@@ -43,6 +43,28 @@
      "work_example_en": "I've drafted the agenda for the offsite, but I have yet to hear back from facilities about the room booking.",
      "work_example_ko": "워크숍 안건 초안은 만들었는데, 회의실 예약은 시설팀에서 아직 답을 못 받았어요."
     }
+   ],
+   "parts": [
+    {
+     "start": 3.04,
+     "end": 6.96,
+     "text": "It is pretty nice and cold and gloomy today in Los Angeles."
+    },
+    {
+     "start": 6.96,
+     "end": 14.08,
+     "text": "I don't think this is going to last, but it's really getting me in the mood for my trip to New York that's coming up."
+    },
+    {
+     "start": 14.08,
+     "end": 20.92,
+     "text": "I wanted to vlog the process of packing my suitcase and what I'm going to wear, because I have yet to figure that out."
+    },
+    {
+     "start": 20.92,
+     "end": 23.38,
+     "text": "So, I thought it would be fun to do together."
+    }
    ]
   },
   {
@@ -81,6 +103,18 @@
      "work_example_en": "The vendor's quote came in higher than expected, so I'm going to have them break it down by line item before we approve anything.",
      "work_example_ko": "업체 견적이 생각보다 높게 나와서, 승인하기 전에 항목별로 나눠서 다시 보내달라고 하려고요."
     }
+   ],
+   "parts": [
+    {
+     "start": 243.2,
+     "end": 255.64,
+     "text": "So, I knew I wanted to bring them with me to New York, but I've just been putting off getting them hemmed because they are super long and they definitely require a hem, but I know I want to keep a little bit of a cuff."
+    },
+    {
+     "start": 255.64,
+     "end": 262.7,
+     "text": "So, this is how much of a cuff I need right now, and I think I'm going to have them make it, like, approximately half of that."
+    }
    ]
   },
   {
@@ -118,6 +152,23 @@
      "nuance_ko": "내가 어쩔 수 없는 조건이 바뀔 때까지 기다리겠다는 걸, 'I guess'로 살짝 체념 섞인 여유를 담아 말하는 표현. 불평처럼 안 들리고 '괜찮아요, 기다리죠' 하는 쿨한 톤이 나요. 다른 팀 결정이나 승인을 기다릴 때 딱. 'I guess'는 Lindsey처럼 중간에 끼워도 되고 'I guess I'll just have to wait'처럼 맨 앞에 둬도 돼요. 다만 상사가 기다려 달라고 할 때 이렇게 받으면 마지못해 하는 걸로 들릴 수 있으니, 그땐 'Sure, I can wait until…'이 안전해요.",
      "work_example_en": "Legal still hasn't signed off on the new contract template, so I guess I'll just have to wait until they're back from the conference.",
      "work_example_ko": "법무팀이 아직 새 계약서 템플릿 승인을 안 해줘서, 뭐 컨퍼런스 끝나고 돌아올 때까지 기다려야겠죠."
+    }
+   ],
+   "parts": [
+    {
+     "start": 734.52,
+     "end": 740.16,
+     "text": "I would have loved to get a pumpkin spice latte today, but it just feels wrong to do when it's this hot out."
+    },
+    {
+     "start": 740.16,
+     "end": 742.64,
+     "text": "Like, I want my pumpkin spice latte hot."
+    },
+    {
+     "start": 742.64,
+     "end": 749.7,
+     "text": "I don't want it iced, and so I will just have to wait, I guess, until the cold comes back."
     }
    ]
   },
@@ -194,6 +245,23 @@
      "nuance_ko": "'have a grasp on'은 '파악하고 있다'인데, 'loose'를 붙여 '완벽하진 않아도 대략은 안다'로 낮춘 표현. 다 정해진 건 아니지만 불안은 줄었다는 걸 솔직하게 말할 수 있어요. 앞 문장에서 못 하는 것을 말하고 'But it feels a lot better to…'로 넘기면 자연스러운 전환이 돼요.",
      "work_example_en": "The budget isn't final yet, but it feels a lot better to have a loose grasp on what we can spend before we start talking to agencies.",
      "work_example_ko": "예산이 아직 확정은 아니지만, 에이전시랑 얘기 시작하기 전에 쓸 수 있는 규모가 대충이라도 잡히니까 훨씬 마음이 놓여요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 1268.36,
+     "end": 1278.6,
+     "text": "Pajamas, and then all that's left is really, like, medications, phone chargers, tech stuff, which I'm going to be using over the next few days, so I can't really pack that far in advance."
+    },
+    {
+     "start": 1278.6,
+     "end": 1284.32,
+     "text": "But it feels a lot better to have a loose grasp on, like, what outfits I'm going to wear."
+    },
+    {
+     "start": 1284.32,
+     "end": 1288.3,
+     "text": "So when you see those outfits on Instagram, just act like you didn't see them before."
     }
    ]
   }

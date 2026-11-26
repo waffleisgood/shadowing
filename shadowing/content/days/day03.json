@@ -43,6 +43,28 @@
      "work_example_en": "Why did sign-ups drop last week? Honestly, that could be a million things, so let's check the funnel data before we blame the new onboarding flow.",
      "work_example_ko": "지난주에 가입자가 왜 줄었냐고요? 솔직히 원인이야 여러 가지일 수 있으니까, 새 온보딩 탓으로 돌리기 전에 퍼널 데이터부터 확인해 봐요."
     }
+   ],
+   "parts": [
+    {
+     "start": 246.84,
+     "end": 250.4,
+     "text": "It was very overwhelming and paralyzing, and I felt zero inspiration at all."
+    },
+    {
+     "start": 250.4,
+     "end": 259.4,
+     "text": "Zero inspiration. Until I just told myself, this actually doesn't have to be the one and only style that I ever like, or that will perfectly represent me."
+    },
+    {
+     "start": 259.4,
+     "end": 262.68,
+     "text": "It just— I just— I'm just going to make it something that I like."
+    },
+    {
+     "start": 262.68,
+     "end": 265.2,
+     "text": "Just something that I like, and that could be a million things."
+    }
    ]
   },
   {
@@ -80,6 +102,28 @@
      "nuance_ko": "'affect a lot'이나 'bother'보다 정확해요. 'disrupt'는 원래 잘 돌아가던 흐름·일정·일상이 끊긴다는 뜻이라, 단순히 '영향을 준다'가 아니라 '방해가 된다'는 걸 감정 없이 말할 수 있어요. 'significantly'를 붙이면 정도를 객관적으로 표현하는 느낌이라 일정 조율이나 변경 제안에서 자주 써요. 'a lot disrupt'처럼 말하는 실수 대신 이 덩어리로 외워 두세요.",
      "work_example_en": "Can we move the database migration to Saturday so it doesn't significantly disrupt the support team's workflow during the week?",
      "work_example_ko": "데이터베이스 마이그레이션을 토요일로 옮길 수 있을까요? 그래야 주중에 고객지원팀 업무 흐름에 큰 지장이 안 갈 것 같아서요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 675.8,
+     "end": 678.16,
+     "text": "So, those are things I liked about vlogging."
+    },
+    {
+     "start": 678.16,
+     "end": 682.0,
+     "text": "However, reasons why I feel like I can't anymore."
+    },
+    {
+     "start": 682.0,
+     "end": 686.12,
+     "text": "One reason is that, like, there's so many people watching now."
+    },
+    {
+     "start": 686.12,
+     "end": 700.14,
+     "text": "And I don't feel like there's much that I can share meaningfully about my day-to-day life with a million people that wouldn't, like, significantly disrupt other people's lives, like family or friends or fiancé."
     }
    ]
   },
@@ -119,6 +163,18 @@
      "work_example_en": "Lately I feel like I'm documenting the project instead of actually doing it, because every day is status updates and slides.",
      "work_example_ko": "요즘은 매일 진행 보고에 슬라이드만 만들다 보니까, 프로젝트를 하는 게 아니라 기록만 하고 있는 기분이에요."
     }
+   ],
+   "parts": [
+    {
+     "start": 893.7,
+     "end": 910.04,
+     "text": "Reason number three is that as much as I do like the vlogs I made, and I'm very, very proud of them, and I love that they brought a lot of people joy, they do kind of suck to make."
+    },
+    {
+     "start": 910.04,
+     "end": 917.4,
+     "text": "Like, it kind of sucks to be filming and narrating and producing your life instead of living it."
+    }
    ]
   },
   {
@@ -147,6 +203,23 @@
      "nuance_ko": "'I work too much'는 사실을 말하는 거라 불평처럼 들릴 수 있지만, 이 표현은 실제로 사무실에 있다는 게 아니라 일 생각이 머리에서 안 떠난다는 비유라 훨씬 가볍게 들려요. 'can't'가 아니라 'get to(~할 기회가 주어지다)'를 써서 '쉴 틈이 안 생긴다'는 아쉬움이 묻어나요. 워라밸 이야기를 무겁지 않게 꺼낼 때 쓰기 좋아요.",
      "work_example_en": "With Slack on my phone and the team spread across time zones, I feel like I never get to leave the office.",
      "work_example_ko": "폰에 슬랙이 깔려 있고 팀이 시간대별로 흩어져 있다 보니까, 퇴근을 아예 못 하는 기분이에요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 1468.6,
+     "end": 1473.12,
+     "text": "I do not watch any interior design content on YouTube anymore."
+    },
+    {
+     "start": 1473.12,
+     "end": 1478.16,
+     "text": "I guess I used to, but I haven't watched that in a long time, because it's like watching work."
+    },
+    {
+     "start": 1478.16,
+     "end": 1484.22,
+     "text": "It's like I never get to leave the office then. I don't need to watch other people do room makeovers for so many reasons."
     }
    ]
   },
@@ -185,6 +258,23 @@
      "nuance_ko": "'It's interesting'은 그냥 흥미롭다는 거고 'I learned a lot'은 평범한 소감인데, 'eye-opening'은 내가 당연하게 여기던 생각이 바뀔 만큼 새로 보게 됐다는 뜻이에요. 'pretty'를 붙이면 호들갑 없이 담담하게 들려서 회고, 고객 인터뷰 후기, 다른 팀 업무 체험 소감에 잘 맞아요. 사소한 정보나 이미 다 아는 이야기에 쓰면 과장처럼 들리니 아껴 쓰세요.",
      "work_example_en": "Sitting in on the customer support calls last week was pretty eye-opening, because half the complaints were about onboarding.",
      "work_example_ko": "지난주에 고객지원 통화를 옆에서 들어 봤는데 생각보다 많이 깨달았어요. 불만의 절반이 온보딩 얘기더라고요."
+    }
+   ],
+   "parts": [
+    {
+     "start": 2477.16,
+     "end": 2480.32,
+     "text": "So, I'm back— I'm back on the iPhone. It was definitely a good purge."
+    },
+    {
+     "start": 2480.32,
+     "end": 2484.48,
+     "text": "Get a dumb phone and do it for like— do it for like four months."
+    },
+    {
+     "start": 2484.48,
+     "end": 2495.98,
+     "text": "I mean, you can do it also just for one month, but I do think there's something to doing it for, like, a chunk of time where, like, you have to discover new workarounds, you have to establish new habits. It's pretty eye-opening."
     }
    ]
   }
