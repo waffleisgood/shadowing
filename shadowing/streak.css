@@ -1,0 +1,20 @@
+/* 연속 학습일 + 매일 알림 (2026-11-26) */
+.streak-row{display:flex;flex-direction:column;gap:8px}
+.streak-line{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.streak-fire{font-size:20px;line-height:1}
+.streak-fire.off{filter:grayscale(1);opacity:.5}
+.streak-txt{flex:1;min-width:0;font-size:16px;color:var(--ink-soft)}
+.streak-txt b{font-weight:400;color:var(--ink);background:linear-gradient(transparent 58%,#ffd6b0 58%)}
+.streak-txt small{font-size:13px;color:var(--muted)}
+.streak-bell{font-size:14px;padding:3px 10px;box-shadow:1.5px 1.5px 0 var(--ink)}
+.streak-bell[aria-expanded=true]{background:var(--highlight)}
+.rm-box{padding:10px 12px;border:1.5px dashed var(--ink);border-radius:var(--wobble-sm);background:#fffdf3}
+.rm-box[hidden]{display:none}
+.rm-row label{font-size:16px;color:var(--ink)}
+.rm-row input{width:auto;display:inline-block;margin:0 4px;font:inherit;font-size:16px;padding:2px 6px;border:1.5px solid var(--ink);border-radius:6px;background:#fff;color:var(--ink)}
+.rm-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.rm-btn{display:inline-block;font-size:15px;padding:5px 12px;border:1.8px solid var(--ink);border-radius:var(--wobble-sm);box-shadow:1.5px 1.5px 0 var(--ink);background:var(--sheet);color:var(--ink);cursor:pointer}
+.rm-note{font-size:13px!important;color:var(--muted)!important;margin:8px 0 0!important;line-height:1.55!important}
+.streak-badge{position:absolute;left:-8px;top:-12px;padding:1px 7px;font-weight:400;font-size:13px;background:#ffe2c7;border:1.6px solid var(--ink);border-radius:var(--wobble-sm);transform:rotate(-4deg);white-space:nowrap}
+.streak-badge[hidden]{display:none}
+@media(max-width:650px){.streak-badge{left:-6px;top:-10px;font-size:11px;padding:0 6px}.rm-btn{flex:1 1 100%;text-align:center}}
