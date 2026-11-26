@@ -629,3 +629,9 @@ button.cal-cell:disabled{opacity:1;cursor:default;transform:none;box-shadow:none
   .cal-stamp{font-size:10px;right:2px;bottom:1px}
   .cal-wd{font-size:12px}
 }
+
+/* ---------- 녹음 영역을 대본 바로 아래로 (2026-11-26) ---------- */
+.transcript-card .recorder{padding:16px 0 12px;margin-top:4px;border-top:1.5px dashed var(--line)}
+.transcript-card #recordingResult{margin-bottom:14px}
+.transcript-card .recorder+#recordingResult[hidden]+.coach,.transcript-card .recorder+#recordingResult+.coach{margin-top:6px}
+@media(max-width:650px){.transcript-card .recorder{padding:12px 0 8px}}
