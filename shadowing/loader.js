@@ -102,7 +102,7 @@
       if (!res.lessons.length) throw new Error('no published days');
       window.LESSONS = res.lessons;
       installGate(res.locked, res.freeDays);
-      return loadScript('app.js?v=20261105').then(function () {
+      return loadScript('app.js?v=20261126').then(function () {
         window.__kwAppLoaded = true;
         if (window.KWCalendar) KWCalendar.refresh();
         document.dispatchEvent(new Event('kw:ready')); // add-on modules (compare, review, ...) start here
