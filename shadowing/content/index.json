@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "days": [
   {
    "day": 1,
@@ -173,6 +173,12 @@
    "publish_date": "2026-12-01",
    "title": "Day 28 · 바쁜 한 주를 편안하게 풀어 말하기",
    "channel": "Hannah Elise"
+  },
+  {
+   "day": 29,
+   "publish_date": "2026-12-02",
+   "title": "Day 29 · 누적 복습",
+   "channel": "Jenn Im"
   }
  ]
 }
